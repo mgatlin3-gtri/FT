@@ -1,0 +1,25 @@
+2022-06-22 15:50:55,602 INFO    MainThread:40548 [wandb_setup.py:_flush():76] Loading settings from /home/apopa6/.config/wandb/settings
+2022-06-22 15:50:55,602 INFO    MainThread:40548 [wandb_setup.py:_flush():76] Loading settings from /home/apopa6/feces_thesis/wandb/settings
+2022-06-22 15:50:55,602 INFO    MainThread:40548 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-06-22 15:50:55,602 INFO    MainThread:40548 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': '2dCNN.py', 'program': '/home/apopa6/feces_thesis/2dCNN.py'}
+2022-06-22 15:50:55,602 INFO    MainThread:40548 [wandb_init.py:_log_setup():428] Logging user logs to /home/apopa6/feces_thesis/wandb/run-20220622_155055-35l4y0hi/logs/debug.log
+2022-06-22 15:50:55,603 INFO    MainThread:40548 [wandb_init.py:_log_setup():429] Logging internal logs to /home/apopa6/feces_thesis/wandb/run-20220622_155055-35l4y0hi/logs/debug-internal.log
+2022-06-22 15:50:55,603 INFO    MainThread:40548 [wandb_init.py:init():462] calling init triggers
+2022-06-22 15:50:55,603 INFO    MainThread:40548 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {'batch_size': 16, 'max_epochs': 50, 'min_epochs': 20, 'c_dropout': 0.3, 'num_features_c1': 16, 'num_features_c2': 32, 'num_features_c3': 64, 'num_features_c4': 128, 'learning_rate': 0.001, 'l1': 0, 'l2': 0.0001}
+2022-06-22 15:50:55,603 INFO    MainThread:40548 [wandb_init.py:init():515] starting backend
+2022-06-22 15:50:55,603 INFO    MainThread:40548 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-06-22 15:50:55,613 INFO    MainThread:40548 [backend.py:ensure_launched():217] starting backend process...
+2022-06-22 15:50:55,619 INFO    MainThread:40548 [backend.py:ensure_launched():222] started backend process with pid: 40567
+2022-06-22 15:50:55,620 INFO    MainThread:40548 [wandb_init.py:init():525] backend started and connected
+2022-06-22 15:50:55,632 INFO    MainThread:40548 [wandb_init.py:init():596] updated telemetry
+2022-06-22 15:50:55,690 INFO    MainThread:40548 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-06-22 15:50:56,481 INFO    MainThread:40548 [wandb_run.py:_on_init():1924] communicating current version
+2022-06-22 15:50:56,571 INFO    MainThread:40548 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.12.19 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-06-22 15:50:56,571 INFO    MainThread:40548 [wandb_init.py:init():662] starting run threads in backend
+2022-06-22 15:51:00,434 INFO    MainThread:40548 [wandb_run.py:_console_start():1898] atexit reg
+2022-06-22 15:51:00,435 INFO    MainThread:40548 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-06-22 15:51:00,435 INFO    MainThread:40548 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-06-22 15:51:00,438 INFO    MainThread:40548 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-06-22 15:51:00,438 INFO    MainThread:40548 [wandb_init.py:init():688] run started, returning control to user process

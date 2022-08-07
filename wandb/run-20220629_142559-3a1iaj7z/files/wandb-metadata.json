@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-06-29T18:26:09.132528",
+    "startedAt": "2022-06-29T18:25:59.395838",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\apopa6\\Desktop\\feces_thesis\\CNN-LSTM.py",
+    "codePath": "CNN-LSTM.py",
+    "git": {
+        "remote": "https://github.gatech.edu/mgatlin3/feces_thesis.git",
+        "commit": "b5d49755d2e307ce3e6d81085a0db4902f5cb770"
+    },
+    "email": "Anthony.Popa@gtri.gatech.edu",
+    "root": "C:/Users/apopa6/Desktop/feces_thesis",
+    "host": "ATAS-B2-143-1",
+    "username": "apopa6",
+    "executable": "C:\\Users\\apopa6\\Anaconda3\\envs\\first_ml\\python.exe"
+}

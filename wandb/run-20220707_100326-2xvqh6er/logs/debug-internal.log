@@ -1,0 +1,88 @@
+2022-07-07 10:03:27,266 INFO    MainThread:21483 [internal.py:wandb_internal():90] W&B internal server running at pid: 21483, started at: 2022-07-07 10:03:27.265813
+2022-07-07 10:03:27,267 INFO    WriterThread:21483 [datastore.py:open_for_write():75] open: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/run-2xvqh6er.wandb
+2022-07-07 10:03:27,269 DEBUG   SenderThread:21483 [sender.py:send():232] send: header
+2022-07-07 10:03:27,269 DEBUG   SenderThread:21483 [sender.py:send():232] send: run
+2022-07-07 10:03:27,790 DEBUG   HandlerThread:21483 [handler.py:handle_request():141] handle_request: check_version
+2022-07-07 10:03:27,790 INFO    SenderThread:21483 [dir_watcher.py:__init__():197] watching files in: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files
+2022-07-07 10:03:27,790 INFO    SenderThread:21483 [sender.py:_start_run_threads():811] run started: 2xvqh6er with start time 1657202606
+2022-07-07 10:03:27,790 DEBUG   SenderThread:21483 [sender.py:send():232] send: summary
+2022-07-07 10:03:27,791 INFO    SenderThread:21483 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-07-07 10:03:27,791 DEBUG   SenderThread:21483 [sender.py:send_request():246] send_request: check_version
+2022-07-07 10:03:28,792 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/wandb-summary.json
+2022-07-07 10:03:32,791 DEBUG   HandlerThread:21483 [handler.py:handle_request():141] handle_request: run_start
+2022-07-07 10:03:34,494 DEBUG   HandlerThread:21483 [meta.py:__init__():35] meta init
+2022-07-07 10:03:34,494 DEBUG   HandlerThread:21483 [meta.py:__init__():49] meta init done
+2022-07-07 10:03:34,495 DEBUG   HandlerThread:21483 [meta.py:probe():209] probe
+2022-07-07 10:03:34,496 DEBUG   HandlerThread:21483 [meta.py:_setup_git():199] setup git
+2022-07-07 10:03:34,535 DEBUG   HandlerThread:21483 [meta.py:_setup_git():206] setup git done
+2022-07-07 10:03:34,535 DEBUG   HandlerThread:21483 [meta.py:_save_pip():53] save pip
+2022-07-07 10:03:34,536 DEBUG   HandlerThread:21483 [meta.py:_save_pip():67] save pip done
+2022-07-07 10:03:34,537 DEBUG   HandlerThread:21483 [meta.py:_save_conda():74] save conda
+2022-07-07 10:03:34,795 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/conda-environment.yaml
+2022-07-07 10:03:34,796 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/requirements.txt
+2022-07-07 10:03:37,231 DEBUG   HandlerThread:21483 [meta.py:_save_conda():84] save conda done
+2022-07-07 10:03:37,231 DEBUG   HandlerThread:21483 [meta.py:probe():247] probe done
+2022-07-07 10:03:37,237 DEBUG   SenderThread:21483 [sender.py:send():232] send: files
+2022-07-07 10:03:37,237 INFO    SenderThread:21483 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-07-07 10:03:37,242 DEBUG   HandlerThread:21483 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-07 10:03:37,242 DEBUG   SenderThread:21483 [sender.py:send_request():246] send_request: stop_status
+2022-07-07 10:03:37,309 DEBUG   SenderThread:21483 [sender.py:send():232] send: telemetry
+2022-07-07 10:03:37,402 DEBUG   SenderThread:21483 [sender.py:send():232] send: telemetry
+2022-07-07 10:03:37,402 DEBUG   SenderThread:21483 [sender.py:send():232] send: telemetry
+2022-07-07 10:03:37,403 DEBUG   SenderThread:21483 [sender.py:send():232] send: files
+2022-07-07 10:03:37,403 INFO    SenderThread:21483 [sender.py:_save_file():948] saving file model-best.h5 with policy live
+2022-07-07 10:03:37,403 DEBUG   SenderThread:21483 [sender.py:send():232] send: telemetry
+2022-07-07 10:03:37,403 DEBUG   HandlerThread:21483 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-07 10:03:37,797 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/conda-environment.yaml
+2022-07-07 10:03:37,797 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/wandb-metadata.json
+2022-07-07 10:03:37,797 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/output.log
+2022-07-07 10:03:40,074 WARNING MainThread:21483 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-07-07 10:03:40,799 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/output.log
+2022-07-07 10:03:45,749 INFO    Thread-11 :21483 [upload_job.py:push():132] Uploaded file /tmp/tmpiob7x5u0wandb/54akn4zw-wandb-metadata.json
+2022-07-07 10:03:48,297 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/output.log
+2022-07-07 10:03:50,298 INFO    Thread-7  :21483 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/files/output.log
+2022-07-07 10:03:52,695 DEBUG   HandlerThread:21483 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-07 10:03:52,695 DEBUG   SenderThread:21483 [sender.py:send_request():246] send_request: stop_status
+2022-07-07 10:04:13,302 DEBUG   HandlerThread:21483 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-07 10:04:33,263 DEBUG   HandlerThread:21483 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-07 10:04:33,639 ERROR   SenderThread:21483 [internal_api.py:execute():143] 409 response executing GraphQL.
+2022-07-07 10:04:33,639 ERROR   SenderThread:21483 [internal_api.py:execute():144] {"errors":[{"message":"Error 1062: Duplicate entry '1008896-2xvqh6er' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2022-07-07 10:04:33,923 INFO    WriterThread:21483 [datastore.py:close():279] close: /home/apopa6/feces_thesis/wandb/run-20220707_100326-2xvqh6er/run-2xvqh6er.wandb
+2022-07-07 10:04:34,264 INFO    HandlerThread:21483 [handler.py:finish():806] shutting down handler
+2022-07-07 10:04:34,267 ERROR   MainThread:21483 [internal.py:wandb_internal():165] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1319, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 51, in run
+    self._run()
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 95, in _run
+    self._debounce()
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 316, in _debounce
+    self._sm.debounce()
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 317, in debounce
+    self._debounce_config()
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 323, in _debounce_config
+    self._api.upsert_run(
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [409]>
+2022-07-07 10:04:37,781 INFO    MainThread:21483 [internal.py:handle_exit():80] Internal process exited

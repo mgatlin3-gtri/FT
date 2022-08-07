@@ -1,0 +1,250 @@
+2022-06-14 07:24:52.620751: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-14 07:24:52.621617: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-06-14 07:24:52.752110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:3d:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-06-14 07:24:52.752412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:3e:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-06-14 07:24:52.752432: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-14 07:24:52.755133: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-14 07:24:52.755207: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-14 07:24:52.757820: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-14 07:24:52.758489: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-14 07:24:52.760854: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-14 07:24:52.764038: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-14 07:24:52.772881: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-14 07:24:52.779901: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-14 07:24:52.780325: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-14 07:24:52.780405: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-14 07:24:53.021344: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:3d:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-06-14 07:24:53.021701: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:3e:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-06-14 07:24:53.021738: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-14 07:24:53.021794: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-14 07:24:53.021814: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-14 07:24:53.021832: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-14 07:24:53.021849: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-14 07:24:53.021867: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-14 07:24:53.021887: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-14 07:24:53.021904: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-14 07:24:53.023277: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-14 07:24:53.023319: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-14 07:24:53.826569: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-14 07:24:53.826621: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1
+2022-06-14 07:24:53.826639: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y
+2022-06-14 07:24:53.826648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N
+2022-06-14 07:24:53.828614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30033 MB memory) -> physical GPU (device: 0, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:3d:00.0, compute capability: 7.0)
+2022-06-14 07:24:53.829887: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 30118 MB memory) -> physical GPU (device: 1, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:3e:00.0, compute capability: 7.0)
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+2022-06-14 07:24:57.516197: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-06-14 07:24:57.516652: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2500000000 Hz
+2022-06-14 07:24:58.053602: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-14 07:25:01.437776: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-14 07:25:02.658767: W tensorflow/core/kernels/gpu_utils.cc:49] Failed to allocate memory for convolution redzone checking; skipping this check. This is benign and only means that we won't check cudnn for out-of-bounds reads and writes. This message will only be printed once.
+2022-06-14 07:25:02.720182: W tensorflow/stream_executor/gpu/asm_compiler.cc:63] Running ptxas --version returned 256
+2022-06-14 07:25:02.764687: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 256, output:
+Relying on driver to perform ptx compilation.
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+Found 924 images belonging to 3 classes.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d (Conv2D)              (None, 478, 638, 64)      1792
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 239, 319, 64)      0
+_________________________________________________________________
+dropout (Dropout)            (None, 239, 319, 64)      0
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 237, 317, 128)     73856
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 118, 158, 128)     0
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 118, 158, 128)     0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 116, 156, 128)     147584
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 58, 78, 128)       0
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 58, 78, 128)       0
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 56, 76, 128)       147584
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 28, 38, 128)       0
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 28, 38, 128)       0
+_________________________________________________________________
+flatten (Flatten)            (None, 136192)            0
+_________________________________________________________________
+dense (Dense)                (None, 16)                2179088
+_________________________________________________________________
+dense_1 (Dense)              (None, 3)                 51
+=================================================================
+Total params: 2,549,955
+Trainable params: 2,549,955
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/10
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 57s 3s/step - loss: 2.2818 - accuracy: 0.3629
+Epoch 2/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.6304 - accuracy: 0.3526
+Epoch 3/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.6053 - accuracy: 0.4513
+Epoch 4/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.5665 - accuracy: 0.4732
+Epoch 5/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.5404 - accuracy: 0.5624
+Epoch 6/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.5354 - accuracy: 0.5200
+Epoch 7/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.5106 - accuracy: 0.5525
+Epoch 8/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.5156 - accuracy: 0.6264
+Epoch 9/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.4717 - accuracy: 0.6700
+Epoch 10/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+15/15 [==============================] - 49s 3s/step - loss: 0.4858 - accuracy: 0.6854
+Saving model...
+Found 924 images belonging to 3 classes.
+Found 176 images belonging to 3 classes.

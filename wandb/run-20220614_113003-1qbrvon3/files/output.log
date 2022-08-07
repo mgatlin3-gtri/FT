@@ -1,0 +1,276 @@
+2022-06-14 11:30:08.081372: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-14 11:30:08.082406: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-06-14 11:30:08.126645: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:5e:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-14 11:30:08.127017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:af:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-14 11:30:08.127038: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-14 11:30:08.129635: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-14 11:30:08.129694: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-14 11:30:08.132119: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-14 11:30:08.132643: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-14 11:30:08.135082: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-14 11:30:08.136378: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-14 11:30:08.142519: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-14 11:30:08.144331: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-14 11:30:08.145029: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-14 11:30:08.145137: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-14 11:30:08.356432: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:5e:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-14 11:30:08.356686: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:af:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-14 11:30:08.356711: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-14 11:30:08.356736: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-14 11:30:08.356750: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-14 11:30:08.356762: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-14 11:30:08.356774: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-14 11:30:08.356784: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-14 11:30:08.356795: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-14 11:30:08.356806: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-14 11:30:08.357494: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-14 11:30:08.357522: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-14 11:30:09.135071: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-14 11:30:09.135115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1
+2022-06-14 11:30:09.135130: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y
+2022-06-14 11:30:09.135135: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N
+2022-06-14 11:30:09.136139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10245 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:5e:00.0, compute capability: 6.1)
+2022-06-14 11:30:09.136786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10255 MB memory) -> physical GPU (device: 1, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:af:00.0, compute capability: 6.1)
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+2022-06-14 11:30:09.474250: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-06-14 11:30:09.474727: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+2022-06-14 11:30:10.057665: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-14 11:30:10.257806: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-14 11:30:10.872446: W tensorflow/stream_executor/gpu/asm_compiler.cc:63] Running ptxas --version returned 256
+2022-06-14 11:30:10.929636: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 256, output:
+Relying on driver to perform ptx compilation.
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+Found 924 images belonging to 3 classes.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d (Conv2D)              (None, 478, 638, 16)      448
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 239, 319, 16)      0
+_________________________________________________________________
+dropout (Dropout)            (None, 239, 319, 16)      0
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 237, 317, 128)     18560
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 118, 158, 128)     0
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 118, 158, 128)     0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 116, 156, 128)     147584
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 58, 78, 128)       0
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 58, 78, 128)       0
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 56, 76, 64)        73792
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 28, 38, 64)        0
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 28, 38, 64)        0
+_________________________________________________________________
+flatten (Flatten)            (None, 68096)             0
+_________________________________________________________________
+dense (Dense)                (None, 128)               8716416
+_________________________________________________________________
+dense_1 (Dense)              (None, 3)                 387
+=================================================================
+Total params: 8,957,187
+Trainable params: 8,957,187
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/25
+
+
+
+
+
+
+231/231 [==============================] - 21s 55ms/step - loss: 0.8628 - accuracy: 0.4972
+Epoch 2/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.3590 - accuracy: 0.7749
+Epoch 3/25
+
+
+
+
+
+231/231 [==============================] - 13s 54ms/step - loss: 0.3432 - accuracy: 0.8090
+Epoch 4/25
+
+
+
+
+
+231/231 [==============================] - 12s 53ms/step - loss: 0.2340 - accuracy: 0.8479
+Epoch 5/25
+
+
+
+
+
+
+231/231 [==============================] - 13s 54ms/step - loss: 0.1956 - accuracy: 0.8760
+Epoch 6/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.1516 - accuracy: 0.9276
+Epoch 7/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0956 - accuracy: 0.9474
+Epoch 8/25
+
+
+
+
+
+231/231 [==============================] - 13s 55ms/step - loss: 0.0999 - accuracy: 0.9519
+Epoch 9/25
+
+
+
+
+
+
+231/231 [==============================] - 13s 55ms/step - loss: 0.0973 - accuracy: 0.9640
+Epoch 10/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0743 - accuracy: 0.9684
+Epoch 11/25
+
+
+
+
+
+231/231 [==============================] - 13s 54ms/step - loss: 0.0682 - accuracy: 0.9661
+Epoch 12/25
+
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0556 - accuracy: 0.9745
+Epoch 13/25
+
+
+
+
+
+231/231 [==============================] - 13s 54ms/step - loss: 0.0394 - accuracy: 0.9855
+Epoch 14/25
+
+
+
+
+
+231/231 [==============================] - 12s 53ms/step - loss: 0.0242 - accuracy: 0.9857
+Epoch 15/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0210 - accuracy: 0.9934
+Epoch 16/25
+
+
+
+
+
+231/231 [==============================] - 13s 54ms/step - loss: 0.0097 - accuracy: 0.9981
+Epoch 17/25
+
+
+
+
+
+
+231/231 [==============================] - 13s 55ms/step - loss: 0.0200 - accuracy: 0.9908
+Epoch 18/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0218 - accuracy: 0.9952
+Epoch 19/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0605 - accuracy: 0.9721
+Epoch 20/25
+
+
+
+
+
+231/231 [==============================] - 13s 55ms/step - loss: 0.0067 - accuracy: 0.9983
+Epoch 21/25
+
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0421 - accuracy: 0.9832
+Epoch 22/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0140 - accuracy: 0.9978
+Epoch 23/25
+
+
+
+
+
+231/231 [==============================] - 13s 54ms/step - loss: 0.0115 - accuracy: 0.9981
+Epoch 24/25
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0426 - accuracy: 0.9814
+Epoch 25/25
+
+
+
+
+
+
+231/231 [==============================] - 12s 54ms/step - loss: 0.0209 - accuracy: 0.9935
+Saving model...
+Found 924 images belonging to 3 classes.
+Found 176 images belonging to 3 classes.

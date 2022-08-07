@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Anthony Popa\feces_thesis\2dCNN.py", line 33, in <module>
+    train_generator = datagen.flow_from_directory(
+  File "C:\Users\Anthony Popa\anaconda3\lib\site-packages\keras\preprocessing\image.py", line 1469, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\Anthony Popa\anaconda3\lib\site-packages\keras\preprocessing\image.py", line 507, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'images/train'

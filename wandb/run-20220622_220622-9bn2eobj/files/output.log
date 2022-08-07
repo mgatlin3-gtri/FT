@@ -1,0 +1,352 @@
+2022-06-22 22:06:26.768968: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-22 22:06:26.770326: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-06-22 22:06:26.806800: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:5e:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 22:06:26.807265: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:86:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 22:06:26.807299: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-22 22:06:26.809794: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-22 22:06:26.809841: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-22 22:06:26.812080: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-22 22:06:26.812611: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-22 22:06:26.814917: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-22 22:06:26.816192: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-22 22:06:26.820722: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-22 22:06:26.821802: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-22 22:06:26.822295: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-22 22:06:26.822382: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-22 22:06:27.012027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:5e:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 22:06:27.015200: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:86:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 22:06:27.015225: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-22 22:06:27.015250: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-22 22:06:27.015259: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-22 22:06:27.015268: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-22 22:06:27.015277: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-22 22:06:27.015286: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-22 22:06:27.015295: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-22 22:06:27.015304: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-22 22:06:27.016009: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-22 22:06:27.016037: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-22 22:06:27.776436: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-22 22:06:27.776481: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1
+2022-06-22 22:06:27.776498: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y
+2022-06-22 22:06:27.776503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N
+2022-06-22 22:06:27.777512: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10245 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:5e:00.0, compute capability: 6.1)
+2022-06-22 22:06:27.778574: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10255 MB memory) -> physical GPU (device: 1, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:86:00.0, compute capability: 6.1)
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+2022-06-22 22:06:28.137047: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-06-22 22:06:28.137498: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+2022-06-22 22:06:28.739430: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-22 22:06:29.004964: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-22 22:06:29.669602: W tensorflow/stream_executor/gpu/asm_compiler.cc:63] Running ptxas --version returned 256
+2022-06-22 22:06:29.709969: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 256, output:
+Relying on driver to perform ptx compilation.
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+Found 1120 images belonging to 4 classes.
+Found 264 images belonging to 4 classes.
+Found 220 images belonging to 4 classes.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d (Conv2D)              (None, 478, 638, 16)      448
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 239, 319, 16)      0
+_________________________________________________________________
+dropout (Dropout)            (None, 239, 319, 16)      0
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 237, 317, 64)      9280
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 118, 158, 64)      0
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 118, 158, 64)      0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 116, 156, 128)     73856
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 58, 78, 128)       0
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 58, 78, 128)       0
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 56, 76, 32)        36896
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 28, 38, 32)        0
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 28, 38, 32)        0
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 32)                0
+_________________________________________________________________
+dropout_4 (Dropout)          (None, 32)                0
+_________________________________________________________________
+dense (Dense)                (None, 4)                 132
+=================================================================
+Total params: 120,612
+Trainable params: 120,612
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/100
+
+
+
+
+
+
+70/70 [==============================] - 25s 270ms/step - loss: 1.7193 - accuracy: 0.2715 - val_loss: 1.3727 - val_accuracy: 0.2727
+Epoch 2/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 228ms/step - loss: 1.3807 - accuracy: 0.2776 - val_loss: 1.3732 - val_accuracy: 0.2727
+Epoch 3/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 231ms/step - loss: 1.3811 - accuracy: 0.2895 - val_loss: 1.3723 - val_accuracy: 0.2727
+Epoch 4/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 227ms/step - loss: 1.3839 - accuracy: 0.2811 - val_loss: 1.3706 - val_accuracy: 0.2727
+Epoch 5/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 233ms/step - loss: 1.3844 - accuracy: 0.2361 - val_loss: 1.3739 - val_accuracy: 0.2727
+Epoch 6/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 229ms/step - loss: 1.3837 - accuracy: 0.2851 - val_loss: 1.3719 - val_accuracy: 0.2727
+Epoch 7/100
+
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 231ms/step - loss: 1.3877 - accuracy: 0.2502 - val_loss: 1.3726 - val_accuracy: 0.2727
+Epoch 8/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 227ms/step - loss: 1.3741 - accuracy: 0.2991 - val_loss: 1.3727 - val_accuracy: 0.2727
+Epoch 9/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 232ms/step - loss: 1.3836 - accuracy: 0.2346 - val_loss: 1.3713 - val_accuracy: 0.2727
+Epoch 10/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 228ms/step - loss: 1.3873 - accuracy: 0.2760 - val_loss: 1.3695 - val_accuracy: 0.2727
+Epoch 11/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 229ms/step - loss: 1.3813 - accuracy: 0.2958 - val_loss: 1.3721 - val_accuracy: 0.2727
+Epoch 12/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 230ms/step - loss: 1.3812 - accuracy: 0.2778 - val_loss: 1.3723 - val_accuracy: 0.2727
+Epoch 13/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 229ms/step - loss: 1.3808 - accuracy: 0.2871 - val_loss: 1.3715 - val_accuracy: 0.2727
+Epoch 14/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 231ms/step - loss: 1.3768 - accuracy: 0.2855 - val_loss: 1.3705 - val_accuracy: 0.2727
+Epoch 15/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 228ms/step - loss: 1.3802 - accuracy: 0.2508 - val_loss: 1.3729 - val_accuracy: 0.2727
+Epoch 16/100
+
+
+
+
+
+
+
+70/70 [==============================] - 16s 231ms/step - loss: 1.3738 - accuracy: 0.3011 - val_loss: 1.3736 - val_accuracy: 0.2727
+Epoch 17/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 228ms/step - loss: 1.3841 - accuracy: 0.2473 - val_loss: 1.3708 - val_accuracy: 0.2727
+Epoch 18/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 232ms/step - loss: 1.3790 - accuracy: 0.2922 - val_loss: 1.3728 - val_accuracy: 0.2727
+Epoch 19/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 228ms/step - loss: 1.3773 - accuracy: 0.2985 - val_loss: 1.3731 - val_accuracy: 0.2727
+Epoch 20/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 230ms/step - loss: 1.3831 - accuracy: 0.2524 - val_loss: 1.3732 - val_accuracy: 0.2727
+Epoch 21/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 229ms/step - loss: 1.3796 - accuracy: 0.2827 - val_loss: 1.3730 - val_accuracy: 0.2727
+Epoch 22/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 230ms/step - loss: 1.3837 - accuracy: 0.2951 - val_loss: 1.3725 - val_accuracy: 0.2727
+Epoch 23/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 229ms/step - loss: 1.3808 - accuracy: 0.2642 - val_loss: 1.3713 - val_accuracy: 0.2727
+Epoch 24/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 228ms/step - loss: 1.3813 - accuracy: 0.2820 - val_loss: 1.3707 - val_accuracy: 0.2727
+Epoch 25/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 230ms/step - loss: 1.3827 - accuracy: 0.2820 - val_loss: 1.3717 - val_accuracy: 0.2727
+Epoch 26/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 228ms/step - loss: 1.3830 - accuracy: 0.2853 - val_loss: 1.3720 - val_accuracy: 0.2727
+Epoch 27/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 231ms/step - loss: 1.3725 - accuracy: 0.3119 - val_loss: 1.3702 - val_accuracy: 0.2727
+Epoch 28/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 227ms/step - loss: 1.3804 - accuracy: 0.2873 - val_loss: 1.3747 - val_accuracy: 0.2727
+Epoch 29/100
+
+
+
+
+
+
+70/70 [==============================] - 16s 232ms/step - loss: 1.3812 - accuracy: 0.2638 - val_loss: 1.3718 - val_accuracy: 0.2727
+Epoch 30/100
+17/70 [======>.......................] - ETA: 9s - loss: 1.3826 - accuracy: 0.2588
+28/70 [===========>..................] - ETA: 7s - loss: 1.3811 - accuracy: 0.2663
+39/70 [===============>..............] - ETA: 5s - loss: 1.3803 - accuracy: 0.2709
+47/70 [===================>..........] - ETA: 4s - loss: 1.3797 - accuracy: 0.2740
+58/70 [=======================>......] - ETA: 2s - loss: 1.3791 - accuracy: 0.2768
+68/70 [============================>.] - ETA: 0s - loss: 1.3791 - accuracy: 0.2782
+70/70 [==============================] - ETA: 0s - loss: 1.3791 - accuracy: 0.2784
+ 3/14 [=====>........................] - ETA: 1s - loss: 1.3744 - accuracy: 0.2708 0.2785 - val_loss: 1.3716 - val_accuracy: 0.2727
+13/14 [==========================>...] - ETA: 0s - loss: 1.3641 - accuracy: 0.2692 0.2785 - val_loss: 1.3716 - val_accuracy: 0.2727
+14/14 [==============================] - 5s 345ms/step - loss: 1.3630 - accuracy: 0.27275 - val_loss: 1.3716 - val_accuracy: 0.2727
+14/14 [==============================] - 5s 345ms/step - loss: 1.3630 - accuracy: 0.27275 - val_loss: 1.3716 - val_accuracy: 0.2727
+14/14 [==============================] - 5s 345ms/step - loss: 1.3630 - accuracy: 0.27275 - val_loss: 1.3716 - val_accuracy: 0.2727

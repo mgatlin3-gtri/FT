@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-06-16T18:00:01.882130",
+    "startedAt": "2022-06-16T17:59:58.970038",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Anthony Popa\\feces_thesis\\2dCNN.py",
+    "codePath": "2dCNN.py",
+    "git": {
+        "remote": "https://github.gatech.edu/mgatlin3/feces_thesis.git",
+        "commit": "fc4eed3e4a80cedb16bb5eb98014b6c3674acbb3"
+    },
+    "email": "popaa@gatech.edu",
+    "root": "C:/Users/Anthony Popa/feces_thesis",
+    "host": "DESKTOP-NC89A0Q",
+    "username": "Anthony Popa",
+    "executable": "C:\\Users\\Anthony Popa\\anaconda3\\python.exe"
+}

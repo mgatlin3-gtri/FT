@@ -1,0 +1,1955 @@
+2022-06-13 14:42:24 INFO Running runs: []
+2022-06-13 14:42:24 INFO Agent received command: run
+2022-06-13 14:42:24 INFO Agent starting run with config:
+	dropout: 0.25
+	epochs: 10
+	learning_rate: 0.01
+	num_features_l1: 16
+	num_features_l2: 64
+	num_features_l3: 16
+	num_features_l4: 16
+2022-06-13 14:42:24 INFO About to run command: /usr/bin/env python 2dCNN.py --dropout=0.25 --epochs=10 --learning_rate=0.01 --num_features_l1=16 --num_features_l2=64 --num_features_l3=16 --num_features_l4=16
+2022-06-13 14:42:29 INFO Running runs: ['4wg2ap0c']
+2022-06-13 14:58:04 INFO Running runs: []
+2022-06-13 14:58:04 INFO Agent received command: run
+2022-06-13 14:58:04 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 32
+	dropout: 0.35
+	epochs: 20
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 64
+	num_features_l3: 16
+	num_features_l4: 32
+2022-06-13 14:58:04 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=32 --dropout=0.35 --epochs=20 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=64 --num_features_l3=16 --num_features_l4=32
+2022-06-13 14:58:09 INFO Running runs: ['nga9v6bw']
+2022-06-13 15:07:54 ERROR Traceback (most recent call last):
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 581, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep apopa6/feces_thesis/lfj12rt8 not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/cli/cli.py", line 95, in wrapper
+    return func(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/cli/cli.py", line 1205, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/wandb_agent.py", line 606, in agent
+    return run_agent(
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/wandb_agent.py", line 548, in run_agent
+    agent.run()
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/wandb_agent.py", line 181, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/internal.py", line 99, in sweep
+    return self.api.sweep(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 58, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 581, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.CommError: Sweep apopa6/feces_thesis/lfj12rt8 not found
+
+2022-06-13 15:11:08 INFO Running runs: []
+2022-06-13 15:11:08 INFO Agent received command: run
+2022-06-13 15:11:08 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.45
+	epochs: 30
+	learning_rate: 0.0005
+	num_features_l1: 64
+	num_features_l2: 16
+	num_features_l3: 64
+	num_features_l4: 128
+2022-06-13 15:11:08 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.45 --epochs=30 --learning_rate=0.0005 --num_features_l1=64 --num_features_l2=16 --num_features_l3=64 --num_features_l4=128
+2022-06-13 15:11:13 INFO Running runs: ['y1isyckc']
+2022-06-13 15:23:48 INFO Running runs: []
+2022-06-13 15:23:49 INFO Agent received command: run
+2022-06-13 15:23:49 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 64
+	dropout: 0.3
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-13 15:23:49 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=64 --dropout=0.3 --epochs=25 --learning_rate=0.001 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=16
+2022-06-13 15:23:54 INFO Running runs: ['1jdkvcz3']
+2022-06-13 15:43:43 INFO Cleaning up finished run: 1jdkvcz3
+2022-06-13 15:43:44 INFO Agent received command: run
+2022-06-13 15:43:44 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 32
+	dropout: 0.45
+	epochs: 20
+	learning_rate: 0.01
+	num_features_l1: 16
+	num_features_l2: 64
+	num_features_l3: 64
+	num_features_l4: 16
+2022-06-13 15:43:44 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=32 --dropout=0.45 --epochs=20 --learning_rate=0.01 --num_features_l1=16 --num_features_l2=64 --num_features_l3=64 --num_features_l4=16
+2022-06-13 15:43:49 INFO Running runs: ['qm5bvvoo']
+2022-06-13 16:00:18 INFO Cleaning up finished run: qm5bvvoo
+2022-06-13 16:00:18 INFO Agent received command: run
+2022-06-13 16:00:18 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 64
+	dropout: 0.35
+	epochs: 20
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 16
+	num_features_l3: 32
+	num_features_l4: 128
+2022-06-13 16:00:18 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=64 --dropout=0.35 --epochs=20 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=16 --num_features_l3=32 --num_features_l4=128
+2022-06-13 16:00:23 INFO Running runs: ['vdqjm4vj']
+2022-06-13 16:16:59 INFO Cleaning up finished run: vdqjm4vj
+2022-06-13 16:16:59 INFO Agent received command: run
+2022-06-13 16:16:59 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 16
+	dropout: 0.5
+	epochs: 25
+	learning_rate: 0.0005
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 64
+	num_features_l4: 32
+2022-06-13 16:16:59 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=16 --dropout=0.5 --epochs=25 --learning_rate=0.0005 --num_features_l1=128 --num_features_l2=128 --num_features_l3=64 --num_features_l4=32
+2022-06-13 16:17:04 INFO Running runs: ['k8hpycau']
+2022-06-13 16:37:28 INFO Cleaning up finished run: k8hpycau
+2022-06-13 16:37:29 INFO Agent received command: run
+2022-06-13 16:37:29 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 64
+	dropout: 0.25
+	epochs: 20
+	learning_rate: 0.0005
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 32
+	num_features_l4: 32
+2022-06-13 16:37:29 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=64 --dropout=0.25 --epochs=20 --learning_rate=0.0005 --num_features_l1=16 --num_features_l2=128 --num_features_l3=32 --num_features_l4=32
+2022-06-13 16:37:34 INFO Running runs: ['6mgjmp0r']
+2022-06-13 16:53:53 INFO Cleaning up finished run: 6mgjmp0r
+2022-06-13 16:53:54 INFO Agent received command: run
+2022-06-13 16:53:54 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.3
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 16:53:54 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.3 --epochs=25 --learning_rate=0.001 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-13 16:53:59 INFO Running runs: ['w0l332wm']
+2022-06-13 17:14:16 INFO Cleaning up finished run: w0l332wm
+2022-06-13 17:14:17 INFO Agent received command: run
+2022-06-13 17:14:17 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.25
+	epochs: 30
+	learning_rate: 0.0005
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 17:14:17 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.25 --epochs=30 --learning_rate=0.0005 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 17:14:22 INFO Running runs: ['ne4gsxq6']
+2022-06-13 17:38:51 INFO Cleaning up finished run: ne4gsxq6
+2022-06-13 17:38:51 INFO Agent received command: run
+2022-06-13 17:38:51 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.2
+	epochs: 25
+	learning_rate: 0.01
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 17:38:51 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.2 --epochs=25 --learning_rate=0.01 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-13 17:38:56 INFO Running runs: ['xymffjxl']
+2022-06-13 17:59:16 INFO Cleaning up finished run: xymffjxl
+2022-06-13 17:59:16 INFO Agent received command: run
+2022-06-13 17:59:16 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.25
+	epochs: 20
+	learning_rate: 0.001
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 17:59:16 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.25 --epochs=20 --learning_rate=0.001 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 17:59:21 INFO Running runs: ['j99nvoav']
+2022-06-13 18:15:48 INFO Cleaning up finished run: j99nvoav
+2022-06-13 18:15:48 INFO Agent received command: run
+2022-06-13 18:15:48 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 64
+	dropout: 0.3
+	epochs: 20
+	learning_rate: 0.001
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 18:15:48 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=64 --dropout=0.3 --epochs=20 --learning_rate=0.001 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 18:15:53 INFO Running runs: ['xpu4vxq0']
+2022-06-13 18:32:31 INFO Cleaning up finished run: xpu4vxq0
+2022-06-13 18:32:32 INFO Agent received command: run
+2022-06-13 18:32:32 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.2
+	epochs: 20
+	learning_rate: 0.001
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 18:32:32 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.2 --epochs=20 --learning_rate=0.001 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 18:32:37 INFO Running runs: ['obcmczn7']
+2022-06-13 18:49:02 INFO Cleaning up finished run: obcmczn7
+2022-06-13 18:49:02 INFO Agent received command: run
+2022-06-13 18:49:02 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.35
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 32
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 18:49:02 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.35 --epochs=30 --learning_rate=0.005 --num_features_l1=32 --num_features_l2=64 --num_features_l3=128 --num_features_l4=64
+2022-06-13 18:49:07 INFO Running runs: ['2iygt7b1']
+2022-06-13 19:13:11 INFO Cleaning up finished run: 2iygt7b1
+2022-06-13 19:13:12 INFO Agent received command: run
+2022-06-13 19:13:12 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.3
+	epochs: 25
+	learning_rate: 0.005
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 64
+	num_features_l4: 64
+2022-06-13 19:13:12 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.3 --epochs=25 --learning_rate=0.005 --num_features_l1=32 --num_features_l2=128 --num_features_l3=64 --num_features_l4=64
+2022-06-13 19:13:17 INFO Running runs: ['x8j73dc2']
+2022-06-13 19:33:34 INFO Cleaning up finished run: x8j73dc2
+2022-06-13 19:33:34 INFO Agent received command: run
+2022-06-13 19:33:34 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.35
+	epochs: 25
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 19:33:34 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.35 --epochs=25 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 19:33:39 INFO Running runs: ['f96ee6al']
+2022-06-13 19:54:11 INFO Cleaning up finished run: f96ee6al
+2022-06-13 19:54:11 INFO Agent received command: run
+2022-06-13 19:54:11 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.45
+	epochs: 25
+	learning_rate: 0.01
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 19:54:11 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.45 --epochs=25 --learning_rate=0.01 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 19:54:17 INFO Running runs: ['oht9u1k0']
+2022-06-13 20:14:45 INFO Cleaning up finished run: oht9u1k0
+2022-06-13 20:14:46 INFO Agent received command: run
+2022-06-13 20:14:46 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.35
+	epochs: 20
+	learning_rate: 0.001
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 20:14:46 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.35 --epochs=20 --learning_rate=0.001 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 20:14:51 INFO Running runs: ['1i593gh9']
+2022-06-13 20:31:04 INFO Cleaning up finished run: 1i593gh9
+2022-06-13 20:31:04 INFO Agent received command: run
+2022-06-13 20:31:04 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.3
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 20:31:04 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.3 --epochs=30 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=64 --num_features_l3=128 --num_features_l4=64
+2022-06-13 20:31:09 INFO Running runs: ['wok5f4g2']
+2022-06-13 20:55:23 INFO Cleaning up finished run: wok5f4g2
+2022-06-13 20:55:24 INFO Agent received command: run
+2022-06-13 20:55:24 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.35
+	epochs: 20
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 20:55:24 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.35 --epochs=20 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=64 --num_features_l3=128 --num_features_l4=64
+2022-06-13 20:55:29 INFO Running runs: ['bwj5mc9v']
+2022-06-13 21:11:40 INFO Cleaning up finished run: bwj5mc9v
+2022-06-13 21:11:41 INFO Agent received command: run
+2022-06-13 21:11:41 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 64
+	dropout: 0.45
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 21:11:41 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=64 --dropout=0.45 --epochs=30 --learning_rate=0.005 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-13 21:11:46 INFO Running runs: ['mq4u02c8']
+2022-06-13 21:36:02 INFO Cleaning up finished run: mq4u02c8
+2022-06-13 21:36:02 INFO Agent received command: run
+2022-06-13 21:36:02 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 64
+	dropout: 0.3
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 21:36:02 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=64 --dropout=0.3 --epochs=25 --learning_rate=0.001 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-13 21:36:07 INFO Running runs: ['nvjb3iss']
+2022-06-13 21:56:30 INFO Cleaning up finished run: nvjb3iss
+2022-06-13 21:56:31 INFO Agent received command: run
+2022-06-13 21:56:31 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 64
+	dropout: 0.35
+	epochs: 25
+	learning_rate: 0.005
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 21:56:31 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=64 --dropout=0.35 --epochs=25 --learning_rate=0.005 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 21:56:36 INFO Running runs: ['7hj9nzes']
+2022-06-13 22:17:00 INFO Cleaning up finished run: 7hj9nzes
+2022-06-13 22:17:00 INFO Agent received command: run
+2022-06-13 22:17:00 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 64
+	dropout: 0.3
+	epochs: 20
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 64
+	num_features_l4: 64
+2022-06-13 22:17:00 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=64 --dropout=0.3 --epochs=20 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=128 --num_features_l3=64 --num_features_l4=64
+2022-06-13 22:17:05 INFO Running runs: ['tiqzfes4']
+2022-06-13 22:33:48 INFO Cleaning up finished run: tiqzfes4
+2022-06-13 22:33:48 INFO Agent received command: run
+2022-06-13 22:33:48 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.2
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-13 22:33:48 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.2 --epochs=25 --learning_rate=0.001 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-13 22:33:53 INFO Running runs: ['05dhh71e']
+2022-06-13 22:54:23 INFO Cleaning up finished run: 05dhh71e
+2022-06-13 22:54:23 INFO Agent received command: run
+2022-06-13 22:54:23 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.3
+	epochs: 25
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-13 22:54:23 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.3 --epochs=25 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-13 22:54:28 INFO Running runs: ['8gemrfwl']
+2022-06-13 23:14:52 INFO Cleaning up finished run: 8gemrfwl
+2022-06-13 23:14:52 INFO Agent received command: run
+2022-06-13 23:14:52 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 64
+	dropout: 0.25
+	epochs: 20
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-13 23:14:52 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=64 --dropout=0.25 --epochs=20 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=64 --num_features_l3=128 --num_features_l4=32
+2022-06-13 23:14:57 INFO Running runs: ['n1sl32b5']
+2022-06-13 23:31:09 INFO Cleaning up finished run: n1sl32b5
+2022-06-13 23:31:09 INFO Agent received command: run
+2022-06-13 23:31:09 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 128
+	dropout: 0.2
+	epochs: 20
+	learning_rate: 0.0005
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 16
+	num_features_l4: 16
+2022-06-13 23:31:09 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=128 --dropout=0.2 --epochs=20 --learning_rate=0.0005 --num_features_l1=16 --num_features_l2=128 --num_features_l3=16 --num_features_l4=16
+2022-06-13 23:31:14 INFO Running runs: ['0l4okteo']
+2022-06-13 23:47:54 INFO Cleaning up finished run: 0l4okteo
+2022-06-13 23:47:55 INFO Agent received command: run
+2022-06-13 23:47:55 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 64
+	dropout: 0.5
+	epochs: 30
+	learning_rate: 0.001
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-13 23:47:55 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=64 --dropout=0.5 --epochs=30 --learning_rate=0.001 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=32
+2022-06-13 23:48:00 INFO Running runs: ['vn0dyic6']
+2022-06-14 00:12:43 INFO Cleaning up finished run: vn0dyic6
+2022-06-14 00:12:50 INFO Agent received command: run
+2022-06-14 00:12:50 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.5
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 32
+	num_features_l4: 64
+2022-06-14 00:12:50 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.5 --epochs=30 --learning_rate=0.005 --num_features_l1=128 --num_features_l2=128 --num_features_l3=32 --num_features_l4=64
+2022-06-14 00:12:55 INFO Running runs: ['gcdifgx2']
+2022-06-14 00:37:51 INFO Cleaning up finished run: gcdifgx2
+2022-06-14 00:37:53 INFO Agent received command: run
+2022-06-14 00:37:53 INFO Agent starting run with config:
+	batch_size: 32
+	dense: 16
+	dropout: 0.2
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 00:37:53 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dense=16 --dropout=0.2 --epochs=25 --learning_rate=0.001 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-14 00:37:58 INFO Running runs: ['zxz4j20r']
+2022-06-14 00:59:53 INFO Cleaning up finished run: zxz4j20r
+2022-06-14 00:59:54 INFO Agent received command: run
+2022-06-14 00:59:54 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.25
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 00:59:54 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.25 --epochs=25 --learning_rate=0.001 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-14 00:59:59 INFO Running runs: ['4mnse909']
+2022-06-14 01:20:24 INFO Cleaning up finished run: 4mnse909
+2022-06-14 01:20:24 INFO Agent received command: run
+2022-06-14 01:20:24 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 64
+	dropout: 0.4
+	epochs: 25
+	learning_rate: 0.0005
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-14 01:20:24 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=64 --dropout=0.4 --epochs=25 --learning_rate=0.0005 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-14 01:20:29 INFO Running runs: ['3b6z3r43']
+2022-06-14 01:40:32 INFO Cleaning up finished run: 3b6z3r43
+2022-06-14 01:40:33 INFO Agent received command: run
+2022-06-14 01:40:33 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 32
+	dropout: 0.45
+	epochs: 30
+	learning_rate: 0.001
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 01:40:33 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=32 --dropout=0.45 --epochs=30 --learning_rate=0.001 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-14 01:40:38 INFO Running runs: ['nbcrr7l2']
+2022-06-14 02:04:30 INFO Cleaning up finished run: nbcrr7l2
+2022-06-14 02:04:30 INFO Agent received command: run
+2022-06-14 02:04:30 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 64
+	dropout: 0.35
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 32
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-14 02:04:30 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=64 --dropout=0.35 --epochs=30 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=32 --num_features_l3=128 --num_features_l4=128
+2022-06-14 02:04:35 INFO Running runs: ['d51w8hnh']
+2022-06-14 02:28:07 INFO Cleaning up finished run: d51w8hnh
+2022-06-14 02:28:08 INFO Agent received command: run
+2022-06-14 02:28:08 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 16
+	dropout: 0.2
+	epochs: 10
+	learning_rate: 0.0005
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 64
+	num_features_l4: 128
+2022-06-14 02:28:08 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=16 --dropout=0.2 --epochs=10 --learning_rate=0.0005 --num_features_l1=64 --num_features_l2=128 --num_features_l3=64 --num_features_l4=128
+2022-06-14 02:28:13 INFO Running runs: ['px46pal5']
+2022-06-14 02:36:42 INFO Cleaning up finished run: px46pal5
+2022-06-14 02:36:42 INFO Agent received command: run
+2022-06-14 02:36:42 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 16
+	dropout: 0.4
+	epochs: 25
+	learning_rate: 0.0005
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 02:36:42 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=16 --dropout=0.4 --epochs=25 --learning_rate=0.0005 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-14 02:36:47 INFO Running runs: ['u4g09cyi']
+2022-06-14 02:56:37 INFO Cleaning up finished run: u4g09cyi
+2022-06-14 02:56:37 INFO Agent received command: run
+2022-06-14 02:56:37 INFO Agent starting run with config:
+	batch_size: 32
+	dense: 32
+	dropout: 0.2
+	epochs: 20
+	learning_rate: 0.001
+	num_features_l1: 128
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-14 02:56:37 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dense=32 --dropout=0.2 --epochs=20 --learning_rate=0.001 --num_features_l1=128 --num_features_l2=64 --num_features_l3=128 --num_features_l4=32
+2022-06-14 02:56:42 INFO Running runs: ['gob857gm']
+2022-06-14 03:13:49 INFO Cleaning up finished run: gob857gm
+2022-06-14 03:13:49 INFO Agent received command: run
+2022-06-14 03:13:49 INFO Agent starting run with config:
+	batch_size: 16
+	dense: 32
+	dropout: 0.2
+	epochs: 20
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-14 03:13:49 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dense=32 --dropout=0.2 --epochs=20 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=16
+2022-06-14 03:13:54 INFO Running runs: ['87pdyumz']
+2022-06-14 03:30:45 INFO Cleaning up finished run: 87pdyumz
+2022-06-14 03:30:45 INFO Agent received command: run
+2022-06-14 03:30:45 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 16
+	dropout: 0.25
+	epochs: 10
+	learning_rate: 0.001
+	num_features_l1: 128
+	num_features_l2: 64
+	num_features_l3: 64
+	num_features_l4: 32
+2022-06-14 03:30:45 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=16 --dropout=0.25 --epochs=10 --learning_rate=0.001 --num_features_l1=128 --num_features_l2=64 --num_features_l3=64 --num_features_l4=32
+2022-06-14 03:30:50 INFO Running runs: ['w148kdej']
+2022-06-14 03:39:28 INFO Cleaning up finished run: w148kdej
+2022-06-14 03:39:30 INFO Agent received command: run
+2022-06-14 03:39:30 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 64
+	dropout: 0.3
+	epochs: 15
+	learning_rate: 0.0005
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-14 03:39:30 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=64 --dropout=0.3 --epochs=15 --learning_rate=0.0005 --num_features_l1=32 --num_features_l2=128 --num_features_l3=128 --num_features_l4=32
+2022-06-14 03:39:35 INFO Running runs: ['9rcvx8hw']
+2022-06-14 03:51:53 INFO Cleaning up finished run: 9rcvx8hw
+2022-06-14 03:51:54 INFO Agent received command: run
+2022-06-14 03:51:54 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.35
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 03:51:54 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.35 --epochs=30 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=64 --num_features_l3=128 --num_features_l4=64
+2022-06-14 03:51:59 INFO Running runs: ['mpuae3t9']
+2022-06-14 04:15:44 INFO Cleaning up finished run: mpuae3t9
+2022-06-14 04:15:44 INFO Agent received command: run
+2022-06-14 04:15:44 INFO Agent starting run with config:
+	batch_size: 16
+	dense: 32
+	dropout: 0.2
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-14 04:15:44 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dense=32 --dropout=0.2 --epochs=30 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=32
+2022-06-14 04:15:49 INFO Running runs: ['jdjv4c27']
+2022-06-14 04:40:54 INFO Cleaning up finished run: jdjv4c27
+2022-06-14 04:40:55 INFO Agent received command: run
+2022-06-14 04:40:55 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 32
+	dropout: 0.2
+	epochs: 20
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 16
+	num_features_l4: 128
+2022-06-14 04:40:55 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=32 --dropout=0.2 --epochs=20 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=128 --num_features_l3=16 --num_features_l4=128
+2022-06-14 04:41:00 INFO Running runs: ['7jlhuoww']
+2022-06-14 04:56:56 INFO Cleaning up finished run: 7jlhuoww
+2022-06-14 04:56:57 INFO Agent received command: run
+2022-06-14 04:56:57 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.3
+	epochs: 30
+	learning_rate: 0.0005
+	num_features_l1: 128
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-14 04:56:57 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.3 --epochs=30 --learning_rate=0.0005 --num_features_l1=128 --num_features_l2=64 --num_features_l3=128 --num_features_l4=16
+2022-06-14 04:57:02 INFO Running runs: ['zzvagj86']
+2022-06-14 04:57:17 INFO Cleaning up finished run: zzvagj86
+2022-06-14 04:57:19 INFO Agent received command: run
+2022-06-14 04:57:19 INFO Agent starting run with config:
+	batch_size: 32
+	dense: 16
+	dropout: 0.25
+	epochs: 25
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 16
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-14 04:57:19 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dense=16 --dropout=0.25 --epochs=25 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=16 --num_features_l3=128 --num_features_l4=16
+2022-06-14 04:57:24 INFO Running runs: ['i4mupbjy']
+2022-06-14 05:18:09 INFO Cleaning up finished run: i4mupbjy
+2022-06-14 05:18:09 INFO Agent received command: run
+2022-06-14 05:18:09 INFO Agent starting run with config:
+	batch_size: 32
+	dense: 16
+	dropout: 0.2
+	epochs: 15
+	learning_rate: 0.0005
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-14 05:18:09 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dense=16 --dropout=0.2 --epochs=15 --learning_rate=0.0005 --num_features_l1=128 --num_features_l2=128 --num_features_l3=128 --num_features_l4=16
+2022-06-14 05:18:14 INFO Running runs: ['jbns73ab']
+2022-06-14 05:31:20 INFO Cleaning up finished run: jbns73ab
+2022-06-14 05:31:20 INFO Agent received command: run
+2022-06-14 05:31:20 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 128
+	dropout: 0.2
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 16
+	num_features_l4: 16
+2022-06-14 05:31:20 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=128 --dropout=0.2 --epochs=25 --learning_rate=0.001 --num_features_l1=32 --num_features_l2=128 --num_features_l3=16 --num_features_l4=16
+2022-06-14 05:31:25 INFO Running runs: ['3ikv4ehf']
+2022-06-14 05:51:31 INFO Cleaning up finished run: 3ikv4ehf
+2022-06-14 05:51:31 INFO Agent received command: run
+2022-06-14 05:51:31 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 16
+	dropout: 0.4
+	epochs: 30
+	learning_rate: 0.005
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-14 05:51:31 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=16 --dropout=0.4 --epochs=30 --learning_rate=0.005 --num_features_l1=16 --num_features_l2=128 --num_features_l3=128 --num_features_l4=16
+2022-06-14 05:51:36 INFO Running runs: ['d3nln3a1']
+2022-06-14 06:15:34 INFO Cleaning up finished run: d3nln3a1
+2022-06-14 06:15:34 INFO Agent received command: run
+2022-06-14 06:15:34 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 64
+	dropout: 0.2
+	epochs: 10
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 06:15:34 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=64 --dropout=0.2 --epochs=10 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-14 06:15:39 INFO Running runs: ['bd3yju6j']
+2022-06-14 06:24:04 INFO Cleaning up finished run: bd3yju6j
+2022-06-14 06:24:04 INFO Agent received command: run
+2022-06-14 06:24:04 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.3
+	epochs: 15
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-14 06:24:04 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.3 --epochs=15 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=128 --num_features_l3=128 --num_features_l4=32
+2022-06-14 06:24:09 INFO Running runs: ['q6m7i6ri']
+2022-06-14 06:24:25 INFO Cleaning up finished run: q6m7i6ri
+2022-06-14 06:24:25 INFO Agent received command: run
+2022-06-14 06:24:25 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.2
+	epochs: 10
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-14 06:24:25 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.2 --epochs=10 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-14 06:24:30 INFO Running runs: ['otso8icf']
+2022-06-14 06:24:46 INFO Cleaning up finished run: otso8icf
+2022-06-14 06:24:46 INFO Agent received command: run
+2022-06-14 06:24:46 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.25
+	epochs: 10
+	learning_rate: 0.01
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 16
+	num_features_l4: 16
+2022-06-14 06:24:46 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.25 --epochs=10 --learning_rate=0.01 --num_features_l1=64 --num_features_l2=128 --num_features_l3=16 --num_features_l4=16
+2022-06-14 06:24:51 INFO Running runs: ['0tyqurhz']
+2022-06-14 06:33:33 INFO Cleaning up finished run: 0tyqurhz
+2022-06-14 06:33:34 INFO Agent received command: run
+2022-06-14 06:33:34 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 32
+	dropout: 0.2
+	epochs: 15
+	learning_rate: 0.001
+	num_features_l1: 16
+	num_features_l2: 128
+	num_features_l3: 32
+	num_features_l4: 16
+2022-06-14 06:33:34 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=32 --dropout=0.2 --epochs=15 --learning_rate=0.001 --num_features_l1=16 --num_features_l2=128 --num_features_l3=32 --num_features_l4=16
+2022-06-14 06:33:39 INFO Running runs: ['ih9b404e']
+2022-06-14 06:45:42 INFO Cleaning up finished run: ih9b404e
+2022-06-14 06:45:42 INFO Agent received command: run
+2022-06-14 06:45:42 INFO Agent starting run with config:
+	batch_size: 32
+	dense: 16
+	dropout: 0.25
+	epochs: 20
+	learning_rate: 0.01
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 06:45:42 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dense=16 --dropout=0.25 --epochs=20 --learning_rate=0.01 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-14 06:45:47 INFO Running runs: ['fydi1rta']
+2022-06-14 07:02:40 INFO Cleaning up finished run: fydi1rta
+2022-06-14 07:02:40 INFO Agent received command: run
+2022-06-14 07:02:40 INFO Agent starting run with config:
+	batch_size: 8
+	dense: 16
+	dropout: 0.3
+	epochs: 25
+	learning_rate: 0.001
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-14 07:02:40 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dense=16 --dropout=0.3 --epochs=25 --learning_rate=0.001 --num_features_l1=128 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-14 07:02:45 INFO Running runs: ['670ikiwp']
+2022-06-14 07:23:35 INFO Cleaning up finished run: 670ikiwp
+2022-06-14 07:23:36 INFO Agent received command: run
+2022-06-14 07:23:36 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 32
+	dropout: 0.35
+	epochs: 15
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 07:23:36 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=32 --dropout=0.35 --epochs=15 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=128 --num_features_l3=128 --num_features_l4=64
+2022-06-14 07:23:41 INFO Running runs: ['zicc7vvx']
+2022-06-14 07:24:01 INFO Cleaning up finished run: zicc7vvx
+2022-06-14 07:24:02 INFO Agent received command: run
+2022-06-14 07:24:02 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 32
+	dropout: 0.3
+	epochs: 15
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 32
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-14 07:24:02 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=32 --dropout=0.3 --epochs=15 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=32 --num_features_l3=128 --num_features_l4=128
+2022-06-14 07:24:07 INFO Running runs: ['ohwtziam']
+2022-06-14 07:24:22 INFO Cleaning up finished run: ohwtziam
+2022-06-14 07:24:23 INFO Agent received command: run
+2022-06-14 07:24:23 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.2
+	epochs: 15
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-14 07:24:23 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.2 --epochs=15 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-14 07:24:28 INFO Running runs: ['dtj7k9x5']
+2022-06-14 07:24:44 INFO Cleaning up finished run: dtj7k9x5
+2022-06-14 07:24:45 INFO Agent received command: run
+2022-06-14 07:24:45 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.4
+	epochs: 10
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 128
+2022-06-14 07:24:45 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.4 --epochs=10 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=128
+2022-06-14 07:24:50 INFO Running runs: ['c51pcypo']
+2022-06-14 07:33:46 INFO Cleaning up finished run: c51pcypo
+2022-06-14 07:33:47 INFO Agent received command: run
+2022-06-14 07:33:47 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 128
+	dropout: 0.25
+	epochs: 15
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 32
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-14 07:33:47 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=128 --dropout=0.25 --epochs=15 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=32 --num_features_l3=128 --num_features_l4=16
+2022-06-14 07:33:52 INFO Running runs: ['9qhminll']
+2022-06-14 07:34:07 INFO Cleaning up finished run: 9qhminll
+2022-06-14 07:34:08 INFO Agent received command: run
+2022-06-14 07:34:08 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 64
+	dropout: 0.2
+	epochs: 25
+	learning_rate: 0.01
+	num_features_l1: 64
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 07:34:08 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=64 --dropout=0.2 --epochs=25 --learning_rate=0.01 --num_features_l1=64 --num_features_l2=64 --num_features_l3=128 --num_features_l4=64
+2022-06-14 07:34:13 INFO Running runs: ['lo9hpk3u']
+2022-06-14 07:55:04 INFO Cleaning up finished run: lo9hpk3u
+2022-06-14 07:55:04 INFO Agent received command: run
+2022-06-14 07:55:04 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 16
+	dropout: 0.2
+	epochs: 30
+	learning_rate: 0.01
+	num_features_l1: 32
+	num_features_l2: 128
+	num_features_l3: 64
+	num_features_l4: 64
+2022-06-14 07:55:04 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=16 --dropout=0.2 --epochs=30 --learning_rate=0.01 --num_features_l1=32 --num_features_l2=128 --num_features_l3=64 --num_features_l4=64
+2022-06-14 07:55:09 INFO Running runs: ['064g00q7']
+2022-06-14 08:20:05 INFO Cleaning up finished run: 064g00q7
+2022-06-14 08:20:06 INFO Agent received command: run
+2022-06-14 08:20:06 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 128
+	dropout: 0.2
+	epochs: 25
+	learning_rate: 0.005
+	num_features_l1: 64
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 16
+2022-06-14 08:20:06 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=128 --dropout=0.2 --epochs=25 --learning_rate=0.005 --num_features_l1=64 --num_features_l2=128 --num_features_l3=128 --num_features_l4=16
+2022-06-14 08:20:11 INFO Running runs: ['euxszsph']
+2022-06-14 08:41:13 INFO Cleaning up finished run: euxszsph
+2022-06-14 08:41:14 INFO Agent received command: run
+2022-06-14 08:41:14 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 32
+	dropout: 0.2
+	epochs: 20
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 16
+	num_features_l3: 16
+	num_features_l4: 16
+2022-06-14 08:41:14 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=32 --dropout=0.2 --epochs=20 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=16 --num_features_l3=16 --num_features_l4=16
+2022-06-14 08:41:19 INFO Running runs: ['chgl9p9u']
+2022-06-14 08:41:39 INFO Cleaning up finished run: chgl9p9u
+2022-06-14 08:41:49 INFO Agent received command: run
+2022-06-14 08:41:49 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 128
+	dropout: 0.5
+	epochs: 30
+	learning_rate: 0.01
+	num_features_l1: 16
+	num_features_l2: 16
+	num_features_l3: 128
+	num_features_l4: 64
+2022-06-14 08:41:49 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=128 --dropout=0.5 --epochs=30 --learning_rate=0.01 --num_features_l1=16 --num_features_l2=16 --num_features_l3=128 --num_features_l4=64
+2022-06-14 08:41:54 INFO Running runs: ['iptj92z2']
+2022-06-14 09:05:16 INFO Cleaning up finished run: iptj92z2
+2022-06-14 09:05:17 INFO Agent received command: run
+2022-06-14 09:05:17 INFO Agent starting run with config:
+	batch_size: 64
+	dense: 128
+	dropout: 0.2
+	epochs: 10
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 16
+	num_features_l3: 32
+	num_features_l4: 128
+2022-06-14 09:05:17 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dense=128 --dropout=0.2 --epochs=10 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=16 --num_features_l3=32 --num_features_l4=128
+2022-06-14 09:05:22 INFO Running runs: ['06eynvrn']
+2022-06-14 09:05:37 INFO Cleaning up finished run: 06eynvrn
+2022-06-14 09:05:38 INFO Agent received command: run
+2022-06-14 09:05:38 INFO Agent starting run with config:
+	batch_size: 4
+	dense: 16
+	dropout: 0.3
+	epochs: 30
+	learning_rate: 0.0005
+	num_features_l1: 128
+	num_features_l2: 128
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-14 09:05:38 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dense=16 --dropout=0.3 --epochs=30 --learning_rate=0.0005 --num_features_l1=128 --num_features_l2=128 --num_features_l3=128 --num_features_l4=32
+2022-06-14 09:05:43 INFO Running runs: ['gcz19yja']
+2022-06-14 09:30:23 INFO Cleaning up finished run: gcz19yja
+2022-06-14 09:30:24 INFO Agent received command: run
+2022-06-14 09:30:24 INFO Agent starting run with config:
+	batch_size: 32
+	dense: 16
+	dropout: 0.2
+	epochs: 25
+	learning_rate: 0.01
+	num_features_l1: 128
+	num_features_l2: 64
+	num_features_l3: 128
+	num_features_l4: 32
+2022-06-14 09:30:24 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dense=16 --dropout=0.2 --epochs=25 --learning_rate=0.01 --num_features_l1=128 --num_features_l2=64 --num_features_l3=128 --num_features_l4=32
+2022-06-14 09:30:29 INFO Running runs: ['ffjj7pf3']
+2022-06-22 16:59:03 ERROR Traceback (most recent call last):
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1897, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1803, in _validate_config_and_fill_distribution
+    raise ValueError(
+ValueError: Parameter dropout_c1 is ambiguous, please specify bounds as both floats (for a float_uniform distribution) or ints (for an int_uniform distribution).
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/cli/cli.py", line 95, in wrapper
+    return func(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/cli/cli.py", line 858, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/internal.py", line 102, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 58, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1897, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+  File "/home/apopa6/.conda/envs/ICE_NN/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1803, in _validate_config_and_fill_distribution
+    raise ValueError(
+wandb.errors.CommError: Parameter dropout_c1 is ambiguous, please specify bounds as both floats (for a float_uniform distribution) or ints (for an int_uniform distribution).
+
+2022-06-22 17:01:55 INFO Running runs: []
+2022-06-22 17:01:55 INFO Agent received command: run
+2022-06-22 17:01:55 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.3
+	dropout_c2: 0.3
+	dropout_c3: 0
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.01
+	num_features_c1: 128
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 64
+2022-06-22 17:01:55 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.3 --dropout_c2=0.3 --dropout_c3=0 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.01 --num_features_c1=128 --num_features_c2=32 --num_features_c3=16 --num_features_c4=64
+2022-06-22 17:02:00 INFO Running runs: ['zlzwzs9n']
+2022-06-22 17:03:53 INFO Running runs: []
+2022-06-22 17:03:53 INFO Agent received command: run
+2022-06-22 17:03:53 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0
+	dropout_c2: 0.2
+	dropout_c3: 0
+	dropout_c4: 0.3
+	dropout_ga: 0.2
+	learning_rate: 0.001
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 32
+	num_features_c4: 32
+2022-06-22 17:03:53 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0 --dropout_c2=0.2 --dropout_c3=0 --dropout_c4=0.3 --dropout_ga=0.2 --learning_rate=0.001 --num_features_c1=32 --num_features_c2=64 --num_features_c3=32 --num_features_c4=32
+2022-06-22 17:03:58 INFO Running runs: ['cwvtek2z']
+2022-06-22 17:20:17 INFO Cleaning up finished run: cwvtek2z
+2022-06-22 17:20:18 INFO Agent received command: run
+2022-06-22 17:20:18 INFO Agent starting run with config:
+	batch_size: 64
+	dropout_c1: 0.1
+	dropout_c2: 0.4
+	dropout_c3: 0.3
+	dropout_c4: 0.2
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 16
+	num_features_c4: 64
+2022-06-22 17:20:18 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dropout_c1=0.1 --dropout_c2=0.4 --dropout_c3=0.3 --dropout_c4=0.2 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=64 --num_features_c3=16 --num_features_c4=64
+2022-06-22 17:20:23 INFO Running runs: ['opdan2rz']
+2022-06-22 17:47:57 INFO Cleaning up finished run: opdan2rz
+2022-06-22 17:47:59 INFO Agent received command: run
+2022-06-22 17:47:59 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.1
+	dropout_c2: 0
+	dropout_c3: 0.4
+	dropout_c4: 0.4
+	dropout_ga: 0
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 128
+	num_features_c3: 64
+	num_features_c4: 64
+2022-06-22 17:47:59 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.1 --dropout_c2=0 --dropout_c3=0.4 --dropout_c4=0.4 --dropout_ga=0 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=128 --num_features_c3=64 --num_features_c4=64
+2022-06-22 17:48:04 INFO Running runs: ['ht9668vt']
+2022-06-22 18:02:51 INFO Cleaning up finished run: ht9668vt
+2022-06-22 18:02:51 INFO Agent received command: run
+2022-06-22 18:02:51 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.1
+	dropout_c2: 0.3
+	dropout_c3: 0.3
+	dropout_c4: 0.2
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 16
+	num_features_c4: 64
+2022-06-22 18:02:51 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.1 --dropout_c2=0.3 --dropout_c3=0.3 --dropout_c4=0.2 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=64 --num_features_c3=16 --num_features_c4=64
+2022-06-22 18:02:56 INFO Running runs: ['d82cpg8j']
+2022-06-22 18:27:42 INFO Cleaning up finished run: d82cpg8j
+2022-06-22 18:27:43 INFO Agent received command: run
+2022-06-22 18:27:43 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.1
+	dropout_c2: 0.1
+	dropout_c3: 0
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.001
+	num_features_c1: 64
+	num_features_c2: 16
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-22 18:27:43 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.1 --dropout_c2=0.1 --dropout_c3=0 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.001 --num_features_c1=64 --num_features_c2=16 --num_features_c3=64 --num_features_c4=32
+2022-06-22 18:27:48 INFO Running runs: ['lpuwjxl1']
+2022-06-22 18:51:38 INFO Cleaning up finished run: lpuwjxl1
+2022-06-22 18:51:38 INFO Agent received command: run
+2022-06-22 18:51:38 INFO Agent starting run with config:
+	batch_size: 64
+	dropout_c1: 0.1
+	dropout_c2: 0.1
+	dropout_c3: 0.1
+	dropout_c4: 0.4
+	dropout_ga: 0
+	learning_rate: 0.005
+	num_features_c1: 32
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 128
+2022-06-22 18:51:38 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dropout_c1=0.1 --dropout_c2=0.1 --dropout_c3=0.1 --dropout_c4=0.4 --dropout_ga=0 --learning_rate=0.005 --num_features_c1=32 --num_features_c2=32 --num_features_c3=16 --num_features_c4=128
+2022-06-22 18:51:43 INFO Running runs: ['r9zcfu4y']
+2022-06-22 19:07:56 INFO Cleaning up finished run: r9zcfu4y
+2022-06-22 19:07:57 INFO Agent received command: run
+2022-06-22 19:07:57 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.1
+	dropout_c2: 0.1
+	dropout_c3: 0.2
+	dropout_c4: 0.1
+	dropout_ga: 0
+	learning_rate: 0.001
+	num_features_c1: 128
+	num_features_c2: 16
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-22 19:07:57 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.1 --dropout_c2=0.1 --dropout_c3=0.2 --dropout_c4=0.1 --dropout_ga=0 --learning_rate=0.001 --num_features_c1=128 --num_features_c2=16 --num_features_c3=64 --num_features_c4=32
+2022-06-22 19:08:02 INFO Running runs: ['2gbvf2em']
+2022-06-22 19:31:11 INFO Cleaning up finished run: 2gbvf2em
+2022-06-22 19:31:11 INFO Agent received command: run
+2022-06-22 19:31:11 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0.4
+	dropout_c3: 0.1
+	dropout_c4: 0.3
+	dropout_ga: 0.2
+	learning_rate: 0.005
+	num_features_c1: 128
+	num_features_c2: 32
+	num_features_c3: 128
+	num_features_c4: 32
+2022-06-22 19:31:11 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0.4 --dropout_c3=0.1 --dropout_c4=0.3 --dropout_ga=0.2 --learning_rate=0.005 --num_features_c1=128 --num_features_c2=32 --num_features_c3=128 --num_features_c4=32
+2022-06-22 19:31:16 INFO Running runs: ['9uj5pqm4']
+2022-06-22 19:50:27 INFO Cleaning up finished run: 9uj5pqm4
+2022-06-22 19:50:27 INFO Agent received command: run
+2022-06-22 19:50:27 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.2
+	dropout_c2: 0.1
+	dropout_c3: 0.2
+	dropout_c4: 0.2
+	dropout_ga: 0.1
+	learning_rate: 0.001
+	num_features_c1: 128
+	num_features_c2: 16
+	num_features_c3: 64
+	num_features_c4: 64
+2022-06-22 19:50:27 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.2 --dropout_c2=0.1 --dropout_c3=0.2 --dropout_c4=0.2 --dropout_ga=0.1 --learning_rate=0.001 --num_features_c1=128 --num_features_c2=16 --num_features_c3=64 --num_features_c4=64
+2022-06-22 19:50:32 INFO Running runs: ['l01p31kk']
+2022-06-22 20:04:56 INFO Cleaning up finished run: l01p31kk
+2022-06-22 20:04:56 INFO Agent received command: run
+2022-06-22 20:04:56 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.1
+	dropout_c2: 0.1
+	dropout_c3: 0.2
+	dropout_c4: 0.1
+	dropout_ga: 0
+	learning_rate: 0.005
+	num_features_c1: 128
+	num_features_c2: 32
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-22 20:04:56 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.1 --dropout_c2=0.1 --dropout_c3=0.2 --dropout_c4=0.1 --dropout_ga=0 --learning_rate=0.005 --num_features_c1=128 --num_features_c2=32 --num_features_c3=64 --num_features_c4=32
+2022-06-22 20:05:01 INFO Running runs: ['rvkd1qsc']
+2022-06-22 20:18:01 INFO Cleaning up finished run: rvkd1qsc
+2022-06-22 20:18:02 INFO Agent received command: run
+2022-06-22 20:18:02 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.4
+	dropout_c2: 0.4
+	dropout_c3: 0.3
+	dropout_c4: 0.3
+	dropout_ga: 0
+	learning_rate: 0.01
+	num_features_c1: 16
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 32
+2022-06-22 20:18:02 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.4 --dropout_c2=0.4 --dropout_c3=0.3 --dropout_c4=0.3 --dropout_ga=0 --learning_rate=0.01 --num_features_c1=16 --num_features_c2=32 --num_features_c3=16 --num_features_c4=32
+2022-06-22 20:18:07 INFO Running runs: ['nqqlbx9y']
+2022-06-22 20:32:59 INFO Cleaning up finished run: nqqlbx9y
+2022-06-22 20:33:00 INFO Agent received command: run
+2022-06-22 20:33:00 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.2
+	dropout_c2: 0.3
+	dropout_c3: 0.1
+	dropout_c4: 0.1
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 16
+	num_features_c3: 32
+	num_features_c4: 64
+2022-06-22 20:33:00 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.2 --dropout_c2=0.3 --dropout_c3=0.1 --dropout_c4=0.1 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=16 --num_features_c3=32 --num_features_c4=64
+2022-06-22 20:33:05 INFO Running runs: ['ulnq177o']
+2022-06-22 20:48:40 INFO Cleaning up finished run: ulnq177o
+2022-06-22 20:48:41 INFO Agent received command: run
+2022-06-22 20:48:41 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.1
+	dropout_c2: 0.3
+	dropout_c3: 0.4
+	dropout_c4: 0.3
+	dropout_ga: 0.1
+	learning_rate: 0.001
+	num_features_c1: 64
+	num_features_c2: 128
+	num_features_c3: 32
+	num_features_c4: 32
+2022-06-22 20:48:41 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.1 --dropout_c2=0.3 --dropout_c3=0.4 --dropout_c4=0.3 --dropout_ga=0.1 --learning_rate=0.001 --num_features_c1=64 --num_features_c2=128 --num_features_c3=32 --num_features_c4=32
+2022-06-22 20:48:46 INFO Running runs: ['svmy4gtc']
+2022-06-22 21:04:49 INFO Cleaning up finished run: svmy4gtc
+2022-06-22 21:04:49 INFO Agent received command: run
+2022-06-22 21:04:49 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.2
+	dropout_c2: 0.3
+	dropout_c3: 0.1
+	dropout_c4: 0.3
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 128
+	num_features_c3: 64
+	num_features_c4: 128
+2022-06-22 21:04:49 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.2 --dropout_c2=0.3 --dropout_c3=0.1 --dropout_c4=0.3 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=128 --num_features_c3=64 --num_features_c4=128
+2022-06-22 21:04:54 INFO Running runs: ['56pfe3ws']
+2022-06-22 21:35:12 INFO Cleaning up finished run: 56pfe3ws
+2022-06-22 21:35:12 INFO Agent received command: run
+2022-06-22 21:35:12 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.1
+	dropout_c2: 0
+	dropout_c3: 0
+	dropout_c4: 0.4
+	dropout_ga: 0
+	learning_rate: 0.01
+	num_features_c1: 128
+	num_features_c2: 32
+	num_features_c3: 32
+	num_features_c4: 16
+2022-06-22 21:35:12 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.1 --dropout_c2=0 --dropout_c3=0 --dropout_c4=0.4 --dropout_ga=0 --learning_rate=0.01 --num_features_c1=128 --num_features_c2=32 --num_features_c3=32 --num_features_c4=16
+2022-06-22 21:35:17 INFO Running runs: ['pxaju4io']
+2022-06-22 22:06:18 INFO Cleaning up finished run: pxaju4io
+2022-06-22 22:06:19 INFO Agent received command: run
+2022-06-22 22:06:19 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.2
+	dropout_c2: 0.4
+	dropout_c3: 0.3
+	dropout_c4: 0.4
+	dropout_ga: 0
+	learning_rate: 0.01
+	num_features_c1: 16
+	num_features_c2: 64
+	num_features_c3: 128
+	num_features_c4: 32
+2022-06-22 22:06:19 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.2 --dropout_c2=0.4 --dropout_c3=0.3 --dropout_c4=0.4 --dropout_ga=0 --learning_rate=0.01 --num_features_c1=16 --num_features_c2=64 --num_features_c3=128 --num_features_c4=32
+2022-06-22 22:06:24 INFO Running runs: ['9bn2eobj']
+2022-06-22 22:15:00 INFO Cleaning up finished run: 9bn2eobj
+2022-06-22 22:15:01 INFO Agent received command: run
+2022-06-22 22:15:01 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.2
+	dropout_c2: 0.1
+	dropout_c3: 0.2
+	dropout_c4: 0.1
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 16
+	num_features_c4: 128
+2022-06-22 22:15:01 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.2 --dropout_c2=0.1 --dropout_c3=0.2 --dropout_c4=0.1 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=64 --num_features_c3=16 --num_features_c4=128
+2022-06-22 22:15:06 INFO Running runs: ['574fuh3r']
+2022-06-22 22:42:09 INFO Cleaning up finished run: 574fuh3r
+2022-06-22 22:42:09 INFO Agent received command: run
+2022-06-22 22:42:09 INFO Agent starting run with config:
+	batch_size: 64
+	dropout_c1: 0.4
+	dropout_c2: 0.4
+	dropout_c3: 0.1
+	dropout_c4: 0.4
+	dropout_ga: 0.1
+	learning_rate: 0.01
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 16
+2022-06-22 22:42:09 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dropout_c1=0.4 --dropout_c2=0.4 --dropout_c3=0.1 --dropout_c4=0.4 --dropout_ga=0.1 --learning_rate=0.01 --num_features_c1=64 --num_features_c2=32 --num_features_c3=16 --num_features_c4=16
+2022-06-22 22:42:14 INFO Running runs: ['ay1y1sjx']
+2022-06-22 22:42:45 INFO Cleaning up finished run: ay1y1sjx
+2022-06-22 22:42:45 INFO Agent received command: run
+2022-06-22 22:42:45 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.1
+	dropout_c2: 0
+	dropout_c3: 0.3
+	dropout_c4: 0.2
+	dropout_ga: 0.2
+	learning_rate: 0.001
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 32
+	num_features_c4: 32
+2022-06-22 22:42:45 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.1 --dropout_c2=0 --dropout_c3=0.3 --dropout_c4=0.2 --dropout_ga=0.2 --learning_rate=0.001 --num_features_c1=64 --num_features_c2=32 --num_features_c3=32 --num_features_c4=32
+2022-06-22 22:42:50 INFO Running runs: ['5cms922s']
+2022-06-22 23:04:15 INFO Cleaning up finished run: 5cms922s
+2022-06-22 23:04:16 INFO Agent received command: run
+2022-06-22 23:04:16 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0
+	dropout_c2: 0.4
+	dropout_c3: 0.4
+	dropout_c4: 0.4
+	dropout_ga: 0
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 64
+2022-06-22 23:04:16 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0 --dropout_c2=0.4 --dropout_c3=0.4 --dropout_c4=0.4 --dropout_ga=0 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=32 --num_features_c3=16 --num_features_c4=64
+2022-06-22 23:04:21 INFO Running runs: ['66pph7vt']
+2022-06-22 23:17:52 INFO Cleaning up finished run: 66pph7vt
+2022-06-22 23:17:53 INFO Agent received command: run
+2022-06-22 23:17:53 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.3
+	dropout_c2: 0.3
+	dropout_c3: 0.2
+	dropout_c4: 0.4
+	dropout_ga: 0.2
+	learning_rate: 0.001
+	num_features_c1: 16
+	num_features_c2: 32
+	num_features_c3: 64
+	num_features_c4: 128
+2022-06-22 23:17:53 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.3 --dropout_c2=0.3 --dropout_c3=0.2 --dropout_c4=0.4 --dropout_ga=0.2 --learning_rate=0.001 --num_features_c1=16 --num_features_c2=32 --num_features_c3=64 --num_features_c4=128
+2022-06-22 23:17:58 INFO Running runs: ['7g6iammx']
+2022-06-22 23:43:13 INFO Cleaning up finished run: 7g6iammx
+2022-06-22 23:43:14 INFO Agent received command: run
+2022-06-22 23:43:14 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0
+	dropout_c3: 0.3
+	dropout_c4: 0
+	dropout_ga: 0.1
+	learning_rate: 0.005
+	num_features_c1: 32
+	num_features_c2: 16
+	num_features_c3: 32
+	num_features_c4: 64
+2022-06-22 23:43:14 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0 --dropout_c3=0.3 --dropout_c4=0 --dropout_ga=0.1 --learning_rate=0.005 --num_features_c1=32 --num_features_c2=16 --num_features_c3=32 --num_features_c4=64
+2022-06-22 23:43:19 INFO Running runs: ['0msyaxix']
+2022-06-22 23:54:44 INFO Cleaning up finished run: 0msyaxix
+2022-06-22 23:54:44 INFO Agent received command: run
+2022-06-22 23:54:44 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.3
+	dropout_c2: 0.4
+	dropout_c3: 0.2
+	dropout_c4: 0.1
+	dropout_ga: 0
+	learning_rate: 0.01
+	num_features_c1: 128
+	num_features_c2: 16
+	num_features_c3: 64
+	num_features_c4: 16
+2022-06-22 23:54:44 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.3 --dropout_c2=0.4 --dropout_c3=0.2 --dropout_c4=0.1 --dropout_ga=0 --learning_rate=0.01 --num_features_c1=128 --num_features_c2=16 --num_features_c3=64 --num_features_c4=16
+2022-06-22 23:54:49 INFO Running runs: ['z3jo2uns']
+2022-06-23 00:05:01 INFO Cleaning up finished run: z3jo2uns
+2022-06-23 00:05:02 INFO Agent received command: run
+2022-06-23 00:05:02 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.3
+	dropout_c2: 0.2
+	dropout_c3: 0
+	dropout_c4: 0
+	dropout_ga: 0
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 16
+2022-06-23 00:05:02 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.3 --dropout_c2=0.2 --dropout_c3=0 --dropout_c4=0 --dropout_ga=0 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=32 --num_features_c3=16 --num_features_c4=16
+2022-06-23 00:05:07 INFO Running runs: ['9sxvxp9v']
+2022-06-23 00:30:59 INFO Cleaning up finished run: 9sxvxp9v
+2022-06-23 00:30:59 INFO Agent received command: run
+2022-06-23 00:30:59 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.2
+	dropout_c2: 0.2
+	dropout_c3: 0
+	dropout_c4: 0.2
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 128
+	num_features_c2: 16
+	num_features_c3: 32
+	num_features_c4: 32
+2022-06-23 00:30:59 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.2 --dropout_c2=0.2 --dropout_c3=0 --dropout_c4=0.2 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=128 --num_features_c2=16 --num_features_c3=32 --num_features_c4=32
+2022-06-23 00:31:04 INFO Running runs: ['2wh0xe3r']
+2022-06-23 00:48:04 INFO Cleaning up finished run: 2wh0xe3r
+2022-06-23 00:48:05 INFO Agent received command: run
+2022-06-23 00:48:05 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.2
+	dropout_c2: 0.4
+	dropout_c3: 0.4
+	dropout_c4: 0.3
+	dropout_ga: 0.2
+	learning_rate: 0.005
+	num_features_c1: 128
+	num_features_c2: 64
+	num_features_c3: 32
+	num_features_c4: 64
+2022-06-23 00:48:05 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.2 --dropout_c2=0.4 --dropout_c3=0.4 --dropout_c4=0.3 --dropout_ga=0.2 --learning_rate=0.005 --num_features_c1=128 --num_features_c2=64 --num_features_c3=32 --num_features_c4=64
+2022-06-23 00:48:10 INFO Running runs: ['mz9oyzg2']
+2022-06-23 00:55:55 INFO Cleaning up finished run: mz9oyzg2
+2022-06-23 00:55:55 INFO Agent received command: run
+2022-06-23 00:55:55 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.1
+	dropout_c2: 0.2
+	dropout_c3: 0.1
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.01
+	num_features_c1: 16
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 64
+2022-06-23 00:55:55 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.1 --dropout_c2=0.2 --dropout_c3=0.1 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.01 --num_features_c1=16 --num_features_c2=32 --num_features_c3=16 --num_features_c4=64
+2022-06-23 00:56:00 INFO Running runs: ['jld058bd']
+2022-06-23 01:01:42 INFO Cleaning up finished run: jld058bd
+2022-06-23 01:01:43 INFO Agent received command: run
+2022-06-23 01:01:43 INFO Agent starting run with config:
+	batch_size: 64
+	dropout_c1: 0
+	dropout_c2: 0.3
+	dropout_c3: 0.3
+	dropout_c4: 0.3
+	dropout_ga: 0.2
+	learning_rate: 0.01
+	num_features_c1: 128
+	num_features_c2: 128
+	num_features_c3: 16
+	num_features_c4: 32
+2022-06-23 01:01:43 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=64 --dropout_c1=0 --dropout_c2=0.3 --dropout_c3=0.3 --dropout_c4=0.3 --dropout_ga=0.2 --learning_rate=0.01 --num_features_c1=128 --num_features_c2=128 --num_features_c3=16 --num_features_c4=32
+2022-06-23 01:01:48 INFO Running runs: ['uy7evecp']
+2022-06-23 01:01:58 INFO Cleaning up finished run: uy7evecp
+2022-06-23 01:01:58 INFO Agent received command: run
+2022-06-23 01:01:58 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.3
+	dropout_c2: 0
+	dropout_c3: 0.3
+	dropout_c4: 0
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 64
+	num_features_c3: 128
+	num_features_c4: 16
+2022-06-23 01:01:58 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.3 --dropout_c2=0 --dropout_c3=0.3 --dropout_c4=0 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=64 --num_features_c3=128 --num_features_c4=16
+2022-06-23 01:02:03 INFO Running runs: ['yl1synz4']
+2022-06-23 01:19:59 INFO Cleaning up finished run: yl1synz4
+2022-06-23 01:20:00 INFO Agent received command: run
+2022-06-23 01:20:00 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0
+	dropout_c2: 0.1
+	dropout_c3: 0.3
+	dropout_c4: 0
+	dropout_ga: 0
+	learning_rate: 0.005
+	num_features_c1: 16
+	num_features_c2: 128
+	num_features_c3: 32
+	num_features_c4: 128
+2022-06-23 01:20:00 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0 --dropout_c2=0.1 --dropout_c3=0.3 --dropout_c4=0 --dropout_ga=0 --learning_rate=0.005 --num_features_c1=16 --num_features_c2=128 --num_features_c3=32 --num_features_c4=128
+2022-06-23 01:20:05 INFO Running runs: ['r5rlqeds']
+2022-06-23 01:28:30 INFO Cleaning up finished run: r5rlqeds
+2022-06-23 01:28:30 INFO Agent received command: run
+2022-06-23 01:28:30 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.4
+	dropout_c2: 0.4
+	dropout_c3: 0.4
+	dropout_c4: 0
+	dropout_ga: 0.1
+	learning_rate: 0.001
+	num_features_c1: 64
+	num_features_c2: 16
+	num_features_c3: 64
+	num_features_c4: 64
+2022-06-23 01:28:30 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.4 --dropout_c2=0.4 --dropout_c3=0.4 --dropout_c4=0 --dropout_ga=0.1 --learning_rate=0.001 --num_features_c1=64 --num_features_c2=16 --num_features_c3=64 --num_features_c4=64
+2022-06-23 01:28:35 INFO Running runs: ['5uuh7fqi']
+2022-06-23 01:55:00 INFO Cleaning up finished run: 5uuh7fqi
+2022-06-23 01:55:00 INFO Agent received command: run
+2022-06-23 01:55:00 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.2
+	dropout_c2: 0
+	dropout_c3: 0
+	dropout_c4: 0.4
+	dropout_ga: 0
+	learning_rate: 0.001
+	num_features_c1: 16
+	num_features_c2: 32
+	num_features_c3: 64
+	num_features_c4: 64
+2022-06-23 01:55:00 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.2 --dropout_c2=0 --dropout_c3=0 --dropout_c4=0.4 --dropout_ga=0 --learning_rate=0.001 --num_features_c1=16 --num_features_c2=32 --num_features_c3=64 --num_features_c4=64
+2022-06-23 01:55:05 INFO Running runs: ['d45oe9tr']
+2022-06-23 02:14:43 INFO Cleaning up finished run: d45oe9tr
+2022-06-23 02:14:43 INFO Agent received command: run
+2022-06-23 02:14:43 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.1
+	dropout_c2: 0.3
+	dropout_c3: 0.3
+	dropout_c4: 0.1
+	dropout_ga: 0
+	learning_rate: 0.01
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 128
+	num_features_c4: 128
+2022-06-23 02:14:43 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.1 --dropout_c2=0.3 --dropout_c3=0.3 --dropout_c4=0.1 --dropout_ga=0 --learning_rate=0.01 --num_features_c1=64 --num_features_c2=32 --num_features_c3=128 --num_features_c4=128
+2022-06-23 02:14:48 INFO Running runs: ['1vl7ac3q']
+2022-06-23 02:27:35 INFO Cleaning up finished run: 1vl7ac3q
+2022-06-23 02:27:36 INFO Agent received command: run
+2022-06-23 02:27:36 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.1
+	dropout_c2: 0
+	dropout_c3: 0.2
+	dropout_c4: 0
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 128
+	num_features_c2: 32
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 02:27:36 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.1 --dropout_c2=0 --dropout_c3=0.2 --dropout_c4=0 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=128 --num_features_c2=32 --num_features_c3=64 --num_features_c4=32
+2022-06-23 02:27:41 INFO Running runs: ['2e2tubwf']
+2022-06-23 02:57:22 INFO Cleaning up finished run: 2e2tubwf
+2022-06-23 02:57:22 INFO Agent received command: run
+2022-06-23 02:57:22 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.3
+	dropout_c2: 0
+	dropout_c3: 0.2
+	dropout_c4: 0.2
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 32
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 02:57:22 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.3 --dropout_c2=0 --dropout_c3=0.2 --dropout_c4=0.2 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=32 --num_features_c3=64 --num_features_c4=32
+2022-06-23 02:57:27 INFO Running runs: ['460nyiaa']
+2022-06-23 03:22:24 INFO Cleaning up finished run: 460nyiaa
+2022-06-23 03:22:24 INFO Agent received command: run
+2022-06-23 03:22:24 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0
+	dropout_c3: 0.2
+	dropout_c4: 0.1
+	dropout_ga: 0.1
+	learning_rate: 0.001
+	num_features_c1: 64
+	num_features_c2: 16
+	num_features_c3: 32
+	num_features_c4: 32
+2022-06-23 03:22:24 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0 --dropout_c3=0.2 --dropout_c4=0.1 --dropout_ga=0.1 --learning_rate=0.001 --num_features_c1=64 --num_features_c2=16 --num_features_c3=32 --num_features_c4=32
+2022-06-23 03:22:29 INFO Running runs: ['vmwlco0g']
+2022-06-23 03:43:42 INFO Cleaning up finished run: vmwlco0g
+2022-06-23 03:43:43 INFO Agent received command: run
+2022-06-23 03:43:43 INFO Agent starting run with config:
+	batch_size: 32
+	dropout_c1: 0.3
+	dropout_c2: 0
+	dropout_c3: 0.1
+	dropout_c4: 0.2
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 128
+	num_features_c2: 16
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 03:43:43 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=32 --dropout_c1=0.3 --dropout_c2=0 --dropout_c3=0.1 --dropout_c4=0.2 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=128 --num_features_c2=16 --num_features_c3=64 --num_features_c4=32
+2022-06-23 03:43:48 INFO Running runs: ['vrdhvw60']
+2022-06-23 03:44:13 INFO Cleaning up finished run: vrdhvw60
+2022-06-23 03:44:14 INFO Agent received command: run
+2022-06-23 03:44:14 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.4
+	dropout_c2: 0
+	dropout_c3: 0.4
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 03:44:14 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.4 --dropout_c2=0 --dropout_c3=0.4 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=64 --num_features_c3=64 --num_features_c4=32
+2022-06-23 03:44:19 INFO Running runs: ['t8t44zod']
+2022-06-23 04:06:29 INFO Cleaning up finished run: t8t44zod
+2022-06-23 04:06:29 INFO Agent received command: run
+2022-06-23 04:06:29 INFO Agent starting run with config:
+	batch_size: 16
+	dropout_c1: 0.3
+	dropout_c2: 0.2
+	dropout_c3: 0.2
+	dropout_c4: 0.2
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 04:06:29 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=16 --dropout_c1=0.3 --dropout_c2=0.2 --dropout_c3=0.2 --dropout_c4=0.2 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=64 --num_features_c3=64 --num_features_c4=32
+2022-06-23 04:06:34 INFO Running runs: ['5xmzfouv']
+2022-06-23 04:31:00 INFO Cleaning up finished run: 5xmzfouv
+2022-06-23 04:31:01 INFO Agent received command: run
+2022-06-23 04:31:01 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.3
+	dropout_c2: 0.2
+	dropout_c3: 0.3
+	dropout_c4: 0.2
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 128
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 04:31:01 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.3 --dropout_c2=0.2 --dropout_c3=0.3 --dropout_c4=0.2 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=128 --num_features_c3=64 --num_features_c4=32
+2022-06-23 04:31:06 INFO Running runs: ['hhlkr8mr']
+2022-06-23 04:45:30 INFO Cleaning up finished run: hhlkr8mr
+2022-06-23 04:45:30 INFO Agent received command: run
+2022-06-23 04:45:30 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.4
+	dropout_c2: 0
+	dropout_c3: 0.3
+	dropout_c4: 0.1
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 04:45:30 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.4 --dropout_c2=0 --dropout_c3=0.3 --dropout_c4=0.1 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=64 --num_features_c3=64 --num_features_c4=32
+2022-06-23 04:45:35 INFO Running runs: ['zqh5wguv']
+2022-06-23 05:06:04 INFO Cleaning up finished run: zqh5wguv
+2022-06-23 05:06:04 INFO Agent received command: run
+2022-06-23 05:06:04 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0.1
+	dropout_c3: 0.2
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 64
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 05:06:04 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0.1 --dropout_c3=0.2 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=64 --num_features_c3=64 --num_features_c4=32
+2022-06-23 05:06:09 INFO Running runs: ['35ceb986']
+2022-06-23 05:26:02 INFO Cleaning up finished run: 35ceb986
+2022-06-23 05:26:03 INFO Agent received command: run
+2022-06-23 05:26:03 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.3
+	dropout_c2: 0.1
+	dropout_c3: 0.3
+	dropout_c4: 0.1
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 32
+	num_features_c3: 128
+	num_features_c4: 16
+2022-06-23 05:26:03 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.3 --dropout_c2=0.1 --dropout_c3=0.3 --dropout_c4=0.1 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=32 --num_features_c3=128 --num_features_c4=16
+2022-06-23 05:26:08 INFO Running runs: ['knizbto7']
+2022-06-23 05:43:07 INFO Cleaning up finished run: knizbto7
+2022-06-23 05:43:08 INFO Agent received command: run
+2022-06-23 05:43:08 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0.2
+	dropout_c3: 0.4
+	dropout_c4: 0.1
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 32
+	num_features_c4: 64
+2022-06-23 05:43:08 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0.2 --dropout_c3=0.4 --dropout_c4=0.1 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=32 --num_features_c3=32 --num_features_c4=64
+2022-06-23 05:43:13 INFO Running runs: ['leh55zv9']
+2022-06-23 06:07:15 INFO Cleaning up finished run: leh55zv9
+2022-06-23 06:07:15 INFO Agent received command: run
+2022-06-23 06:07:15 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0.1
+	dropout_c3: 0.3
+	dropout_c4: 0.2
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 32
+	num_features_c4: 64
+2022-06-23 06:07:15 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0.1 --dropout_c3=0.3 --dropout_c4=0.2 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=32 --num_features_c3=32 --num_features_c4=64
+2022-06-23 06:07:20 INFO Running runs: ['wght6ric']
+2022-06-23 06:29:28 INFO Cleaning up finished run: wght6ric
+2022-06-23 06:29:28 INFO Agent received command: run
+2022-06-23 06:29:28 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0
+	dropout_c3: 0.4
+	dropout_c4: 0.1
+	dropout_ga: 0.1
+	learning_rate: 0.001
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 64
+	num_features_c4: 64
+2022-06-23 06:29:28 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0 --dropout_c3=0.4 --dropout_c4=0.1 --dropout_ga=0.1 --learning_rate=0.001 --num_features_c1=64 --num_features_c2=32 --num_features_c3=64 --num_features_c4=64
+2022-06-23 06:29:33 INFO Running runs: ['giwib03g']
+2022-06-23 06:51:44 INFO Cleaning up finished run: giwib03g
+2022-06-23 06:51:44 INFO Agent received command: run
+2022-06-23 06:51:44 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.2
+	dropout_c2: 0.1
+	dropout_c3: 0.4
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 32
+	num_features_c2: 64
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 06:51:44 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.2 --dropout_c2=0.1 --dropout_c3=0.4 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=32 --num_features_c2=64 --num_features_c3=64 --num_features_c4=32
+2022-06-23 06:51:49 INFO Running runs: ['olkmw7n8']
+2022-06-23 07:12:53 INFO Cleaning up finished run: olkmw7n8
+2022-06-23 07:12:54 INFO Agent received command: run
+2022-06-23 07:12:54 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.4
+	dropout_c2: 0
+	dropout_c3: 0.3
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 128
+	num_features_c2: 32
+	num_features_c3: 32
+	num_features_c4: 64
+2022-06-23 07:12:54 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.4 --dropout_c2=0 --dropout_c3=0.3 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=128 --num_features_c2=32 --num_features_c3=32 --num_features_c4=64
+2022-06-23 07:12:59 INFO Running runs: ['2k7jsplb']
+2022-06-23 07:38:15 INFO Cleaning up finished run: 2k7jsplb
+2022-06-23 07:38:15 INFO Agent received command: run
+2022-06-23 07:38:15 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.2
+	dropout_c2: 0.1
+	dropout_c3: 0.2
+	dropout_c4: 0.2
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 128
+	num_features_c3: 16
+	num_features_c4: 16
+2022-06-23 07:38:15 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.2 --dropout_c2=0.1 --dropout_c3=0.2 --dropout_c4=0.2 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=128 --num_features_c3=16 --num_features_c4=16
+2022-06-23 07:38:21 INFO Running runs: ['8njaqoz3']
+2022-06-23 07:59:01 INFO Cleaning up finished run: 8njaqoz3
+2022-06-23 07:59:01 INFO Agent received command: run
+2022-06-23 07:59:01 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.3
+	dropout_c2: 0
+	dropout_c3: 0.2
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 16
+	num_features_c2: 32
+	num_features_c3: 32
+	num_features_c4: 64
+2022-06-23 07:59:01 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.3 --dropout_c2=0 --dropout_c3=0.2 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=16 --num_features_c2=32 --num_features_c3=32 --num_features_c4=64
+2022-06-23 07:59:06 INFO Running runs: ['s0fvtzjo']
+2022-06-23 08:19:00 INFO Cleaning up finished run: s0fvtzjo
+2022-06-23 08:19:00 INFO Agent received command: run
+2022-06-23 08:19:00 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.2
+	dropout_c2: 0.2
+	dropout_c3: 0.3
+	dropout_c4: 0.2
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 128
+	num_features_c3: 64
+	num_features_c4: 64
+2022-06-23 08:19:00 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.2 --dropout_c2=0.2 --dropout_c3=0.3 --dropout_c4=0.2 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=128 --num_features_c3=64 --num_features_c4=64
+2022-06-23 08:19:05 INFO Running runs: ['qqdeaup2']
+2022-06-23 08:36:42 INFO Cleaning up finished run: qqdeaup2
+2022-06-23 08:36:43 INFO Agent received command: run
+2022-06-23 08:36:43 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.3
+	dropout_c2: 0.2
+	dropout_c3: 0.3
+	dropout_c4: 0.1
+	dropout_ga: 0.1
+	learning_rate: 0.0005
+	num_features_c1: 128
+	num_features_c2: 128
+	num_features_c3: 64
+	num_features_c4: 32
+2022-06-23 08:36:43 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.3 --dropout_c2=0.2 --dropout_c3=0.3 --dropout_c4=0.1 --dropout_ga=0.1 --learning_rate=0.0005 --num_features_c1=128 --num_features_c2=128 --num_features_c3=64 --num_features_c4=32
+2022-06-23 08:36:48 INFO Running runs: ['oem3y98n']
+2022-06-23 09:02:20 INFO Cleaning up finished run: oem3y98n
+2022-06-23 09:02:21 INFO Agent received command: run
+2022-06-23 09:02:21 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c1: 0.1
+	dropout_c2: 0.1
+	dropout_c3: 0.3
+	dropout_c4: 0.1
+	dropout_ga: 0
+	learning_rate: 0.0005
+	num_features_c1: 128
+	num_features_c2: 32
+	num_features_c3: 16
+	num_features_c4: 32
+2022-06-23 09:02:21 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=8 --dropout_c1=0.1 --dropout_c2=0.1 --dropout_c3=0.3 --dropout_c4=0.1 --dropout_ga=0 --learning_rate=0.0005 --num_features_c1=128 --num_features_c2=32 --num_features_c3=16 --num_features_c4=32
+2022-06-23 09:02:26 INFO Running runs: ['lznovcag']
+2022-06-23 09:22:11 INFO Cleaning up finished run: lznovcag
+2022-06-23 09:22:13 INFO Agent received command: run
+2022-06-23 09:22:13 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c1: 0.4
+	dropout_c2: 0.1
+	dropout_c3: 0.4
+	dropout_c4: 0
+	dropout_ga: 0.2
+	learning_rate: 0.0005
+	num_features_c1: 64
+	num_features_c2: 32
+	num_features_c3: 64
+	num_features_c4: 16
+2022-06-23 09:22:13 INFO About to run command: /usr/bin/env python 2dCNN.py --batch_size=4 --dropout_c1=0.4 --dropout_c2=0.1 --dropout_c3=0.4 --dropout_c4=0 --dropout_ga=0.2 --learning_rate=0.0005 --num_features_c1=64 --num_features_c2=32 --num_features_c3=64 --num_features_c4=16
+2022-06-23 09:22:18 INFO Running runs: ['z21e7l62']
+2022-06-28 09:34:52 INFO Running runs: []
+2022-06-28 09:34:52 INFO Agent received command: run
+2022-06-28 09:34:52 INFO Agent starting run with config:
+	batch_size: 4
+	dropout_c: 0.3
+	dropout_ga: 0.1
+	learning_rate: 0.0003
+	num_features_c1: 64
+	num_features_c2: 64
+	num_features_c3: 128
+	num_features_c4: 64
+2022-06-28 09:34:52 INFO About to run command: /usr/bin/env python 2dCNN3.py --batch_size=4 --dropout_c=0.3 --dropout_ga=0.1 --learning_rate=0.0003 --num_features_c1=64 --num_features_c2=64 --num_features_c3=128 --num_features_c4=64
+2022-06-28 09:34:57 INFO Running runs: ['zot99734']
+2022-06-28 10:23:04 INFO Cleaning up finished run: zot99734
+2022-06-28 10:23:05 INFO Agent received command: run
+2022-06-28 10:23:05 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c: 0.3
+	dropout_ga: 0.2
+	learning_rate: 0.0003
+	num_features_c1: 64
+	num_features_c2: 64
+	num_features_c3: 64
+	num_features_c4: 128
+2022-06-28 10:23:05 INFO About to run command: /usr/bin/env python 2dCNN3.py --batch_size=8 --dropout_c=0.3 --dropout_ga=0.2 --learning_rate=0.0003 --num_features_c1=64 --num_features_c2=64 --num_features_c3=64 --num_features_c4=128
+2022-06-28 10:23:10 INFO Running runs: ['t2i6xeed']
+2022-06-28 11:08:55 INFO Cleaning up finished run: t2i6xeed
+2022-06-28 11:08:56 INFO Agent received command: run
+2022-06-28 11:08:56 INFO Agent starting run with config:
+	batch_size: 8
+	dropout_c: 0.3
+	dropout_ga: 0.1
+	learning_rate: 0.0003
+	num_features_c1: 128
+	num_features_c2: 64
+	num_features_c3: 128
+	num_features_c4: 64
+2022-06-28 11:08:56 INFO About to run command: /usr/bin/env python 2dCNN3.py --batch_size=8 --dropout_c=0.3 --dropout_ga=0.1 --learning_rate=0.0003 --num_features_c1=128 --num_features_c2=64 --num_features_c3=128 --num_features_c4=64
+2022-06-28 11:09:01 INFO Running runs: ['zh3yqlfh']

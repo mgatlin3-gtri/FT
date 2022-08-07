@@ -1,0 +1,467 @@
+2022-06-22 14:25:41.863829: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-22 14:25:41.864836: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-06-22 14:25:41.899365: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:5e:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 14:25:41.899756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:86:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 14:25:41.899779: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-22 14:25:41.902098: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-22 14:25:41.902153: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-22 14:25:41.904353: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-22 14:25:41.904871: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-22 14:25:41.907192: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-22 14:25:41.908435: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-22 14:25:41.913064: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-22 14:25:41.914401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-22 14:25:41.914808: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-22 14:25:41.914888: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-06-22 14:25:42.120722: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:5e:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 14:25:42.120980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties:
+pciBusID: 0000:86:00.0 name: NVIDIA GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2022-06-22 14:25:42.121004: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-22 14:25:42.121031: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-22 14:25:42.121044: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-06-22 14:25:42.121055: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-06-22 14:25:42.121068: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-06-22 14:25:42.121079: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-06-22 14:25:42.121090: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-06-22 14:25:42.121101: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-22 14:25:42.121781: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-06-22 14:25:42.121808: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-06-22 14:25:42.874497: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-22 14:25:42.874538: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1
+2022-06-22 14:25:42.874551: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y
+2022-06-22 14:25:42.874556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N
+2022-06-22 14:25:42.875588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10245 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:5e:00.0, compute capability: 6.1)
+2022-06-22 14:25:42.876233: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10255 MB memory) -> physical GPU (device: 1, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:86:00.0, compute capability: 6.1)
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+2022-06-22 14:25:43.241521: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-06-22 14:25:43.242007: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+2022-06-22 14:25:43.827197: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-06-22 14:25:44.100358: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-06-22 14:25:44.766709: W tensorflow/stream_executor/gpu/asm_compiler.cc:63] Running ptxas --version returned 256
+2022-06-22 14:25:44.809707: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 256, output:
+Relying on driver to perform ptx compilation.
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+Found 1120 images belonging to 4 classes.
+Found 264 images belonging to 4 classes.
+Found 220 images belonging to 4 classes.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d (Conv2D)              (None, 478, 638, 16)      448
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 239, 319, 16)      0
+_________________________________________________________________
+dropout (Dropout)            (None, 239, 319, 16)      0
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 237, 317, 32)      4640
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 118, 158, 32)      0
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 118, 158, 32)      0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 116, 156, 64)      18496
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 58, 78, 64)        0
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 58, 78, 64)        0
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 56, 76, 128)       73856
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 28, 38, 128)       0
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 28, 38, 128)       0
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 128)               0
+_________________________________________________________________
+dropout_4 (Dropout)          (None, 128)               0
+_________________________________________________________________
+dense (Dense)                (None, 4)                 516
+=================================================================
+Total params: 97,956
+Trainable params: 97,956
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/50
+
+
+
+
+
+
+70/70 [==============================] - 24s 255ms/step - loss: 1.3720 - accuracy: 0.2898 - val_loss: 1.1807 - val_accuracy: 0.4242
+Epoch 2/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 1.2281 - accuracy: 0.4239 - val_loss: 1.1168 - val_accuracy: 0.4318
+Epoch 3/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 1.1502 - accuracy: 0.4681 - val_loss: 1.1024 - val_accuracy: 0.5530
+Epoch 4/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 1.0689 - accuracy: 0.5594 - val_loss: 0.9415 - val_accuracy: 0.6364
+Epoch 5/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.9693 - accuracy: 0.6085 - val_loss: 0.9845 - val_accuracy: 0.5341
+Epoch 6/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.8803 - accuracy: 0.6641 - val_loss: 1.0861 - val_accuracy: 0.5644
+Epoch 7/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.8864 - accuracy: 0.6505 - val_loss: 0.7622 - val_accuracy: 0.6818
+Epoch 8/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.7815 - accuracy: 0.6920 - val_loss: 0.7858 - val_accuracy: 0.6970
+Epoch 9/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.7499 - accuracy: 0.7313 - val_loss: 0.7800 - val_accuracy: 0.6667
+Epoch 10/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.7723 - accuracy: 0.7159 - val_loss: 0.6702 - val_accuracy: 0.7500
+Epoch 11/50
+
+
+
+
+
+
+
+70/70 [==============================] - 15s 215ms/step - loss: 0.7440 - accuracy: 0.7248 - val_loss: 0.6699 - val_accuracy: 0.7235
+Epoch 12/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.6683 - accuracy: 0.7540 - val_loss: 0.9184 - val_accuracy: 0.6061
+Epoch 13/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.7032 - accuracy: 0.7321 - val_loss: 0.6781 - val_accuracy: 0.7197
+Epoch 14/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.6167 - accuracy: 0.7756 - val_loss: 0.7093 - val_accuracy: 0.6553
+Epoch 15/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.6592 - accuracy: 0.7665 - val_loss: 0.6408 - val_accuracy: 0.7121
+Epoch 16/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.5809 - accuracy: 0.7728 - val_loss: 0.6096 - val_accuracy: 0.7538
+Epoch 17/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.6281 - accuracy: 0.7653 - val_loss: 0.5699 - val_accuracy: 0.7841
+Epoch 18/50
+
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.6120 - accuracy: 0.7625 - val_loss: 0.5680 - val_accuracy: 0.7652
+Epoch 19/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.5873 - accuracy: 0.7835 - val_loss: 0.5631 - val_accuracy: 0.7348
+Epoch 20/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.5550 - accuracy: 0.7999 - val_loss: 0.5714 - val_accuracy: 0.7803
+Epoch 21/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.5206 - accuracy: 0.7961 - val_loss: 0.5586 - val_accuracy: 0.7576
+Epoch 22/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.5214 - accuracy: 0.7807 - val_loss: 0.6402 - val_accuracy: 0.7083
+Epoch 23/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.5713 - accuracy: 0.7914 - val_loss: 0.4845 - val_accuracy: 0.8068
+Epoch 24/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.5370 - accuracy: 0.8098 - val_loss: 0.5009 - val_accuracy: 0.7727
+Epoch 25/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 212ms/step - loss: 0.4835 - accuracy: 0.8291 - val_loss: 0.5242 - val_accuracy: 0.7803
+Epoch 26/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 214ms/step - loss: 0.4783 - accuracy: 0.8280 - val_loss: 0.5769 - val_accuracy: 0.7576
+Epoch 27/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.4997 - accuracy: 0.8034 - val_loss: 0.5074 - val_accuracy: 0.7727
+Epoch 28/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.4532 - accuracy: 0.8134 - val_loss: 0.4673 - val_accuracy: 0.7992
+Epoch 29/50
+
+
+
+
+
+
+70/70 [==============================] - 15s 213ms/step - loss: 0.5002 - accuracy: 0.7972 - val_loss: 0.4499 - val_accuracy: 0.7992
+Epoch 30/50
+17/70 [======>.......................] - ETA: 9s - loss: 0.4455 - accuracy: 0.8247
+28/70 [===========>..................] - ETA: 7s - loss: 0.4562 - accuracy: 0.8227
+40/70 [================>.............] - ETA: 5s - loss: 0.4562 - accuracy: 0.8253
+52/70 [=====================>........] - ETA: 3s - loss: 0.4566 - accuracy: 0.8264
+63/70 [==========================>...] - ETA: 1s - loss: 0.4552 - accuracy: 0.8280
+70/70 [==============================] - ETA: 0s - loss: 0.4544 - accuracy: 0.8286
+ 1/70 [..............................] - ETA: 16s - loss: 0.2672 - accuracy: 0.87500.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+12/70 [====>.........................] - ETA: 10s - loss: 0.3893 - accuracy: 0.84200.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+24/70 [=========>....................] - ETA: 8s - loss: 0.4336 - accuracy: 0.8300 0.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+35/70 [==============>...............] - ETA: 6s - loss: 0.4465 - accuracy: 0.8273 0.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+47/70 [===================>..........] - ETA: 4s - loss: 0.4496 - accuracy: 0.8262 0.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+56/70 [=======================>......] - ETA: 2s - loss: 0.4507 - accuracy: 0.8259 0.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+67/70 [===========================>..] - ETA: 0s - loss: 0.4520 - accuracy: 0.8260 0.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+70/70 [==============================] - ETA: 0s - loss: 0.4519 - accuracy: 0.8263 0.8286 - val_loss: 0.5157 - val_accuracy: 0.7841
+ 5/70 [=>............................] - ETA: 11s - loss: 0.3458 - accuracy: 0.86170.8263 - val_loss: 0.4683 - val_accuracy: 0.7841
+16/70 [=====>........................] - ETA: 9s - loss: 0.3662 - accuracy: 0.8534 0.8263 - val_loss: 0.4683 - val_accuracy: 0.7841
+28/70 [===========>..................] - ETA: 7s - loss: 0.3895 - accuracy: 0.8487 0.8263 - val_loss: 0.4683 - val_accuracy: 0.7841
+39/70 [===============>..............] - ETA: 5s - loss: 0.4115 - accuracy: 0.8423 0.8263 - val_loss: 0.4683 - val_accuracy: 0.7841
+51/70 [====================>.........] - ETA: 3s - loss: 0.4218 - accuracy: 0.8387 0.8263 - val_loss: 0.4683 - val_accuracy: 0.7841
+62/70 [=========================>....] - ETA: 1s - loss: 0.4253 - accuracy: 0.8381 0.8263 - val_loss: 0.4683 - val_accuracy: 0.7841
+70/70 [==============================] - ETA: 0s - loss: 0.4269 - accuracy: 0.8380 0.8263 - val_loss: 0.4683 - val_accuracy: 0.7841
+70/70 [==============================] - 15s 214ms/step - loss: 0.4271 - accuracy: 0.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+11/70 [===>..........................] - ETA: 10s - loss: 0.3351 - accuracy: 0.92240.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+23/70 [========>.....................] - ETA: 8s - loss: 0.3441 - accuracy: 0.9008 0.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+35/70 [==============>...............] - ETA: 6s - loss: 0.3686 - accuracy: 0.8844 0.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+46/70 [==================>...........] - ETA: 4s - loss: 0.3840 - accuracy: 0.8748 0.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+58/70 [=======================>......] - ETA: 2s - loss: 0.3959 - accuracy: 0.8679 0.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+69/70 [============================>.] - ETA: 0s - loss: 0.4021 - accuracy: 0.8645 0.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+70/70 [==============================] - ETA: 0s - loss: 0.4025 - accuracy: 0.8642 0.8380 - val_loss: 0.4762 - val_accuracy: 0.7917
+ 7/70 [==>...........................] - ETA: 10s - loss: 0.4462 - accuracy: 0.81410.8640 - val_loss: 0.6298 - val_accuracy: 0.7424
+18/70 [======>.......................] - ETA: 9s - loss: 0.4108 - accuracy: 0.8417 0.8640 - val_loss: 0.6298 - val_accuracy: 0.7424
+30/70 [===========>..................] - ETA: 6s - loss: 0.4009 - accuracy: 0.8508 0.8640 - val_loss: 0.6298 - val_accuracy: 0.7424
+41/70 [================>.............] - ETA: 5s - loss: 0.4000 - accuracy: 0.8534 0.8640 - val_loss: 0.6298 - val_accuracy: 0.7424
+53/70 [=====================>........] - ETA: 2s - loss: 0.4010 - accuracy: 0.8544 0.8640 - val_loss: 0.6298 - val_accuracy: 0.7424
+64/70 [==========================>...] - ETA: 1s - loss: 0.4049 - accuracy: 0.8528 0.8640 - val_loss: 0.6298 - val_accuracy: 0.7424
+70/70 [==============================] - ETA: 0s - loss: 0.4063 - accuracy: 0.8521 0.8640 - val_loss: 0.6298 - val_accuracy: 0.7424
+ 2/70 [..............................] - ETA: 11s - loss: 0.3288 - accuracy: 0.84380.8521 - val_loss: 0.5174 - val_accuracy: 0.7917
+13/70 [====>.........................] - ETA: 9s - loss: 0.3391 - accuracy: 0.8564 0.8521 - val_loss: 0.5174 - val_accuracy: 0.7917
+25/70 [=========>....................] - ETA: 7s - loss: 0.3471 - accuracy: 0.8631 0.8521 - val_loss: 0.5174 - val_accuracy: 0.7917
+36/70 [==============>...............] - ETA: 5s - loss: 0.3575 - accuracy: 0.8617 0.8521 - val_loss: 0.5174 - val_accuracy: 0.7917
+48/70 [===================>..........] - ETA: 3s - loss: 0.3685 - accuracy: 0.8590 0.8521 - val_loss: 0.5174 - val_accuracy: 0.7917
+59/70 [========================>.....] - ETA: 1s - loss: 0.3750 - accuracy: 0.8582 0.8521 - val_loss: 0.5174 - val_accuracy: 0.7917
+70/70 [==============================] - ETA: 0s - loss: 0.3802 - accuracy: 0.8571 0.8521 - val_loss: 0.5174 - val_accuracy: 0.7917
+ 8/70 [==>...........................] - ETA: 10s - loss: 0.3913 - accuracy: 0.85670.8570 - val_loss: 0.5320 - val_accuracy: 0.7689
+19/70 [=======>......................] - ETA: 8s - loss: 0.4178 - accuracy: 0.8470 0.8570 - val_loss: 0.5320 - val_accuracy: 0.7689
+31/70 [============>.................] - ETA: 6s - loss: 0.4197 - accuracy: 0.8439 0.8570 - val_loss: 0.5320 - val_accuracy: 0.7689
+43/70 [=================>............] - ETA: 4s - loss: 0.4208 - accuracy: 0.8430 0.8570 - val_loss: 0.5320 - val_accuracy: 0.7689
+51/70 [====================>.........] - ETA: 3s - loss: 0.4183 - accuracy: 0.8445 0.8570 - val_loss: 0.5320 - val_accuracy: 0.7689
+66/70 [===========================>..] - ETA: 0s - loss: 0.4140 - accuracy: 0.8466 0.8570 - val_loss: 0.5320 - val_accuracy: 0.7689
+70/70 [==============================] - ETA: 0s - loss: 0.4139 - accuracy: 0.8467 0.8570 - val_loss: 0.5320 - val_accuracy: 0.7689
+70/70 [==============================] - 15s 213ms/step - loss: 0.4140 - accuracy: 0.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+12/70 [====>.........................] - ETA: 10s - loss: 0.4754 - accuracy: 0.82930.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+23/70 [========>.....................] - ETA: 8s - loss: 0.4755 - accuracy: 0.8260 0.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+34/70 [=============>................] - ETA: 6s - loss: 0.4840 - accuracy: 0.8179 0.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+46/70 [==================>...........] - ETA: 4s - loss: 0.4855 - accuracy: 0.8153 0.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+58/70 [=======================>......] - ETA: 2s - loss: 0.4825 - accuracy: 0.8159 0.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+69/70 [============================>.] - ETA: 0s - loss: 0.4794 - accuracy: 0.8174 0.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+70/70 [==============================] - ETA: 0s - loss: 0.4792 - accuracy: 0.8175 0.8467 - val_loss: 0.4402 - val_accuracy: 0.8220
+ 6/70 [=>............................] - ETA: 11s - loss: 0.2952 - accuracy: 0.88680.8176 - val_loss: 0.5493 - val_accuracy: 0.7727
+18/70 [======>.......................] - ETA: 9s - loss: 0.3662 - accuracy: 0.8647 0.8176 - val_loss: 0.5493 - val_accuracy: 0.7727
+29/70 [===========>..................] - ETA: 7s - loss: 0.3769 - accuracy: 0.8622 0.8176 - val_loss: 0.5493 - val_accuracy: 0.7727
+41/70 [================>.............] - ETA: 5s - loss: 0.3784 - accuracy: 0.8627 0.8176 - val_loss: 0.5493 - val_accuracy: 0.7727
+52/70 [=====================>........] - ETA: 3s - loss: 0.3810 - accuracy: 0.8621 0.8176 - val_loss: 0.5493 - val_accuracy: 0.7727
+64/70 [==========================>...] - ETA: 1s - loss: 0.3822 - accuracy: 0.8615 0.8176 - val_loss: 0.5493 - val_accuracy: 0.7727
+70/70 [==============================] - ETA: 0s - loss: 0.3818 - accuracy: 0.8616 0.8176 - val_loss: 0.5493 - val_accuracy: 0.7727
+ 1/70 [..............................] - ETA: 15s - loss: 0.2754 - accuracy: 0.81250.8616 - val_loss: 0.4031 - val_accuracy: 0.8258
+13/70 [====>.........................] - ETA: 9s - loss: 0.3383 - accuracy: 0.8472 0.8616 - val_loss: 0.4031 - val_accuracy: 0.8258
+24/70 [=========>....................] - ETA: 7s - loss: 0.3217 - accuracy: 0.8604 0.8616 - val_loss: 0.4031 - val_accuracy: 0.8258
+36/70 [==============>...............] - ETA: 5s - loss: 0.3336 - accuracy: 0.8594 0.8616 - val_loss: 0.4031 - val_accuracy: 0.8258
+48/70 [===================>..........] - ETA: 3s - loss: 0.3455 - accuracy: 0.8569 0.8616 - val_loss: 0.4031 - val_accuracy: 0.8258
+59/70 [========================>.....] - ETA: 1s - loss: 0.3529 - accuracy: 0.8564 0.8616 - val_loss: 0.4031 - val_accuracy: 0.8258
+70/70 [==============================] - ETA: 0s - loss: 0.3588 - accuracy: 0.8556 0.8616 - val_loss: 0.4031 - val_accuracy: 0.8258
+ 7/70 [==>...........................] - ETA: 11s - loss: 0.3379 - accuracy: 0.85930.8555 - val_loss: 0.4357 - val_accuracy: 0.8106
+19/70 [=======>......................] - ETA: 8s - loss: 0.3473 - accuracy: 0.8502 0.8555 - val_loss: 0.4357 - val_accuracy: 0.8106
+30/70 [===========>..................] - ETA: 7s - loss: 0.3622 - accuracy: 0.8449 0.8555 - val_loss: 0.4357 - val_accuracy: 0.8106
+42/70 [=================>............] - ETA: 4s - loss: 0.3713 - accuracy: 0.8413 0.8555 - val_loss: 0.4357 - val_accuracy: 0.8106
+54/70 [======================>.......] - ETA: 2s - loss: 0.3774 - accuracy: 0.8390 0.8555 - val_loss: 0.4357 - val_accuracy: 0.8106
+65/70 [==========================>...] - ETA: 0s - loss: 0.3821 - accuracy: 0.8382 0.8555 - val_loss: 0.4357 - val_accuracy: 0.8106
+70/70 [==============================] - ETA: 0s - loss: 0.3846 - accuracy: 0.8378 0.8555 - val_loss: 0.4357 - val_accuracy: 0.8106
+ 2/70 [..............................] - ETA: 11s - loss: 0.3351 - accuracy: 0.89060.8378 - val_loss: 0.4203 - val_accuracy: 0.8144
+14/70 [=====>........................] - ETA: 9s - loss: 0.3693 - accuracy: 0.8848 0.8378 - val_loss: 0.4203 - val_accuracy: 0.8144
+25/70 [=========>....................] - ETA: 7s - loss: 0.3720 - accuracy: 0.8799 0.8378 - val_loss: 0.4203 - val_accuracy: 0.8144
+37/70 [==============>...............] - ETA: 5s - loss: 0.3854 - accuracy: 0.8729 0.8378 - val_loss: 0.4203 - val_accuracy: 0.8144
+49/70 [====================>.........] - ETA: 3s - loss: 0.3904 - accuracy: 0.8703 0.8378 - val_loss: 0.4203 - val_accuracy: 0.8144
+60/70 [========================>.....] - ETA: 1s - loss: 0.3900 - accuracy: 0.8689 0.8378 - val_loss: 0.4203 - val_accuracy: 0.8144
+70/70 [==============================] - ETA: 0s - loss: 0.3892 - accuracy: 0.8677 0.8378 - val_loss: 0.4203 - val_accuracy: 0.8144
+ 9/70 [==>...........................] - ETA: 10s - loss: 0.2829 - accuracy: 0.88700.8676 - val_loss: 0.5756 - val_accuracy: 0.7803
+21/70 [========>.....................] - ETA: 8s - loss: 0.2900 - accuracy: 0.8883 0.8676 - val_loss: 0.5756 - val_accuracy: 0.7803
+32/70 [============>.................] - ETA: 6s - loss: 0.3096 - accuracy: 0.8869 0.8676 - val_loss: 0.5756 - val_accuracy: 0.7803
+43/70 [=================>............] - ETA: 4s - loss: 0.3217 - accuracy: 0.8846 0.8676 - val_loss: 0.5756 - val_accuracy: 0.7803
+55/70 [======================>.......] - ETA: 2s - loss: 0.3262 - accuracy: 0.8832 0.8676 - val_loss: 0.5756 - val_accuracy: 0.7803
+67/70 [===========================>..] - ETA: 0s - loss: 0.3292 - accuracy: 0.8820 0.8676 - val_loss: 0.5756 - val_accuracy: 0.7803
+70/70 [==============================] - ETA: 0s - loss: 0.3297 - accuracy: 0.8818 0.8676 - val_loss: 0.5756 - val_accuracy: 0.7803
+ 4/70 [>.............................] - ETA: 11s - loss: 0.2512 - accuracy: 0.89840.8817 - val_loss: 0.5161 - val_accuracy: 0.7803
+13/70 [====>.........................] - ETA: 9s - loss: 0.2436 - accuracy: 0.9093 0.8817 - val_loss: 0.5161 - val_accuracy: 0.7803
+24/70 [=========>....................] - ETA: 8s - loss: 0.2787 - accuracy: 0.8994 0.8817 - val_loss: 0.5161 - val_accuracy: 0.7803
+36/70 [==============>...............] - ETA: 5s - loss: 0.2995 - accuracy: 0.8942 0.8817 - val_loss: 0.5161 - val_accuracy: 0.7803
+48/70 [===================>..........] - ETA: 3s - loss: 0.3097 - accuracy: 0.8913 0.8817 - val_loss: 0.5161 - val_accuracy: 0.7803
+59/70 [========================>.....] - ETA: 1s - loss: 0.3148 - accuracy: 0.8903 0.8817 - val_loss: 0.5161 - val_accuracy: 0.7803
+70/70 [==============================] - ETA: 0s - loss: 0.3179 - accuracy: 0.8897 0.8817 - val_loss: 0.5161 - val_accuracy: 0.7803
+ 8/70 [==>...........................] - ETA: 10s - loss: 0.3328 - accuracy: 0.86860.8896 - val_loss: 0.4943 - val_accuracy: 0.8030
+19/70 [=======>......................] - ETA: 8s - loss: 0.3633 - accuracy: 0.8630 0.8896 - val_loss: 0.4943 - val_accuracy: 0.8030
+31/70 [============>.................] - ETA: 6s - loss: 0.3665 - accuracy: 0.8666 0.8896 - val_loss: 0.4943 - val_accuracy: 0.8030
+42/70 [=================>............] - ETA: 4s - loss: 0.3684 - accuracy: 0.8671 0.8896 - val_loss: 0.4943 - val_accuracy: 0.8030
+54/70 [======================>.......] - ETA: 2s - loss: 0.3688 - accuracy: 0.8673 0.8896 - val_loss: 0.4943 - val_accuracy: 0.8030
+66/70 [===========================>..] - ETA: 0s - loss: 0.3700 - accuracy: 0.8669 0.8896 - val_loss: 0.4943 - val_accuracy: 0.8030
+70/70 [==============================] - ETA: 0s - loss: 0.3702 - accuracy: 0.8668 0.8896 - val_loss: 0.4943 - val_accuracy: 0.8030
+ 3/70 [>.............................] - ETA: 11s - loss: 0.4208 - accuracy: 0.80900.8668 - val_loss: 0.4672 - val_accuracy: 0.8030
+14/70 [=====>........................] - ETA: 9s - loss: 0.3624 - accuracy: 0.8513 0.8668 - val_loss: 0.4672 - val_accuracy: 0.8030
+26/70 [==========>...................] - ETA: 7s - loss: 0.3688 - accuracy: 0.8554 0.8668 - val_loss: 0.4672 - val_accuracy: 0.8030
+37/70 [==============>...............] - ETA: 5s - loss: 0.3741 - accuracy: 0.8543 0.8668 - val_loss: 0.4672 - val_accuracy: 0.8030
+49/70 [====================>.........] - ETA: 3s - loss: 0.3712 - accuracy: 0.8559 0.8668 - val_loss: 0.4672 - val_accuracy: 0.8030
+61/70 [=========================>....] - ETA: 1s - loss: 0.3675 - accuracy: 0.8576 0.8668 - val_loss: 0.4672 - val_accuracy: 0.8030
+70/70 [==============================] - ETA: 0s - loss: 0.3656 - accuracy: 0.8590 0.8668 - val_loss: 0.4672 - val_accuracy: 0.8030
+ 9/70 [==>...........................] - ETA: 10s - loss: 0.2937 - accuracy: 0.87490.8591 - val_loss: 0.4923 - val_accuracy: 0.8258
+21/70 [========>.....................] - ETA: 8s - loss: 0.3238 - accuracy: 0.8773 0.8591 - val_loss: 0.4923 - val_accuracy: 0.8258
+33/70 [=============>................] - ETA: 6s - loss: 0.3422 - accuracy: 0.8720 0.8591 - val_loss: 0.4923 - val_accuracy: 0.8258
+45/70 [==================>...........] - ETA: 4s - loss: 0.3520 - accuracy: 0.8691 0.8591 - val_loss: 0.4923 - val_accuracy: 0.8258
+56/70 [=======================>......] - ETA: 2s - loss: 0.3530 - accuracy: 0.8699 0.8591 - val_loss: 0.4923 - val_accuracy: 0.8258
+68/70 [============================>.] - ETA: 0s - loss: 0.3528 - accuracy: 0.8708 0.8591 - val_loss: 0.4923 - val_accuracy: 0.8258
+70/70 [==============================] - ETA: 0s - loss: 0.3526 - accuracy: 0.8709 0.8591 - val_loss: 0.4923 - val_accuracy: 0.8258
+ 5/70 [=>............................] - ETA: 11s - loss: 0.2022 - accuracy: 0.93060.8710 - val_loss: 0.4147 - val_accuracy: 0.8258
+16/70 [=====>........................] - ETA: 9s - loss: 0.2302 - accuracy: 0.9289 0.8710 - val_loss: 0.4147 - val_accuracy: 0.8258
+28/70 [===========>..................] - ETA: 7s - loss: 0.2621 - accuracy: 0.9151 0.8710 - val_loss: 0.4147 - val_accuracy: 0.8258
+40/70 [================>.............] - ETA: 5s - loss: 0.2755 - accuracy: 0.9078 0.8710 - val_loss: 0.4147 - val_accuracy: 0.8258
+51/70 [====================>.........] - ETA: 3s - loss: 0.2855 - accuracy: 0.9029 0.8710 - val_loss: 0.4147 - val_accuracy: 0.8258
+63/70 [==========================>...] - ETA: 1s - loss: 0.2952 - accuracy: 0.8980 0.8710 - val_loss: 0.4147 - val_accuracy: 0.8258
+70/70 [==============================] - ETA: 0s - loss: 0.3005 - accuracy: 0.8954 0.8710 - val_loss: 0.4147 - val_accuracy: 0.8258
+ 9/70 [==>...........................] - ETA: 10s - loss: 0.3182 - accuracy: 0.89310.8950 - val_loss: 0.4685 - val_accuracy: 0.8182
+23/70 [========>.....................] - ETA: 8s - loss: 0.3569 - accuracy: 0.8718 0.8950 - val_loss: 0.4685 - val_accuracy: 0.8182
+32/70 [============>.................] - ETA: 6s - loss: 0.3569 - accuracy: 0.8683 0.8950 - val_loss: 0.4685 - val_accuracy: 0.8182
+43/70 [=================>............] - ETA: 4s - loss: 0.3572 - accuracy: 0.8663 0.8950 - val_loss: 0.4685 - val_accuracy: 0.8182
+55/70 [======================>.......] - ETA: 2s - loss: 0.3530 - accuracy: 0.8666 0.8950 - val_loss: 0.4685 - val_accuracy: 0.8182
+66/70 [===========================>..] - ETA: 0s - loss: 0.3487 - accuracy: 0.8680 0.8950 - val_loss: 0.4685 - val_accuracy: 0.8182
+70/70 [==============================] - ETA: 0s - loss: 0.3473 - accuracy: 0.8686 0.8950 - val_loss: 0.4685 - val_accuracy: 0.8182
+ 2/14 [===>..........................] - ETA: 2s - loss: 0.5803 - accuracy: 0.7812 0.8687 - val_loss: 0.5362 - val_accuracy: 0.7841
+13/14 [==========================>...] - ETA: 0s - loss: 0.6958 - accuracy: 0.7356 0.8687 - val_loss: 0.5362 - val_accuracy: 0.7841
+14/14 [==============================] - 5s 352ms/step - loss: 0.7043 - accuracy: 0.73187 - val_loss: 0.5362 - val_accuracy: 0.7841
+14/14 [==============================] - 5s 352ms/step - loss: 0.7043 - accuracy: 0.73187 - val_loss: 0.5362 - val_accuracy: 0.7841

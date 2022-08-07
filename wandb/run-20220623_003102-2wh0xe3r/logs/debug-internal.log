@@ -1,0 +1,1249 @@
+2022-06-23 00:31:02,810 INFO    MainThread:1459 [internal.py:wandb_internal():90] W&B internal server running at pid: 1459, started at: 2022-06-23 00:31:02.809752
+2022-06-23 00:31:02,811 INFO    WriterThread:1459 [datastore.py:open_for_write():75] open: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/run-2wh0xe3r.wandb
+2022-06-23 00:31:02,813 DEBUG   SenderThread:1459 [sender.py:send():232] send: header
+2022-06-23 00:31:02,813 DEBUG   SenderThread:1459 [sender.py:send():232] send: run
+2022-06-23 00:31:02,929 INFO    SenderThread:1459 [dir_watcher.py:__init__():197] watching files in: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files
+2022-06-23 00:31:02,929 INFO    SenderThread:1459 [sender.py:_start_run_threads():811] run started: 2wh0xe3r with start time 1655958662
+2022-06-23 00:31:02,929 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:31:02,930 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:31:02,930 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: check_version
+2022-06-23 00:31:02,931 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: check_version
+2022-06-23 00:31:03,109 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: run_start
+2022-06-23 00:31:03,934 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:31:04,397 DEBUG   HandlerThread:1459 [meta.py:__init__():35] meta init
+2022-06-23 00:31:04,397 DEBUG   HandlerThread:1459 [meta.py:__init__():49] meta init done
+2022-06-23 00:31:04,397 DEBUG   HandlerThread:1459 [meta.py:probe():209] probe
+2022-06-23 00:31:04,403 DEBUG   HandlerThread:1459 [meta.py:_setup_git():199] setup git
+2022-06-23 00:31:04,434 DEBUG   HandlerThread:1459 [meta.py:_setup_git():206] setup git done
+2022-06-23 00:31:04,434 DEBUG   HandlerThread:1459 [meta.py:_save_pip():53] save pip
+2022-06-23 00:31:04,435 DEBUG   HandlerThread:1459 [meta.py:_save_pip():67] save pip done
+2022-06-23 00:31:04,435 DEBUG   HandlerThread:1459 [meta.py:_save_conda():74] save conda
+2022-06-23 00:31:04,934 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/requirements.txt
+2022-06-23 00:31:04,935 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/conda-environment.yaml
+2022-06-23 00:31:06,357 DEBUG   HandlerThread:1459 [meta.py:_save_conda():84] save conda done
+2022-06-23 00:31:06,358 DEBUG   HandlerThread:1459 [meta.py:probe():247] probe done
+2022-06-23 00:31:06,362 DEBUG   SenderThread:1459 [sender.py:send():232] send: files
+2022-06-23 00:31:06,362 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-23 00:31:06,363 DEBUG   SenderThread:1459 [sender.py:send():232] send: config
+2022-06-23 00:31:06,378 DEBUG   SenderThread:1459 [sender.py:send():232] send: telemetry
+2022-06-23 00:31:06,380 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:31:06,380 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:31:06,904 INFO    Thread-11 :1459 [upload_job.py:push():132] Uploaded file /tmp/tmpethlo_8ywandb/1ayg67b1-wandb-metadata.json
+2022-06-23 00:31:06,936 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/conda-environment.yaml
+2022-06-23 00:31:06,936 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:06,936 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-metadata.json
+2022-06-23 00:31:07,641 DEBUG   SenderThread:1459 [sender.py:send():232] send: telemetry
+2022-06-23 00:31:07,642 DEBUG   SenderThread:1459 [sender.py:send():232] send: telemetry
+2022-06-23 00:31:07,642 DEBUG   SenderThread:1459 [sender.py:send():232] send: files
+2022-06-23 00:31:07,642 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file model-best.h5 with policy live
+2022-06-23 00:31:07,643 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-23 00:31:07,643 DEBUG   SenderThread:1459 [sender.py:send():232] send: telemetry
+2022-06-23 00:31:08,937 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:10,939 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:13,586 DEBUG   SenderThread:1459 [sender.py:send():232] send: files
+2022-06-23 00:31:13,586 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file media/graph/graph_summary_6ea4f54d9ee43996bdf4.graph.json with policy now
+2022-06-23 00:31:13,587 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:31:13,597 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:31:13,941 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:31:13,941 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/media/graph/graph_summary_6ea4f54d9ee43996bdf4.graph.json
+2022-06-23 00:31:13,941 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/media/graph
+2022-06-23 00:31:13,941 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/media
+2022-06-23 00:31:14,389 INFO    Thread-12 :1459 [upload_job.py:push():132] Uploaded file /tmp/tmpethlo_8ywandb/2omagx1s-media/graph/graph_summary_6ea4f54d9ee43996bdf4.graph.json
+2022-06-23 00:31:14,942 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:16,965 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:18,967 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:20,998 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:22,489 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:31:22,489 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:31:23,012 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:25,019 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:27,025 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:29,030 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:31,178 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:31:31,182 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:31:31,182 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:31:31,183 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:31:31,185 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:31:31,186 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:31:31,190 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:31:31,190 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:31:31,190 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:31:32,033 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:31:32,033 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:31:32,912 INFO    Thread-13 :1459 [upload_job.py:push():132] Uploaded file /tmp/tmpethlo_8ywandb/2g50mdpv-model-best.h5
+2022-06-23 00:31:33,043 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:33,361 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:31:34,058 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/config.yaml
+2022-06-23 00:31:35,087 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:37,103 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:37,574 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:31:37,579 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:31:39,132 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:41,157 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:43,158 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:45,178 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:47,180 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:48,630 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:31:48,630 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:31:48,631 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:31:48,631 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:31:48,634 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:31:49,198 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:31:51,200 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:52,656 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:31:52,657 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:31:53,227 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:55,236 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:57,261 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:31:59,271 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:01,289 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:03,292 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:04,504 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:32:05,296 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:05,830 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:05,831 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:05,832 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:32:05,832 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:05,836 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:05,836 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:05,836 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:05,837 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:05,837 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:06,297 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:32:06,298 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:32:07,298 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:07,767 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:32:07,775 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:32:09,306 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:11,307 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:13,315 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:15,316 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:17,318 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:19,320 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:21,331 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:22,860 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:32:22,860 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:32:23,198 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:23,199 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:23,200 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:32:23,200 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:23,201 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:23,204 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:23,204 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:23,205 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:23,206 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:23,333 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:23,334 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:32:23,334 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:32:25,357 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:27,378 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:29,385 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:31,437 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:33,490 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:35,492 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:35,609 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:32:37,511 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:37,945 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:32:37,946 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:32:39,513 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:40,595 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:40,595 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:40,596 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:32:40,596 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:40,599 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:40,599 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:40,600 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:40,600 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:40,601 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:41,532 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:32:41,533 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:32:43,541 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:45,558 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:47,556 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:49,565 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:51,610 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:53,035 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:32:53,035 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:32:53,612 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:55,614 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:57,616 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:32:58,007 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:58,010 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:32:58,011 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:32:58,011 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:58,012 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:58,014 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:58,014 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:58,015 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:32:58,015 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:32:58,627 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:32:58,627 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:32:59,628 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:01,631 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:03,633 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:05,639 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:06,745 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:33:07,652 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:08,124 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:33:08,125 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:33:09,674 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:11,713 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:13,714 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:15,275 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:33:15,278 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:33:15,279 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:33:15,281 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:33:15,282 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:33:15,282 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:33:15,282 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:33:15,283 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:33:15,283 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:33:15,731 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:15,732 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:33:15,732 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:33:17,736 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:19,737 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:21,754 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:23,190 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:33:23,192 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:33:23,772 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:25,782 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:27,785 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:29,787 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:31,794 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:32,479 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:33:32,483 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:33:32,484 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:33:32,484 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:33:32,485 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:33:32,485 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:33:32,485 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:33:32,487 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:33:32,489 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:33:32,790 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:33:32,795 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:33:33,809 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:34,810 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:36,813 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:37,860 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:33:38,286 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:33:38,286 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:33:38,824 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:40,837 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:42,859 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:44,856 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:46,858 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:48,860 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:49,780 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:33:49,781 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:33:49,782 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:33:49,782 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:33:49,783 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:33:49,882 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:33:50,887 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:52,892 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:53,371 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:33:53,371 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:33:54,892 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:56,895 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:33:58,910 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:00,913 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:02,953 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:04,973 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:07,023 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:07,023 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:07,024 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:34:07,024 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:34:07,025 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:34:07,985 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:34:08,462 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:34:08,465 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:34:08,994 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:09,068 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:34:11,008 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:13,011 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:15,032 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:17,051 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:19,053 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:21,065 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:23,066 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:23,559 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:34:23,559 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:34:24,403 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:24,404 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:24,404 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:34:24,405 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:34:24,406 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:34:24,406 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:34:24,408 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:34:24,408 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:34:24,409 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:34:25,072 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:25,073 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:34:25,073 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:34:27,087 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:29,089 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:31,099 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:33,103 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:35,121 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:37,144 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:38,651 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:34:38,652 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:34:39,157 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:40,254 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:34:41,159 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:41,628 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:41,628 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:41,631 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:34:41,632 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:34:41,632 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:34:42,163 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:34:43,161 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:45,163 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:47,187 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:49,189 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:51,218 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:53,220 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:53,745 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:34:53,747 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:34:55,227 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:57,228 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:34:58,926 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:58,926 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:34:58,929 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:34:58,929 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:34:58,930 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:34:59,230 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:35:01,256 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:03,275 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:05,291 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:07,298 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:08,840 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:35:08,842 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:35:09,323 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:11,337 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:11,504 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:35:13,339 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:15,341 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:16,290 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:35:16,290 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:35:16,291 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:35:16,291 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:35:16,292 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:35:16,342 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:35:17,348 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:19,349 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:21,372 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:23,399 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:23,943 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:35:23,943 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:35:25,411 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:27,412 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:29,414 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:31,433 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:33,438 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:33,553 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:35:33,554 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:35:33,556 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:35:33,556 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:35:33,557 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:35:34,439 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:35:35,441 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:37,472 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:39,064 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:35:39,068 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:35:39,492 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:41,521 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:42,574 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:35:43,545 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:45,550 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:47,560 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:49,562 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:50,846 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:35:50,850 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:35:50,851 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:35:50,851 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:35:50,854 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:35:50,854 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:35:50,855 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:35:50,855 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:35:50,855 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:35:51,579 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:35:51,580 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:35:53,608 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:54,130 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:35:54,130 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:35:55,609 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:57,621 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:35:59,633 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:01,662 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:03,696 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:05,698 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:07,699 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:08,124 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:08,125 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:08,125 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:36:08,125 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:36:08,126 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:36:08,700 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:36:09,212 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:36:09,213 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:36:09,701 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:11,733 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:13,770 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:13,787 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:36:15,793 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:17,821 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:19,821 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:21,829 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:23,838 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:24,305 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:36:24,307 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:36:25,392 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:25,393 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:25,395 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:36:25,395 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:36:25,396 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:36:25,846 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:25,846 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:36:27,887 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:29,903 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:31,912 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:33,913 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:35,926 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:37,939 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:39,389 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:36:39,393 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:36:39,950 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:41,952 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:42,621 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:42,621 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:42,622 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:36:42,622 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:36:42,623 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:36:42,953 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:36:43,954 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:44,962 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:36:45,966 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:47,968 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:49,970 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:52,011 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:54,013 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:54,467 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:36:54,467 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:36:56,025 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:58,028 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:36:59,852 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:59,857 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:36:59,857 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:36:59,857 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:36:59,859 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:36:59,859 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:36:59,860 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:36:59,860 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:36:59,861 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:37:00,053 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:00,053 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:37:00,053 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:37:02,071 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:04,088 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:06,090 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:08,093 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:09,561 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:37:09,561 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:37:10,109 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:12,126 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:14,129 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:16,053 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:37:16,131 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:17,187 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:37:17,187 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:37:17,188 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:37:17,188 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:37:17,189 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:37:18,132 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:18,132 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:37:20,134 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:22,140 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:24,146 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:24,654 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:37:24,654 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:37:26,175 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:28,177 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:30,186 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:32,189 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:34,190 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:34,427 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:37:34,427 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:37:34,433 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:37:34,433 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:37:34,434 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:37:35,213 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:37:36,213 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:38,215 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:39,735 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:37:39,736 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:37:40,217 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:42,219 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:44,225 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:46,240 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:47,253 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:37:48,275 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:50,278 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:51,685 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:37:51,686 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:37:51,690 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:37:51,690 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:37:51,692 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:37:52,284 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:37:54,285 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:54,811 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:37:54,812 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:37:56,326 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:37:58,349 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:00,358 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:02,377 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:04,389 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:06,415 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:08,421 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:08,979 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:38:08,980 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:38:08,980 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:38:08,980 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:38:08,981 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:38:09,432 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:38:09,907 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:38:09,907 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:38:10,448 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:11,483 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:13,488 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:15,501 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:17,524 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:18,488 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:38:19,531 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:21,550 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:23,556 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:24,971 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:38:24,972 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:38:25,558 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:26,241 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:38:26,242 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:38:26,242 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:38:26,243 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:38:26,244 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:38:26,247 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:38:26,247 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:38:26,248 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:38:26,248 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:38:26,559 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:38:26,560 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:38:27,575 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:29,602 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:31,603 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:33,624 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:35,626 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:37,635 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:39,637 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:40,035 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:38:40,035 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:38:41,639 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:43,497 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:38:43,498 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:38:43,499 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:38:43,499 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:38:43,500 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:38:43,651 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:38:45,666 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:47,705 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:49,620 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:38:49,707 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:51,727 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:53,747 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:55,742 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:56,675 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:38:56,677 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:38:57,753 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:38:59,760 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:00,670 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:00,671 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:00,672 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:39:00,672 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:39:00,673 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:39:00,767 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:39:01,767 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:03,770 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:05,781 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:07,788 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:09,803 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:11,776 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:39:11,776 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:39:11,830 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:13,856 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:15,857 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:17,859 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:17,876 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:17,877 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:17,878 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:39:17,878 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:39:17,879 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:39:18,877 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:39:19,878 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:20,704 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:39:21,909 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:23,942 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:25,951 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:26,847 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:39:26,847 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:39:27,954 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:29,956 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:31,976 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:33,978 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:35,145 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:35,146 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:35,148 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:39:35,148 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:39:35,149 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:39:36,011 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:36,012 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:39:38,013 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:40,036 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:41,928 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:39:41,928 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:39:42,042 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:44,044 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:46,073 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:48,097 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:50,116 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:51,877 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:39:52,118 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:52,429 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:52,429 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:39:52,435 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:39:52,435 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:39:52,436 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:39:53,121 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:39:54,122 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:56,124 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:39:57,006 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:39:57,006 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:39:58,151 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:00,170 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:02,172 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:04,189 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:06,207 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:08,209 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:09,634 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:40:09,635 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:40:09,639 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:40:09,639 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:40:09,641 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:40:10,212 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:40:12,119 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:40:12,119 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:40:12,224 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:14,258 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:16,278 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:18,309 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:20,332 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:22,361 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:22,987 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:40:24,382 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:26,383 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:26,972 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:40:26,973 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:40:26,973 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:40:26,974 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:40:26,975 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:40:27,204 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:40:27,204 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:40:27,399 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:40:28,429 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:30,435 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:32,467 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:34,493 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:36,495 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:38,523 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:40,525 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:42,286 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:40:42,286 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:40:42,539 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:44,275 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:40:44,276 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:40:44,278 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:40:44,278 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:40:44,279 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:40:44,541 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:44,541 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:40:46,567 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:48,569 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:50,574 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:52,592 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:54,299 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:40:54,595 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:56,620 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:40:57,366 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:40:57,369 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:40:58,656 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:00,660 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:01,612 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:01,617 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:01,617 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:41:01,617 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:01,620 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:01,620 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:01,622 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:01,622 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:01,623 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:01,661 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:41:01,661 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:41:02,680 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:04,688 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:06,706 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:08,708 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:10,719 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:12,458 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:41:12,458 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:41:12,723 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:14,747 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:16,760 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:18,762 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:18,924 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:18,925 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:18,926 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:41:18,926 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:18,927 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:19,763 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:41:20,764 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:22,767 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:24,773 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:25,548 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:41:26,782 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:27,568 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:41:27,568 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:41:28,811 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:30,817 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:32,845 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:34,852 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:36,165 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:36,166 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:36,167 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:41:36,167 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:36,169 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:36,170 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:36,171 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:36,171 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:36,172 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:36,855 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:36,855 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:41:36,855 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:41:38,862 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:40,910 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:42,661 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:41:42,661 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:41:42,919 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:44,922 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:46,945 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:48,954 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:50,955 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:52,957 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:53,500 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:53,501 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:41:53,502 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:41:53,502 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:41:53,503 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:41:53,985 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:41:54,990 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:55,997 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:41:56,758 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:41:57,772 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:41:57,772 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:41:57,999 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:00,015 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:02,030 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:04,067 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:06,076 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:08,077 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:10,080 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:10,775 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:42:10,779 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:42:10,780 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:42:10,780 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:42:10,783 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:42:10,783 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:42:10,783 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:42:10,784 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:42:10,784 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:42:11,080 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5
+2022-06-23 00:42:11,081 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:42:12,081 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:12,859 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:42:12,865 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:42:14,111 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:16,142 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:18,145 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:20,152 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:22,178 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:24,209 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:26,215 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:27,931 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:42:27,955 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:42:27,956 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:42:28,170 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:42:28,171 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:42:28,172 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:42:28,172 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:42:28,173 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:42:28,217 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:42:30,219 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:32,225 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:34,242 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:36,285 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:38,322 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:40,324 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:42,326 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:43,073 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:42:43,073 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:42:44,328 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:45,553 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:42:45,553 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:42:45,554 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:42:45,554 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:42:45,555 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:42:46,329 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:46,330 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:42:48,345 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:50,367 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:52,399 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:54,413 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:56,419 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:58,143 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:42:58,143 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:42:58,425 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:42:59,145 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:43:00,422 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:02,438 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:02,803 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:02,804 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:02,804 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:43:02,804 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:43:02,805 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:43:03,436 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:43:04,455 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:06,472 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:08,504 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:10,518 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:12,526 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:13,217 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:43:13,217 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:43:14,552 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:16,559 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:18,579 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:20,105 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:20,105 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:20,106 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:43:20,106 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:43:20,107 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:43:20,608 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:43:22,635 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:24,649 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:26,651 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:28,288 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:43:28,288 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:43:28,687 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:30,298 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:43:30,688 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:32,695 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:34,697 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:36,699 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:37,374 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:37,375 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:37,376 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:43:37,376 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:43:37,377 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:43:37,700 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:43:38,701 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:40,703 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:42,713 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:43,387 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:43:43,391 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:43:44,717 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:46,728 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:48,730 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:50,759 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:52,767 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:54,615 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:54,615 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:43:54,616 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:43:54,616 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:43:54,617 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:43:54,776 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:43:56,790 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:43:58,457 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:43:58,457 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:43:58,807 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:00,818 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:01,401 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:44:02,820 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:04,822 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:06,824 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:08,848 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:10,855 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:11,825 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:44:11,825 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:44:11,826 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:44:11,826 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:44:11,827 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:44:11,856 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:44:12,861 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:13,539 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:44:13,544 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:44:14,870 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:16,902 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:18,910 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:20,925 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:22,927 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:24,948 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:26,974 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:28,641 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:44:28,644 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:44:28,976 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:29,047 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:44:29,047 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:44:29,048 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:44:29,048 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:44:29,049 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:44:29,981 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:44:30,981 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:32,523 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:44:33,002 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:35,025 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:37,034 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:39,046 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:41,063 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:43,087 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:43,710 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:44:43,711 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:44:45,095 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:46,401 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:44:46,401 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:44:46,402 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:44:46,402 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:44:46,403 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:44:47,096 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:44:49,118 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:51,149 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:53,160 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:55,162 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:57,184 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:44:58,807 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:44:58,808 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:44:59,185 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:01,187 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:03,188 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:03,663 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:45:03,681 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:03,681 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:03,684 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:45:03,684 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:45:03,685 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:45:04,189 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:45:05,197 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:07,199 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:09,229 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:11,236 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:13,263 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:13,887 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:45:13,887 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:45:15,290 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:17,292 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:19,299 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:20,932 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:20,932 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:20,933 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:45:20,933 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:45:20,934 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:45:21,303 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:21,303 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:45:23,323 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:25,332 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:27,366 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:28,979 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:45:28,980 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:45:29,375 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:31,393 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:33,411 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:34,847 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:45:35,435 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:37,437 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:38,280 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:38,281 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:38,282 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:45:38,282 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:45:38,283 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:45:38,438 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:45:39,450 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:41,452 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:43,455 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:44,087 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:45:44,088 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:45:45,500 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:47,502 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:49,530 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:51,556 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:53,557 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:55,558 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:55,567 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:55,567 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:45:55,570 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:45:55,570 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:45:55,571 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:45:56,560 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:45:57,561 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:45:59,163 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:45:59,163 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:45:59,563 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:01,578 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:03,602 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:05,612 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:05,946 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:46:07,632 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:09,654 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:11,654 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:12,739 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:46:12,740 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:46:12,741 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:46:12,741 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:46:12,741 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:46:13,673 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:13,674 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:46:14,227 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:46:14,227 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:46:15,678 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:17,696 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:19,705 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:21,729 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:22,742 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:24,745 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:27,748 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:29,313 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:46:29,313 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:46:29,752 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:30,033 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:46:30,033 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:46:30,034 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:46:30,034 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:46:30,035 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:46:30,780 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:30,781 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:46:32,791 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:34,796 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:36,824 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:37,189 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:46:38,854 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:40,865 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:42,878 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:44,394 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:46:44,394 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:46:44,897 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:46,899 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:47,247 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:46:47,248 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:46:47,248 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:46:47,248 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:46:47,249 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:46:47,918 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:46:48,935 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:50,950 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:52,957 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:54,985 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:57,015 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:59,039 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:46:59,479 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:46:59,480 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:47:01,073 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:03,072 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:04,561 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:04,562 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:04,562 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:47:04,562 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:47:04,563 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:47:05,094 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:05,094 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:47:07,130 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:08,399 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:47:09,131 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:11,159 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:13,162 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:14,555 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:47:14,558 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:47:15,164 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:17,166 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:19,168 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:21,170 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:21,932 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:21,932 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:21,933 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:47:21,933 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:47:21,934 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:47:22,190 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:47:23,198 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:25,210 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:27,228 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:29,242 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:29,649 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:47:29,651 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:47:31,260 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:33,262 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:35,264 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:37,279 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:39,247 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:39,249 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:39,250 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:47:39,250 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:47:39,251 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:47:39,280 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:39,280 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:47:39,564 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:47:41,295 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:43,348 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:44,736 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-23 00:47:44,736 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: stop_status
+2022-06-23 00:47:45,363 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:47,380 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:49,382 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:51,411 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:53,426 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:55,428 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:56,522 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:56,522 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:56,523 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:47:56,523 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:47:56,523 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:47:57,430 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:57,430 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:47:58,695 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-23 00:47:58,696 DEBUG   SenderThread:1459 [sender.py:send():232] send: history
+2022-06-23 00:47:58,696 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:47:58,697 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:47:58,698 DEBUG   SenderThread:1459 [sender.py:send():232] send: telemetry
+2022-06-23 00:47:59,431 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:47:59,431 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:48:00,432 INFO    Thread-7  :1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:48:00,976 DEBUG   SenderThread:1459 [sender.py:send():232] send: exit
+2022-06-23 00:48:00,976 INFO    SenderThread:1459 [sender.py:send_exit():368] handling exit code: 0
+2022-06-23 00:48:00,977 INFO    SenderThread:1459 [sender.py:send_exit():370] handling runtime: 1017
+2022-06-23 00:48:00,977 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:00,978 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:48:00,978 INFO    SenderThread:1459 [sender.py:send_exit():376] send defer
+2022-06-23 00:48:00,978 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:00,978 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:00,978 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-23 00:48:00,978 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:00,978 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-23 00:48:00,979 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 1
+2022-06-23 00:48:00,979 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:00,979 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-23 00:48:01,035 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:01,035 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-23 00:48:01,035 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 2
+2022-06-23 00:48:01,035 DEBUG   SenderThread:1459 [sender.py:send():232] send: stats
+2022-06-23 00:48:01,036 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:01,036 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-23 00:48:01,036 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:01,036 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-23 00:48:01,036 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 3
+2022-06-23 00:48:01,036 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:01,036 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-23 00:48:01,036 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:01,036 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-23 00:48:01,036 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 4
+2022-06-23 00:48:01,036 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:01,036 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-23 00:48:01,037 DEBUG   SenderThread:1459 [sender.py:send():232] send: summary
+2022-06-23 00:48:01,037 INFO    SenderThread:1459 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-23 00:48:01,037 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:01,037 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-23 00:48:01,037 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 5
+2022-06-23 00:48:01,038 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:01,038 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-23 00:48:01,038 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:01,038 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-23 00:48:01,079 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:01,139 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 6
+2022-06-23 00:48:01,139 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:01,139 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:01,139 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-23 00:48:01,139 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:01,139 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-23 00:48:01,139 INFO    SenderThread:1459 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-23 00:48:01,240 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:01,433 INFO    SenderThread:1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:48:01,434 INFO    SenderThread:1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/config.yaml
+2022-06-23 00:48:01,434 INFO    SenderThread:1459 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:48:01,434 INFO    SenderThread:1459 [dir_watcher.py:finish():342] scan: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files
+2022-06-23 00:48:01,434 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/config.yaml config.yaml
+2022-06-23 00:48:01,434 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/requirements.txt requirements.txt
+2022-06-23 00:48:01,434 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/model-best.h5 model-best.h5
+2022-06-23 00:48:01,439 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-metadata.json wandb-metadata.json
+2022-06-23 00:48:01,439 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/conda-environment.yaml conda-environment.yaml
+2022-06-23 00:48:01,439 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json wandb-summary.json
+2022-06-23 00:48:01,439 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log output.log
+2022-06-23 00:48:01,439 INFO    SenderThread:1459 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/media/graph/graph_summary_6ea4f54d9ee43996bdf4.graph.json media/graph/graph_summary_6ea4f54d9ee43996bdf4.graph.json
+2022-06-23 00:48:01,440 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 7
+2022-06-23 00:48:01,440 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:01,440 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:01,440 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-23 00:48:01,440 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:01,440 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-23 00:48:01,440 INFO    SenderThread:1459 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-23 00:48:01,541 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:01,541 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:01,642 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:01,642 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:01,742 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:01,743 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:01,843 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:01,843 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:01,855 INFO    Thread-18 :1459 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/wandb-summary.json
+2022-06-23 00:48:01,859 INFO    Thread-15 :1459 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/requirements.txt
+2022-06-23 00:48:01,912 INFO    Thread-14 :1459 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/config.yaml
+2022-06-23 00:48:01,944 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:01,944 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:01,947 INFO    Thread-19 :1459 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/output.log
+2022-06-23 00:48:01,949 INFO    Thread-17 :1459 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/files/conda-environment.yaml
+2022-06-23 00:48:01,989 INFO    Thread-16 :1459 [upload_job.py:push():132] Uploaded file /tmp/tmpethlo_8ywandb/1o6t0jjn-model-best.h5
+2022-06-23 00:48:02,045 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:02,045 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:02,146 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:02,146 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:02,189 INFO    Thread-6  :1459 [sender.py:transition_state():389] send defer: 8
+2022-06-23 00:48:02,189 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:02,189 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-23 00:48:02,190 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:02,190 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-23 00:48:02,247 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:02,430 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 9
+2022-06-23 00:48:02,430 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:02,431 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:02,431 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-23 00:48:02,431 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:02,431 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-23 00:48:02,431 INFO    SenderThread:1459 [sender.py:transition_state():389] send defer: 10
+2022-06-23 00:48:02,431 DEBUG   SenderThread:1459 [sender.py:send():232] send: final
+2022-06-23 00:48:02,431 DEBUG   SenderThread:1459 [sender.py:send():232] send: footer
+2022-06-23 00:48:02,431 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: defer
+2022-06-23 00:48:02,431 INFO    HandlerThread:1459 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-23 00:48:02,432 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: defer
+2022-06-23 00:48:02,432 INFO    SenderThread:1459 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-23 00:48:02,531 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-23 00:48:02,531 DEBUG   SenderThread:1459 [sender.py:send_request():246] send_request: poll_exit
+2022-06-23 00:48:02,531 INFO    SenderThread:1459 [file_pusher.py:join():150] waiting for file pusher
+2022-06-23 00:48:02,764 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-23 00:48:02,765 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-23 00:48:02,765 DEBUG   HandlerThread:1459 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-23 00:48:02,765 INFO    HandlerThread:1459 [handler.py:finish():806] shutting down handler
+2022-06-23 00:48:03,432 INFO    WriterThread:1459 [datastore.py:close():279] close: /home/apopa6/feces_thesis/wandb/run-20220623_003102-2wh0xe3r/run-2wh0xe3r.wandb
+2022-06-23 00:48:03,663 INFO    SenderThread:1459 [sender.py:finish():1110] shutting down sender
+2022-06-23 00:48:03,663 INFO    SenderThread:1459 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-23 00:48:03,663 INFO    SenderThread:1459 [file_pusher.py:join():150] waiting for file pusher
+2022-06-23 00:48:03,665 INFO    MainThread:1459 [internal.py:handle_exit():80] Internal process exited

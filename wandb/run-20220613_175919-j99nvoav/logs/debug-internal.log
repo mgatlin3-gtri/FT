@@ -1,0 +1,970 @@
+2022-06-13 17:59:19,737 INFO    MainThread:142104 [internal.py:wandb_internal():90] W&B internal server running at pid: 142104, started at: 2022-06-13 17:59:19.736858
+2022-06-13 17:59:19,738 INFO    WriterThread:142104 [datastore.py:open_for_write():75] open: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/run-j99nvoav.wandb
+2022-06-13 17:59:19,739 DEBUG   SenderThread:142104 [sender.py:send():232] send: header
+2022-06-13 17:59:19,739 DEBUG   SenderThread:142104 [sender.py:send():232] send: run
+2022-06-13 17:59:19,871 INFO    SenderThread:142104 [dir_watcher.py:__init__():197] watching files in: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files
+2022-06-13 17:59:19,871 INFO    SenderThread:142104 [sender.py:_start_run_threads():811] run started: j99nvoav with start time 1655157559
+2022-06-13 17:59:19,871 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 17:59:19,872 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: check_version
+2022-06-13 17:59:19,872 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 17:59:19,872 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: check_version
+2022-06-13 17:59:19,962 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: run_start
+2022-06-13 17:59:20,873 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 17:59:21,221 DEBUG   HandlerThread:142104 [meta.py:__init__():35] meta init
+2022-06-13 17:59:21,221 DEBUG   HandlerThread:142104 [meta.py:__init__():49] meta init done
+2022-06-13 17:59:21,221 DEBUG   HandlerThread:142104 [meta.py:probe():209] probe
+2022-06-13 17:59:21,228 DEBUG   HandlerThread:142104 [meta.py:_setup_git():199] setup git
+2022-06-13 17:59:21,252 DEBUG   HandlerThread:142104 [meta.py:_setup_git():206] setup git done
+2022-06-13 17:59:21,252 DEBUG   HandlerThread:142104 [meta.py:_save_pip():53] save pip
+2022-06-13 17:59:21,253 DEBUG   HandlerThread:142104 [meta.py:_save_pip():67] save pip done
+2022-06-13 17:59:21,253 DEBUG   HandlerThread:142104 [meta.py:_save_conda():74] save conda
+2022-06-13 17:59:21,875 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/conda-environment.yaml
+2022-06-13 17:59:21,875 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/requirements.txt
+2022-06-13 17:59:23,305 DEBUG   HandlerThread:142104 [meta.py:_save_conda():84] save conda done
+2022-06-13 17:59:23,305 DEBUG   HandlerThread:142104 [meta.py:probe():247] probe done
+2022-06-13 17:59:23,309 DEBUG   SenderThread:142104 [sender.py:send():232] send: files
+2022-06-13 17:59:23,309 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-13 17:59:23,315 DEBUG   SenderThread:142104 [sender.py:send():232] send: config
+2022-06-13 17:59:23,323 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 17:59:23,323 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 17:59:23,397 DEBUG   SenderThread:142104 [sender.py:send():232] send: telemetry
+2022-06-13 17:59:23,876 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/conda-environment.yaml
+2022-06-13 17:59:23,877 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:23,877 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-metadata.json
+2022-06-13 17:59:23,881 INFO    Thread-11 :142104 [upload_job.py:push():132] Uploaded file /tmp/tmpdeh83iuxwandb/1zptotlm-wandb-metadata.json
+2022-06-13 17:59:24,867 DEBUG   SenderThread:142104 [sender.py:send():232] send: telemetry
+2022-06-13 17:59:24,868 DEBUG   SenderThread:142104 [sender.py:send():232] send: telemetry
+2022-06-13 17:59:24,868 DEBUG   SenderThread:142104 [sender.py:send():232] send: files
+2022-06-13 17:59:24,868 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file model-best.h5 with policy live
+2022-06-13 17:59:24,869 DEBUG   SenderThread:142104 [sender.py:send():232] send: telemetry
+2022-06-13 17:59:24,869 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-13 17:59:25,899 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:27,901 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:29,902 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:30,258 DEBUG   SenderThread:142104 [sender.py:send():232] send: files
+2022-06-13 17:59:30,258 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file media/graph/graph_summary_8da3f505664fd32b91a7.graph.json with policy now
+2022-06-13 17:59:30,259 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 17:59:30,273 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 17:59:30,861 INFO    Thread-12 :142104 [upload_job.py:push():132] Uploaded file /tmp/tmpdeh83iuxwandb/2c3hz8x4-media/graph/graph_summary_8da3f505664fd32b91a7.graph.json
+2022-06-13 17:59:30,903 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 17:59:30,903 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/graph/graph_summary_8da3f505664fd32b91a7.graph.json
+2022-06-13 17:59:30,903 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/graph
+2022-06-13 17:59:30,904 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media
+2022-06-13 17:59:31,904 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:33,906 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:35,908 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:37,910 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:39,528 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 17:59:39,530 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 17:59:39,924 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:41,929 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:43,930 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:45,936 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:47,954 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:49,956 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:50,119 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 17:59:50,963 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/config.yaml
+2022-06-13 17:59:51,964 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:53,966 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:54,591 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 17:59:54,591 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 17:59:55,968 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:57,969 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 17:59:59,971 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:01,973 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:03,974 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:05,976 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:07,981 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:09,694 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:00:09,694 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:00:09,982 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:11,984 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:13,986 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:15,988 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:17,989 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:18,021 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:00:18,021 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:00:18,022 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:00:18,022 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:00:18,023 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:00:18,990 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:00:19,991 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:20,931 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:00:22,003 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:24,005 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:24,764 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:00:24,765 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:00:26,040 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:28,041 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:30,043 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:32,045 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:34,046 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:36,048 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:38,050 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:39,837 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:00:39,837 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:00:40,053 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:42,054 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:44,055 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:46,057 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:48,063 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:50,064 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:51,725 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:00:52,066 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:54,068 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:54,915 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:00:54,915 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:00:56,075 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:00:58,077 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:00,087 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:02,089 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:04,090 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:06,114 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:06,138 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:01:06,138 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:01:06,139 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:01:06,139 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:01:06,140 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:01:07,115 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:01:08,116 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:09,981 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:01:09,981 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:01:10,118 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:12,126 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:14,123 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:16,125 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:18,127 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:20,130 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:22,132 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:22,569 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:01:24,133 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:25,054 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:01:25,054 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:01:26,147 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:28,148 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:30,150 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:32,152 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:34,154 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:36,155 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:38,157 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:40,130 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:01:40,131 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:01:40,159 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:42,160 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:44,162 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:46,164 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:48,176 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:50,177 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:52,191 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:53,379 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:01:53,825 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:01:53,825 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:01:53,826 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:01:53,826 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:01:53,827 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:01:54,201 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:54,201 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:01:55,202 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:01:55,203 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:01:56,202 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:01:58,204 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:00,206 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:02,208 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:04,210 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:06,212 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:08,220 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:10,222 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:10,266 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:02:10,266 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:02:12,223 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:14,225 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:16,227 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:18,229 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:20,230 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:22,232 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:24,216 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:02:24,234 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:25,332 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:02:25,332 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:02:26,261 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:28,262 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:30,264 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:32,266 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:34,268 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:36,270 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:38,271 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:40,273 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:40,402 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:02:40,402 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:02:41,583 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:02:41,583 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:02:41,584 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:02:41,584 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:02:41,585 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:02:42,275 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:42,275 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:02:44,276 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:46,278 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:48,280 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:50,288 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:52,290 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:54,292 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:55,079 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:02:55,467 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:02:55,467 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:02:56,294 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:02:58,296 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:00,297 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:02,299 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:04,312 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:06,331 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:08,337 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:10,338 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:10,575 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:03:10,575 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:03:12,340 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:14,342 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:16,353 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:18,354 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:20,356 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:22,357 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:24,362 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:25,640 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:03:25,640 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:03:25,879 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:03:26,366 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:28,367 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:29,298 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:03:29,298 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:03:29,299 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:03:29,299 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:03:29,300 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:03:29,368 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:03:30,377 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:32,379 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:34,381 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:36,383 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:38,385 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:40,387 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:40,704 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:03:40,704 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:03:42,408 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:44,403 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:46,405 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:48,406 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:50,408 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:52,410 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:54,416 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:55,785 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:03:55,785 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:03:56,417 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:03:56,692 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:03:58,420 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:00,421 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:02,428 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:04,430 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:06,432 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:08,433 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:10,435 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:10,856 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:04:10,856 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:04:12,437 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:14,439 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:16,440 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:16,800 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:04:16,800 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:04:16,800 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:04:16,801 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:04:16,802 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:04:17,441 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:04:18,442 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:20,444 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:22,446 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:24,448 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:25,924 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:04:25,925 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:04:26,450 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:27,488 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:04:28,488 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:30,490 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:32,492 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:34,494 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:36,496 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:38,497 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:40,499 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:41,087 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:04:41,087 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:04:42,501 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:44,503 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:46,505 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:48,507 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:50,509 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:52,510 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:54,514 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:56,155 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:04:56,165 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:04:56,532 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:04:58,273 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:04:58,543 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:00,545 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:02,553 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:04,397 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:05:04,397 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:05:04,398 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:05:04,398 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:05:04,401 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:05:04,563 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:04,563 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:05:06,565 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:08,567 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:10,569 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:11,250 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:05:11,251 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:05:12,571 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:14,572 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:16,575 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:18,577 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:20,579 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:22,581 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:24,583 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:26,314 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:05:26,314 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:05:26,585 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:28,587 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:29,123 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:05:30,589 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:32,591 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:34,593 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:36,598 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:38,600 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:40,602 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:41,387 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:05:41,393 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:05:42,605 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:44,611 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:46,613 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:48,618 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:50,620 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:52,184 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:05:52,184 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:05:52,185 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:05:52,185 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:05:52,186 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:05:52,653 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:52,653 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:05:54,655 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:56,465 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:05:56,465 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:05:56,657 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:58,658 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:05:59,891 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:06:00,660 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:02,662 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:04,664 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:06,666 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:08,668 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:10,669 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:11,537 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:06:11,537 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:06:12,671 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:14,673 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:16,675 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:18,677 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:20,679 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:22,680 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:24,682 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:26,601 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:06:26,602 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:06:26,684 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:28,685 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:30,697 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:06:30,697 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:32,699 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:34,726 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:36,727 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:38,728 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:39,699 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:06:39,700 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:06:39,700 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:06:39,700 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:06:39,701 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:06:39,729 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:06:40,730 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:41,669 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:06:41,669 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:06:42,732 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:44,734 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:46,759 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:48,760 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:50,762 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:52,771 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:54,768 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:56,735 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:06:56,736 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:06:56,769 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:06:58,771 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:00,773 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:01,547 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:07:02,776 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:04,777 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:06,779 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:08,781 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:10,783 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:11,801 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:07:11,801 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:07:12,784 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:14,821 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:16,823 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:18,825 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:20,827 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:22,829 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:24,837 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:26,844 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:26,871 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:07:26,880 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:07:27,496 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:07:27,496 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:07:27,497 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:07:27,497 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:07:27,498 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:07:27,845 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:07:28,846 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:30,847 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:32,299 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:07:32,855 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:34,857 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:36,858 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:38,860 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:40,862 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:41,942 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:07:41,943 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:07:42,864 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:44,873 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:46,875 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:48,877 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:50,879 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:52,893 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:54,894 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:56,895 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:07:57,006 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:07:57,006 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:07:58,916 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:00,918 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:02,920 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:03,067 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:08:04,922 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:06,924 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:08,925 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:10,936 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:12,120 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:08:12,121 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:08:12,929 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:14,854 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:08:14,854 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:08:14,855 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:08:14,855 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:08:14,856 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:08:14,931 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:14,931 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:08:16,935 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:18,937 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:20,939 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:22,942 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:24,945 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:26,946 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:27,196 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:08:27,196 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:08:28,948 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:30,950 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:32,952 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:33,882 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:08:34,954 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:36,965 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:38,972 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:40,974 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:42,278 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:08:42,278 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:08:42,975 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:44,978 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:46,980 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:48,982 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:50,984 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:52,986 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:54,987 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:56,991 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:08:57,371 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:08:57,371 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:08:58,993 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:00,995 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:02,356 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:09:02,357 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:09:02,357 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:09:02,357 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:09:02,358 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:09:02,997 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:02,997 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:09:04,752 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:09:04,998 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:07,000 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:09,002 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:11,004 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:12,436 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:09:12,436 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:09:13,013 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:15,015 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:17,025 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:19,026 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:21,030 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:23,031 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:25,033 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:27,034 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:27,498 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:09:27,498 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:09:29,036 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:31,047 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:33,049 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:35,050 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:35,481 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:09:37,058 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:39,059 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:41,062 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:42,561 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:09:42,562 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:09:43,064 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:45,065 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:47,067 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:49,069 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:49,854 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:09:49,855 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:09:49,864 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:09:49,864 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:09:49,865 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:09:50,070 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:09:51,071 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:53,073 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:55,075 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:57,076 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:09:57,640 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:09:57,641 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:09:59,103 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:01,104 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:03,106 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:05,108 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:06,347 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:10:07,115 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:09,117 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:11,118 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:12,706 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:10:12,706 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:10:13,125 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:15,128 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:17,130 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:19,131 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:21,134 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:23,135 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:25,137 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:27,139 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:29,141 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:30,959 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:10:30,959 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:10:31,142 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:33,144 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:35,146 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:37,215 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:37,229 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:10:37,512 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:10:37,512 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:10:37,512 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:10:37,513 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:10:37,513 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:10:38,212 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:10:39,218 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:41,220 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:43,221 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:45,225 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:46,072 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:10:46,072 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:10:47,227 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:49,228 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:51,230 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:53,232 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:55,234 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:57,235 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:10:59,237 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:01,138 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:11:01,138 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:11:01,239 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:03,240 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:05,247 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:07,248 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:08,044 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:11:09,250 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:11,251 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:13,253 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:15,255 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:16,223 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:11:16,223 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:11:17,256 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:19,298 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:21,333 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:23,335 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:25,336 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:25,354 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:11:25,355 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:11:25,355 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:11:25,356 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:11:25,356 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:11:26,337 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:11:27,338 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:29,340 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:31,285 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:11:31,286 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:11:31,341 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:33,343 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:35,345 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:37,347 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:38,804 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:11:39,349 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:41,351 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:43,352 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:45,354 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:46,358 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:11:46,359 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:11:47,356 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:49,358 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:51,363 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:53,375 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:55,375 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:57,398 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:11:59,399 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:01,401 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:01,424 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:12:01,424 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:12:03,403 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:05,405 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:07,407 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:09,408 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:09,753 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:12:11,410 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:12,914 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:12:12,915 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:12:12,915 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:12:12,915 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:12:12,916 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:12:13,412 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:13,412 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:12:15,414 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:16,487 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:12:16,487 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:12:17,416 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:19,418 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:21,420 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:23,421 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:25,423 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:27,425 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:29,426 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:31,428 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:31,554 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:12:31,554 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:12:33,430 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:35,435 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:37,438 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:39,440 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:40,646 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:12:41,442 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:43,443 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:45,445 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:46,680 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:12:46,681 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:12:47,447 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:49,450 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:51,452 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:53,454 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:55,455 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:57,457 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:12:59,471 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:01,192 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:13:01,193 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:13:01,198 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:13:01,198 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:13:01,205 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:13:01,472 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:01,473 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:13:01,747 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:13:01,747 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:13:03,483 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:05,485 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:07,487 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:09,488 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:11,530 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:11,531 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:13:13,532 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:15,534 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:16,810 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:13:16,811 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:13:17,535 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:19,537 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:21,539 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:23,541 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:25,543 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:27,544 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:29,546 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:31,547 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:31,880 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:13:31,880 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:13:33,549 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:35,551 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:37,553 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:39,554 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:41,556 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:42,361 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:13:43,557 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:45,559 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:46,965 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:13:46,965 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:13:47,560 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:49,404 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:13:49,404 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:13:49,404 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:13:49,404 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:13:49,405 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:13:49,601 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:49,601 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:13:50,601 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:52,603 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:54,605 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:56,607 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:13:58,611 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:00,617 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:02,030 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:14:02,031 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:14:02,619 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:04,621 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:06,623 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:08,624 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:10,626 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:12,628 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:13,303 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:14:14,630 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:16,632 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:17,092 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:14:17,092 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:14:18,636 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:20,638 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:22,639 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:24,641 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:26,644 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:28,646 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:30,660 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:32,214 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:14:32,214 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:14:32,661 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:34,662 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:36,664 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:37,170 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:14:37,170 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:14:37,171 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:14:37,171 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:14:37,172 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:14:37,665 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:14:38,666 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:40,668 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:42,670 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:44,168 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:14:44,672 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:46,682 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:47,275 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:14:47,276 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:14:48,683 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:50,684 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:52,687 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:54,689 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:56,690 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:14:59,694 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:00,695 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:02,346 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:15:02,348 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:15:02,707 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:04,708 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:06,710 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:08,711 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:10,713 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:12,715 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:14,717 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:14,953 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:15:16,718 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:17,416 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:15:17,416 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:15:18,721 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:20,723 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:22,724 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:24,726 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:24,949 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:15:24,950 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:15:24,951 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:15:24,951 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:15:24,952 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:15:25,727 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:15:26,728 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:32,479 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 18:15:32,479 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 18:15:34,800 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:15:34,801 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:15:34,802 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:15:34,804 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:15:34,804 DEBUG   SenderThread:142104 [sender.py:send():232] send: config
+2022-06-13 18:15:34,871 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: log_artifact
+2022-06-13 18:15:34,871 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: log_artifact
+2022-06-13 18:15:35,736 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:15:35,736 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/table/test_conf_mat_table_21_4f66fec384ff2e2e3120.table.json
+2022-06-13 18:15:35,737 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media
+2022-06-13 18:15:35,737 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/table
+2022-06-13 18:15:36,751 INFO    Thread-14 :142104 [upload_job.py:push():90] Uploaded file /home/apopa6/.cache/wandb/artifacts/obj/md5/50/48236c7ff20458d76dad3bfb2ddb6d
+2022-06-13 18:15:37,460 INFO    SenderThread:142104 [sender.py:send_request_log_artifact():1005] logged artifact run-j99nvoav-test_conf_mat_table - {'id': 'QXJ0aWZhY3Q6MTQyMzk3NTY1', 'digest': '2e811ea8a14255202eeba2d7fd2d1e39', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIyNDU1Njgx', 'latestArtifact': None}, 'version': 'latest'}
+2022-06-13 18:15:37,460 DEBUG   SenderThread:142104 [sender.py:send():232] send: files
+2022-06-13 18:15:37,460 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file media/table/test_conf_mat_table_21_4f66fec384ff2e2e3120.table.json with policy now
+2022-06-13 18:15:37,997 INFO    Thread-15 :142104 [upload_job.py:push():132] Uploaded file /tmp/tmpdeh83iuxwandb/xcphnz2z-media/table/test_conf_mat_table_21_4f66fec384ff2e2e3120.table.json
+2022-06-13 18:15:38,342 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:15:38,343 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:15:38,343 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:15:38,344 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:15:38,344 DEBUG   SenderThread:142104 [sender.py:send():232] send: config
+2022-06-13 18:15:38,403 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: log_artifact
+2022-06-13 18:15:38,403 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: log_artifact
+2022-06-13 18:15:38,417 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-13 18:15:38,739 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:15:38,739 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/table/val_conf_mat_table_22_d749915dfa3dfc450009.table.json
+2022-06-13 18:15:38,739 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/table
+2022-06-13 18:15:39,160 INFO    Thread-17 :142104 [upload_job.py:push():90] Uploaded file /home/apopa6/.cache/wandb/artifacts/obj/md5/af/c7b58f4184ed8716b2b14d49fa1b08
+2022-06-13 18:15:39,933 INFO    SenderThread:142104 [sender.py:send_request_log_artifact():1005] logged artifact run-j99nvoav-val_conf_mat_table - {'id': 'QXJ0aWZhY3Q6MTQyMzk3NTkw', 'digest': '11c0d5a76ba342afe173b99f998f33a6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIyNDU1Njgz', 'latestArtifact': None}, 'version': 'latest'}
+2022-06-13 18:15:39,933 DEBUG   SenderThread:142104 [sender.py:send():232] send: files
+2022-06-13 18:15:39,933 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file media/table/val_conf_mat_table_22_d749915dfa3dfc450009.table.json with policy now
+2022-06-13 18:15:39,933 DEBUG   SenderThread:142104 [sender.py:send():232] send: history
+2022-06-13 18:15:39,934 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:15:39,936 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:15:39,936 DEBUG   SenderThread:142104 [sender.py:send():232] send: telemetry
+2022-06-13 18:15:40,496 INFO    Thread-18 :142104 [upload_job.py:push():132] Uploaded file /tmp/tmpdeh83iuxwandb/1krutc1k-media/table/val_conf_mat_table_22_d749915dfa3dfc450009.table.json
+2022-06-13 18:15:40,741 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:40,741 INFO    Thread-7  :142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:15:40,834 DEBUG   SenderThread:142104 [sender.py:send():232] send: exit
+2022-06-13 18:15:40,834 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:40,834 INFO    SenderThread:142104 [sender.py:send_exit():368] handling exit code: 0
+2022-06-13 18:15:40,834 INFO    SenderThread:142104 [sender.py:send_exit():370] handling runtime: 980
+2022-06-13 18:15:40,835 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:15:40,835 INFO    SenderThread:142104 [sender.py:send_exit():376] send defer
+2022-06-13 18:15:40,835 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:40,836 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:40,836 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-13 18:15:40,836 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:40,836 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-13 18:15:40,836 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 1
+2022-06-13 18:15:40,836 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:40,836 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-13 18:15:40,887 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:40,888 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-13 18:15:40,888 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 2
+2022-06-13 18:15:40,888 DEBUG   SenderThread:142104 [sender.py:send():232] send: stats
+2022-06-13 18:15:40,888 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:40,888 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-13 18:15:40,888 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:40,888 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-13 18:15:40,888 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 3
+2022-06-13 18:15:40,889 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:40,889 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-13 18:15:40,889 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:40,889 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-13 18:15:40,889 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 4
+2022-06-13 18:15:40,889 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:40,889 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-13 18:15:40,889 DEBUG   SenderThread:142104 [sender.py:send():232] send: summary
+2022-06-13 18:15:40,890 INFO    SenderThread:142104 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 18:15:40,890 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:40,890 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-13 18:15:40,890 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 5
+2022-06-13 18:15:40,890 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:40,890 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-13 18:15:40,890 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:40,890 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-13 18:15:40,936 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:40,975 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 6
+2022-06-13 18:15:40,975 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:40,975 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:40,975 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-13 18:15:40,975 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:40,976 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-13 18:15:40,976 INFO    SenderThread:142104 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-13 18:15:41,076 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:41,742 INFO    SenderThread:142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:41,742 INFO    SenderThread:142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/config.yaml
+2022-06-13 18:15:41,742 INFO    SenderThread:142104 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:15:41,742 INFO    SenderThread:142104 [dir_watcher.py:finish():342] scan: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files
+2022-06-13 18:15:41,743 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log output.log
+2022-06-13 18:15:41,743 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/conda-environment.yaml conda-environment.yaml
+2022-06-13 18:15:41,745 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/requirements.txt requirements.txt
+2022-06-13 18:15:41,745 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-metadata.json wandb-metadata.json
+2022-06-13 18:15:41,745 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/config.yaml config.yaml
+2022-06-13 18:15:41,747 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json wandb-summary.json
+2022-06-13 18:15:41,754 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/graph/graph_summary_8da3f505664fd32b91a7.graph.json media/graph/graph_summary_8da3f505664fd32b91a7.graph.json
+2022-06-13 18:15:41,755 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/table/test_conf_mat_table_21_4f66fec384ff2e2e3120.table.json media/table/test_conf_mat_table_21_4f66fec384ff2e2e3120.table.json
+2022-06-13 18:15:41,755 INFO    SenderThread:142104 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/media/table/val_conf_mat_table_22_d749915dfa3dfc450009.table.json media/table/val_conf_mat_table_22_d749915dfa3dfc450009.table.json
+2022-06-13 18:15:41,755 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 7
+2022-06-13 18:15:41,755 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:41,755 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:41,756 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-13 18:15:41,756 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:41,756 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-13 18:15:41,756 INFO    SenderThread:142104 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-13 18:15:41,856 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:41,856 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:41,957 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:41,957 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,058 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,058 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,159 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,159 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,247 INFO    Thread-23 :142104 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/wandb-summary.json
+2022-06-13 18:15:42,259 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,260 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,267 INFO    Thread-22 :142104 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/config.yaml
+2022-06-13 18:15:42,305 INFO    Thread-21 :142104 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/requirements.txt
+2022-06-13 18:15:42,360 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,360 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,446 INFO    Thread-19 :142104 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/output.log
+2022-06-13 18:15:42,461 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,461 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,497 INFO    Thread-20 :142104 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/files/conda-environment.yaml
+2022-06-13 18:15:42,562 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,562 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,663 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,663 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,698 INFO    Thread-6  :142104 [sender.py:transition_state():389] send defer: 8
+2022-06-13 18:15:42,698 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:42,698 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-13 18:15:42,698 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:42,698 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-13 18:15:42,764 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,882 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 9
+2022-06-13 18:15:42,882 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,882 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:42,882 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-13 18:15:42,882 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:42,882 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-13 18:15:42,882 INFO    SenderThread:142104 [sender.py:transition_state():389] send defer: 10
+2022-06-13 18:15:42,883 DEBUG   SenderThread:142104 [sender.py:send():232] send: final
+2022-06-13 18:15:42,883 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 18:15:42,883 DEBUG   SenderThread:142104 [sender.py:send():232] send: footer
+2022-06-13 18:15:42,883 INFO    HandlerThread:142104 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-13 18:15:42,883 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: defer
+2022-06-13 18:15:42,883 INFO    SenderThread:142104 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-13 18:15:42,982 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 18:15:42,983 DEBUG   SenderThread:142104 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 18:15:42,983 INFO    SenderThread:142104 [file_pusher.py:join():150] waiting for file pusher
+2022-06-13 18:15:43,141 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-13 18:15:43,142 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-13 18:15:43,142 DEBUG   HandlerThread:142104 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-13 18:15:43,142 INFO    HandlerThread:142104 [handler.py:finish():806] shutting down handler
+2022-06-13 18:15:43,883 INFO    WriterThread:142104 [datastore.py:close():279] close: /home/apopa6/feces_thesis/wandb/run-20220613_175919-j99nvoav/run-j99nvoav.wandb
+2022-06-13 18:15:44,040 INFO    SenderThread:142104 [sender.py:finish():1110] shutting down sender
+2022-06-13 18:15:44,040 INFO    SenderThread:142104 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-13 18:15:44,040 INFO    SenderThread:142104 [file_pusher.py:join():150] waiting for file pusher
+2022-06-13 18:15:44,041 INFO    MainThread:142104 [internal.py:handle_exit():80] Internal process exited

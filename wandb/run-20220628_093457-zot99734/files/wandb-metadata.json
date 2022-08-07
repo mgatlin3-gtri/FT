@@ -1,0 +1,33 @@
+{
+    "os": "Linux-3.10.0-1160.59.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-06-28T13:34:59.253105",
+    "startedAt": "2022-06-28T13:34:57.078851",
+    "docker": null,
+    "gpu": "Tesla V100S-PCIE-32GB",
+    "gpu_count": 4,
+    "cpu_count": 80,
+    "cuda": null,
+    "args": [
+        "--batch_size=4",
+        "--dropout_c=0.3",
+        "--dropout_ga=0.1",
+        "--learning_rate=0.0003",
+        "--num_features_c1=64",
+        "--num_features_c2=64",
+        "--num_features_c3=128",
+        "--num_features_c4=64"
+    ],
+    "state": "running",
+    "program": "/home/apopa6/feces_thesis/2dCNN3.py",
+    "codePath": "2dCNN3.py",
+    "git": {
+        "remote": "git@github.gatech.edu:mgatlin3/feces_thesis.git",
+        "commit": "279c00d248c60e4156a18f6fb8b9a3ae0ade7042"
+    },
+    "email": "Anthony.Popa@gtri.gatech.edu",
+    "root": "/home/apopa6/feces_thesis",
+    "host": "ice175.icehammer.gtri.org",
+    "username": "apopa6",
+    "executable": "/home/apopa6/.conda/envs/ICE_NN/bin/python"
+}

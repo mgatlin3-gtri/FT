@@ -1,0 +1,9 @@
+Found 160 images belonging to 3 classes.
+Found 0 images belonging to 3 classes.
+Found 0 images belonging to 3 classes.
+Traceback (most recent call last):
+  File "c:\Users\apopa6\Desktop\feces_thesis\CNN-LSTM.py", line 60, in <module>
+    model.build()
+  File "C:\Users\apopa6\Anaconda3\envs\first_ml\lib\site-packages\keras\engine\sequential.py", line 344, in build
+    raise ValueError('You must provide an `input_shape` argument.')
+ValueError: You must provide an `input_shape` argument.

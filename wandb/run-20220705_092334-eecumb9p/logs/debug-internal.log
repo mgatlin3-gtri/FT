@@ -1,0 +1,41 @@
+2022-07-05 09:23:35,584 INFO    MainThread:148473 [internal.py:wandb_internal():90] W&B internal server running at pid: 148473, started at: 2022-07-05 09:23:35.584306
+2022-07-05 09:23:35,586 INFO    WriterThread:148473 [datastore.py:open_for_write():75] open: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/run-eecumb9p.wandb
+2022-07-05 09:23:35,587 DEBUG   SenderThread:148473 [sender.py:send():232] send: header
+2022-07-05 09:23:35,587 DEBUG   SenderThread:148473 [sender.py:send():232] send: run
+2022-07-05 09:23:35,747 DEBUG   HandlerThread:148473 [handler.py:handle_request():141] handle_request: check_version
+2022-07-05 09:23:35,747 INFO    SenderThread:148473 [dir_watcher.py:__init__():197] watching files in: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files
+2022-07-05 09:23:35,747 INFO    SenderThread:148473 [sender.py:_start_run_threads():811] run started: eecumb9p with start time 1657027414
+2022-07-05 09:23:35,748 DEBUG   SenderThread:148473 [sender.py:send():232] send: summary
+2022-07-05 09:23:35,748 INFO    SenderThread:148473 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-07-05 09:23:35,748 DEBUG   SenderThread:148473 [sender.py:send_request():246] send_request: check_version
+2022-07-05 09:23:35,837 DEBUG   HandlerThread:148473 [handler.py:handle_request():141] handle_request: run_start
+2022-07-05 09:23:36,749 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/wandb-summary.json
+2022-07-05 09:23:37,109 DEBUG   HandlerThread:148473 [meta.py:__init__():35] meta init
+2022-07-05 09:23:37,109 DEBUG   HandlerThread:148473 [meta.py:__init__():49] meta init done
+2022-07-05 09:23:37,109 DEBUG   HandlerThread:148473 [meta.py:probe():209] probe
+2022-07-05 09:23:37,115 DEBUG   HandlerThread:148473 [meta.py:_setup_git():199] setup git
+2022-07-05 09:23:37,147 DEBUG   HandlerThread:148473 [meta.py:_setup_git():206] setup git done
+2022-07-05 09:23:37,147 DEBUG   HandlerThread:148473 [meta.py:_save_pip():53] save pip
+2022-07-05 09:23:37,148 DEBUG   HandlerThread:148473 [meta.py:_save_pip():67] save pip done
+2022-07-05 09:23:37,148 DEBUG   HandlerThread:148473 [meta.py:_save_conda():74] save conda
+2022-07-05 09:23:37,753 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/requirements.txt
+2022-07-05 09:23:37,753 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/conda-environment.yaml
+2022-07-05 09:23:39,224 DEBUG   HandlerThread:148473 [meta.py:_save_conda():84] save conda done
+2022-07-05 09:23:39,224 DEBUG   HandlerThread:148473 [meta.py:probe():247] probe done
+2022-07-05 09:23:39,228 DEBUG   SenderThread:148473 [sender.py:send():232] send: files
+2022-07-05 09:23:39,229 INFO    SenderThread:148473 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-07-05 09:23:39,235 DEBUG   HandlerThread:148473 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-05 09:23:39,236 DEBUG   SenderThread:148473 [sender.py:send_request():246] send_request: stop_status
+2022-07-05 09:23:39,306 DEBUG   SenderThread:148473 [sender.py:send():232] send: telemetry
+2022-07-05 09:23:39,717 INFO    Thread-11 :148473 [upload_job.py:push():132] Uploaded file /tmp/tmp97y3id3lwandb/30w5vw0z-wandb-metadata.json
+2022-07-05 09:23:39,754 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/conda-environment.yaml
+2022-07-05 09:23:39,754 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/wandb-metadata.json
+2022-07-05 09:23:39,755 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/output.log
+2022-07-05 09:23:40,484 DEBUG   SenderThread:148473 [sender.py:send():232] send: telemetry
+2022-07-05 09:23:40,484 DEBUG   SenderThread:148473 [sender.py:send():232] send: telemetry
+2022-07-05 09:23:40,485 DEBUG   SenderThread:148473 [sender.py:send():232] send: files
+2022-07-05 09:23:40,485 INFO    SenderThread:148473 [sender.py:_save_file():948] saving file model-best.h5 with policy live
+2022-07-05 09:23:40,485 DEBUG   SenderThread:148473 [sender.py:send():232] send: telemetry
+2022-07-05 09:23:40,486 DEBUG   HandlerThread:148473 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-05 09:23:41,756 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/output.log
+2022-07-05 09:23:43,757 INFO    Thread-7  :148473 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220705_092334-eecumb9p/files/output.log

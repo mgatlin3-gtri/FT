@@ -1,0 +1,256 @@
+2022-06-08 17:28:52,135 INFO    MainThread:5269 [internal.py:wandb_internal():90] W&B internal server running at pid: 5269, started at: 2022-06-08 17:28:52.134628
+2022-06-08 17:28:52,137 INFO    WriterThread:5269 [datastore.py:open_for_write():75] open: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/run-2tjn74jo.wandb
+2022-06-08 17:28:52,139 DEBUG   SenderThread:5269 [sender.py:send():232] send: header
+2022-06-08 17:28:52,139 DEBUG   SenderThread:5269 [sender.py:send():232] send: run
+2022-06-08 17:28:52,230 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: check_version
+2022-06-08 17:28:52,231 INFO    SenderThread:5269 [dir_watcher.py:__init__():197] watching files in: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files
+2022-06-08 17:28:52,231 INFO    SenderThread:5269 [sender.py:_start_run_threads():811] run started: 2tjn74jo with start time 1654723731
+2022-06-08 17:28:52,231 DEBUG   SenderThread:5269 [sender.py:send():232] send: summary
+2022-06-08 17:28:52,232 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-08 17:28:52,232 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: check_version
+2022-06-08 17:28:52,321 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: run_start
+2022-06-08 17:28:53,233 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-summary.json
+2022-06-08 17:28:53,947 DEBUG   HandlerThread:5269 [meta.py:__init__():35] meta init
+2022-06-08 17:28:53,947 DEBUG   HandlerThread:5269 [meta.py:__init__():49] meta init done
+2022-06-08 17:28:53,947 DEBUG   HandlerThread:5269 [meta.py:probe():209] probe
+2022-06-08 17:28:53,949 DEBUG   HandlerThread:5269 [meta.py:_setup_git():199] setup git
+2022-06-08 17:28:53,975 DEBUG   HandlerThread:5269 [meta.py:_setup_git():206] setup git done
+2022-06-08 17:28:53,975 DEBUG   HandlerThread:5269 [meta.py:_save_pip():53] save pip
+2022-06-08 17:28:53,976 DEBUG   HandlerThread:5269 [meta.py:_save_pip():67] save pip done
+2022-06-08 17:28:53,976 DEBUG   HandlerThread:5269 [meta.py:_save_conda():74] save conda
+2022-06-08 17:28:54,236 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/requirements.txt
+2022-06-08 17:28:54,236 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/conda-environment.yaml
+2022-06-08 17:28:56,475 DEBUG   HandlerThread:5269 [meta.py:_save_conda():84] save conda done
+2022-06-08 17:28:56,475 DEBUG   HandlerThread:5269 [meta.py:probe():247] probe done
+2022-06-08 17:28:56,480 DEBUG   SenderThread:5269 [sender.py:send():232] send: files
+2022-06-08 17:28:56,480 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-08 17:28:56,485 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:28:56,486 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:28:56,609 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-08 17:28:56,892 INFO    Thread-11 :5269 [upload_job.py:push():132] Uploaded file /tmp/tmp2grj3s07wandb/1qedkq7m-wandb-metadata.json
+2022-06-08 17:28:57,051 DEBUG   SenderThread:5269 [sender.py:send():232] send: telemetry
+2022-06-08 17:28:57,051 DEBUG   SenderThread:5269 [sender.py:send():232] send: telemetry
+2022-06-08 17:28:57,051 DEBUG   SenderThread:5269 [sender.py:send():232] send: config
+2022-06-08 17:28:57,052 DEBUG   SenderThread:5269 [sender.py:send():232] send: config
+2022-06-08 17:28:57,052 DEBUG   SenderThread:5269 [sender.py:send():232] send: telemetry
+2022-06-08 17:28:57,052 DEBUG   SenderThread:5269 [sender.py:send():232] send: telemetry
+2022-06-08 17:28:57,052 DEBUG   SenderThread:5269 [sender.py:send():232] send: files
+2022-06-08 17:28:57,052 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file model-best.h5 with policy live
+2022-06-08 17:28:57,052 DEBUG   SenderThread:5269 [sender.py:send():232] send: telemetry
+2022-06-08 17:28:57,238 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/conda-environment.yaml
+2022-06-08 17:28:57,238 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:28:57,238 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-metadata.json
+2022-06-08 17:28:59,239 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:01,185 DEBUG   SenderThread:5269 [sender.py:send():232] send: files
+2022-06-08 17:29:01,185 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file media/graph/graph_summary_31ffa0c88f71b0841613.graph.json with policy now
+2022-06-08 17:29:01,186 DEBUG   SenderThread:5269 [sender.py:send():232] send: summary
+2022-06-08 17:29:01,189 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-08 17:29:01,242 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:01,242 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-summary.json
+2022-06-08 17:29:01,242 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/media/graph/graph_summary_31ffa0c88f71b0841613.graph.json
+2022-06-08 17:29:01,243 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/media/graph
+2022-06-08 17:29:01,243 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_created():244] file/dir created: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/media
+2022-06-08 17:29:01,584 INFO    Thread-12 :5269 [upload_job.py:push():132] Uploaded file /tmp/tmp2grj3s07wandb/5cfltddi-media/graph/graph_summary_31ffa0c88f71b0841613.graph.json
+2022-06-08 17:29:03,244 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:05,246 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:09,253 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:11,255 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:12,052 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:29:12,052 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:29:13,257 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:17,262 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:19,265 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:21,268 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:22,047 DEBUG   SenderThread:5269 [sender.py:send():232] send: stats
+2022-06-08 17:29:23,270 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:23,270 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/config.yaml
+2022-06-08 17:29:25,272 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:27,119 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:29:27,120 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:29:29,276 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:31,279 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:33,281 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:35,283 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:39,288 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:41,289 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:42,190 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:29:42,191 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:29:43,292 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:45,298 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:47,300 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:51,306 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:52,162 DEBUG   SenderThread:5269 [sender.py:send():232] send: stats
+2022-06-08 17:29:53,309 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:55,313 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:29:57,254 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:29:57,254 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:29:57,315 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:01,321 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:03,323 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:05,327 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:09,331 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:11,333 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:12,323 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:30:12,323 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:30:13,335 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:15,337 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:17,339 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:21,343 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:22,267 DEBUG   SenderThread:5269 [sender.py:send():232] send: stats
+2022-06-08 17:30:23,345 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:25,353 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:27,393 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:30:27,394 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:30:29,358 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:31,360 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:33,363 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:35,366 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:37,371 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:41,375 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:42,465 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:30:42,465 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:30:43,378 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:45,380 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:47,383 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:51,393 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:52,359 DEBUG   SenderThread:5269 [sender.py:send():232] send: stats
+2022-06-08 17:30:53,396 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:55,398 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:57,401 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:30:57,544 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:30:57,544 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:31:01,405 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:03,407 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:05,410 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:07,412 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:11,416 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:12,629 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-08 17:31:12,629 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: stop_status
+2022-06-08 17:31:13,418 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:15,420 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:17,422 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:19,424 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:22,440 DEBUG   SenderThread:5269 [sender.py:send():232] send: stats
+2022-06-08 17:31:23,429 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:23,497 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-08 17:31:23,497 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-08 17:31:23,498 DEBUG   SenderThread:5269 [sender.py:send():232] send: history
+2022-06-08 17:31:23,498 DEBUG   SenderThread:5269 [sender.py:send():232] send: summary
+2022-06-08 17:31:23,499 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-08 17:31:23,650 DEBUG   SenderThread:5269 [sender.py:send():232] send: telemetry
+2022-06-08 17:31:24,431 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-summary.json
+2022-06-08 17:31:25,432 INFO    Thread-7  :5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:26,459 DEBUG   SenderThread:5269 [sender.py:send():232] send: exit
+2022-06-08 17:31:26,459 INFO    SenderThread:5269 [sender.py:send_exit():368] handling exit code: 0
+2022-06-08 17:31:26,460 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:26,460 INFO    SenderThread:5269 [sender.py:send_exit():370] handling runtime: 154
+2022-06-08 17:31:26,460 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-08 17:31:26,461 INFO    SenderThread:5269 [sender.py:send_exit():376] send defer
+2022-06-08 17:31:26,461 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:26,461 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:26,461 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-08 17:31:26,461 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:26,462 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-08 17:31:26,462 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 1
+2022-06-08 17:31:26,462 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:26,462 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-08 17:31:26,559 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:26,560 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-08 17:31:26,560 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 2
+2022-06-08 17:31:26,560 DEBUG   SenderThread:5269 [sender.py:send():232] send: stats
+2022-06-08 17:31:26,560 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:26,561 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-08 17:31:26,561 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:26,561 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-08 17:31:26,561 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 3
+2022-06-08 17:31:26,561 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:26,561 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-08 17:31:26,561 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:26,562 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-08 17:31:26,562 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 4
+2022-06-08 17:31:26,562 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:26,562 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:26,562 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:26,562 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-08 17:31:26,563 DEBUG   SenderThread:5269 [sender.py:send():232] send: summary
+2022-06-08 17:31:26,563 INFO    SenderThread:5269 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-08 17:31:26,563 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:26,563 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-08 17:31:26,563 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 5
+2022-06-08 17:31:26,564 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:26,564 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-08 17:31:26,564 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:26,564 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-08 17:31:26,639 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 6
+2022-06-08 17:31:26,640 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:26,640 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-08 17:31:26,640 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:26,640 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-08 17:31:26,640 INFO    SenderThread:5269 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-08 17:31:26,663 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:27,433 INFO    SenderThread:5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:27,434 INFO    SenderThread:5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-summary.json
+2022-06-08 17:31:27,434 INFO    SenderThread:5269 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/config.yaml
+2022-06-08 17:31:27,434 INFO    SenderThread:5269 [dir_watcher.py:finish():342] scan: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files
+2022-06-08 17:31:27,435 INFO    SenderThread:5269 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log output.log
+2022-06-08 17:31:27,435 INFO    SenderThread:5269 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-metadata.json wandb-metadata.json
+2022-06-08 17:31:27,435 INFO    SenderThread:5269 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/conda-environment.yaml conda-environment.yaml
+2022-06-08 17:31:27,437 INFO    SenderThread:5269 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-summary.json wandb-summary.json
+2022-06-08 17:31:27,440 INFO    SenderThread:5269 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/requirements.txt requirements.txt
+2022-06-08 17:31:27,440 INFO    SenderThread:5269 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/config.yaml config.yaml
+2022-06-08 17:31:27,445 INFO    SenderThread:5269 [dir_watcher.py:finish():356] scan save: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/media/graph/graph_summary_31ffa0c88f71b0841613.graph.json media/graph/graph_summary_31ffa0c88f71b0841613.graph.json
+2022-06-08 17:31:27,445 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 7
+2022-06-08 17:31:27,447 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:27,448 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:27,449 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-08 17:31:27,449 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:27,449 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-08 17:31:27,449 INFO    SenderThread:5269 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-08 17:31:27,549 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:27,549 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:27,650 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:27,651 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:27,752 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:27,752 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:27,854 INFO    Thread-16 :5269 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/requirements.txt
+2022-06-08 17:31:27,854 INFO    Thread-17 :5269 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/config.yaml
+2022-06-08 17:31:27,854 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:27,855 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:27,860 INFO    Thread-14 :5269 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/conda-environment.yaml
+2022-06-08 17:31:27,869 INFO    Thread-13 :5269 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/output.log
+2022-06-08 17:31:27,875 INFO    Thread-15 :5269 [upload_job.py:push():132] Uploaded file /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/files/wandb-summary.json
+2022-06-08 17:31:27,956 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:27,956 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:28,057 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:28,058 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:28,076 INFO    Thread-6  :5269 [sender.py:transition_state():389] send defer: 8
+2022-06-08 17:31:28,076 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:28,076 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-08 17:31:28,077 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:28,077 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-08 17:31:28,159 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:28,312 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 9
+2022-06-08 17:31:28,313 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:28,313 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:28,313 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-08 17:31:28,313 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:28,313 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-08 17:31:28,314 INFO    SenderThread:5269 [sender.py:transition_state():389] send defer: 10
+2022-06-08 17:31:28,314 DEBUG   SenderThread:5269 [sender.py:send():232] send: final
+2022-06-08 17:31:28,314 DEBUG   SenderThread:5269 [sender.py:send():232] send: footer
+2022-06-08 17:31:28,314 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: defer
+2022-06-08 17:31:28,314 INFO    HandlerThread:5269 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-08 17:31:28,315 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: defer
+2022-06-08 17:31:28,315 INFO    SenderThread:5269 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-08 17:31:28,414 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-08 17:31:28,414 DEBUG   SenderThread:5269 [sender.py:send_request():246] send_request: poll_exit
+2022-06-08 17:31:28,415 INFO    SenderThread:5269 [file_pusher.py:join():150] waiting for file pusher
+2022-06-08 17:31:28,624 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-08 17:31:28,625 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-08 17:31:28,626 DEBUG   HandlerThread:5269 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-08 17:31:28,626 INFO    HandlerThread:5269 [handler.py:finish():806] shutting down handler
+2022-06-08 17:31:29,314 INFO    WriterThread:5269 [datastore.py:close():279] close: /home/apopa6/feces_thesis/wandb/run-20220608_172851-2tjn74jo/run-2tjn74jo.wandb
+2022-06-08 17:31:29,523 INFO    SenderThread:5269 [sender.py:finish():1110] shutting down sender
+2022-06-08 17:31:29,523 INFO    SenderThread:5269 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-08 17:31:29,524 INFO    SenderThread:5269 [file_pusher.py:join():150] waiting for file pusher
+2022-06-08 17:31:29,526 INFO    MainThread:5269 [internal.py:handle_exit():80] Internal process exited

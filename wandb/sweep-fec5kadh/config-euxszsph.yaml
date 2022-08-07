@@ -1,0 +1,20 @@
+wandb_version: 1
+
+batch_size:
+  value: 64
+dense:
+  value: 128
+dropout:
+  value: 0.2
+epochs:
+  value: 25
+learning_rate:
+  value: 0.005
+num_features_l1:
+  value: 64
+num_features_l2:
+  value: 128
+num_features_l3:
+  value: 128
+num_features_l4:
+  value: 16

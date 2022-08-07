@@ -1,0 +1,24 @@
+wandb_version: 1
+
+batch_size:
+  value: 16
+dropout_c1:
+  value: 0.2
+dropout_c2:
+  value: 0.1
+dropout_c3:
+  value: 0.2
+dropout_c4:
+  value: 0.1
+dropout_ga:
+  value: 0.1
+learning_rate:
+  value: 0.0005
+num_features_c1:
+  value: 32
+num_features_c2:
+  value: 64
+num_features_c3:
+  value: 16
+num_features_c4:
+  value: 128
