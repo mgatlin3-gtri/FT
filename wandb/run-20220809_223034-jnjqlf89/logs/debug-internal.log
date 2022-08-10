@@ -7026,3 +7026,23 @@
 2022-08-10 01:19:53,414 DEBUG   SenderThread:30591 [sender.py:send():232] send: stats
 2022-08-10 01:19:53,613 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
 2022-08-10 01:19:55,615 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:19:57,635 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:19:59,637 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:01,646 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:03,648 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:05,658 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:06,201 DEBUG   HandlerThread:30591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-10 01:20:06,202 DEBUG   SenderThread:30591 [sender.py:send_request():246] send_request: stop_status
+2022-08-10 01:20:07,677 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:09,691 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:11,690 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:13,693 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:15,695 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:17,697 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:19,706 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:21,286 DEBUG   HandlerThread:30591 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-10 01:20:21,286 DEBUG   SenderThread:30591 [sender.py:send_request():246] send_request: stop_status
+2022-08-10 01:20:21,708 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:23,713 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
+2022-08-10 01:20:24,635 DEBUG   SenderThread:30591 [sender.py:send():232] send: stats
+2022-08-10 01:20:25,727 INFO    Thread-7  :30591 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220809_223034-jnjqlf89/files/output.log
