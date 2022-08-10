@@ -1,0 +1,22 @@
+{
+    "os": "Linux-3.10.0-1160.59.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-08-10T01:37:12.707882",
+    "startedAt": "2022-08-10T01:37:09.839463",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/mgatlin3/FT/2dCNN.py",
+    "codePath": "2dCNN.py",
+    "git": {
+        "remote": "https://github.com/mgatlin3-gtri/FT.git",
+        "commit": "fcca63fba83a62d8d36d7a66d3016f3ec8b60c5a"
+    },
+    "email": "maia.gatlin@gtri.gatech.edu",
+    "root": "/home/mgatlin3/FT",
+    "host": "ice-login1.icehammer.gtri.org",
+    "username": "mgatlin3",
+    "executable": "/home/mgatlin3/.conda/envs/poop/bin/python"
+}

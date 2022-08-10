@@ -1,6 +1,7 @@
 # Script to create all spectrograms in the given list of categories, based on information stored
 # in the spectrograms of the originals image directory
 # See full_spectros.py for comments detailing augmentation and librosa functionality (much of it is repeated here)
+# A mel spectrogram logarithmically renders frequencies above a certain threshold (the corner frequency)
 
 import librosa
 import librosa.display
@@ -51,7 +52,7 @@ def create_train_augmentations(header, label, fileName, short, sample_rate):
         
         img = "_spec" + str(n+1) + ".png"
         print("Generating " + fileName + label + img)
-        sgram = librosa.stft(augmented_samples)
+        sgram = librosa.stft(a ugmented_samples)
         sgram_mag, _ = librosa.magphase(sgram)
         mel_scale_sgram = librosa.feature.melspectrogram(S=sgram_mag, sr=sample_rate)
         mel_sgram = librosa.amplitude_to_db(mel_scale_sgram)

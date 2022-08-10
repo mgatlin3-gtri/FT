@@ -8,10 +8,11 @@
 #SBATCH -N 2
 #SBATCH -t 0-8:00
 #SBATCH -c 16
-#SBATCH --gres=gpu:2
+#SBATCH --gres=gpu:2 
 
 
 module load anaconda3
+module load gcc/9.2.0
 conda activate poop
 cd /home/mgatlin3/FT/
 python 2dCNN.py

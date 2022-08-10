@@ -5,21 +5,20 @@ from keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D, Flatten
 from keras.layers import Dropout, Dense
 from keras.models import load_model
 from keras.optimizers import Adam
-from keras.callbacks import EarlyStopping, ModelCheckpoint
+from keras.callbacks import ModelCheckpoint
 from keras import Sequential
 from keras import preprocessing
-from keras import regularizers
 import wandb
 from wandb.keras import WandbCallback
 import matplotlib.pyplot as plt
-
+import json
 
 # file to save model weights and structure to
 model_file = 'bestCNN14.h5'
 # hyper-parameter configuration for Weights and Biases
 config={
     "batch_size": 4, # number of images processed during training before weights update
-    "epochs": 1, # number of times the model passes through the entire training dataset
+    "epochs": 60, # number of times the model passes through the entire training dataset
     "dropout_c": 0.3, # dropout from convolutional layers
     "dropout_ga": 0.1, # dropout from global averaging layer
     "num_features_c1": 64, # ""
@@ -28,7 +27,7 @@ config={
     "num_features_c4": 64, # ""
     "learning_rate": 0.0003
 }
-wandb.init(project="Feces Thesis Anthony", entity="apopa6", config=config)
+wandb.init(project="Feces Thesis", entity="mgatlin3", config=config)
 
 (img_height, img_width) = (640, 480)
 input_shape = (img_width, img_height, 3)
@@ -103,9 +102,9 @@ history = model.fit(train_generator, validation_data=val_generator, epochs=wandb
             callbacks=[WandbCallback(), modelCheckpoint])
 
 # save model history for later use
-with open('/trainHistoryDict', 'wb') as file_pi:
-    pickle.dump(history.history, file_pi)
-    # to load use: history = pickle.load(open('/trainHistoryDict', "rb")
+json.dump(history.history, open('model_history.json', 'w'))
+# historyload = json.load(open('model_history.json', 'r'))
+
 
 # create plots of loss on training and validation data
 print("Creating plots")
@@ -116,7 +115,7 @@ plt.ylabel('Loss')
 plt.xlabel('Epoch')
 plt.legend(['validation loss', 'training loss'], loc='upper left')
 plt.savefig("loss.eps", format='eps')
-plt.savefit('loss.png')
+plt.savefig('loss.png')
 
 # the saved model is loaded and evaluated on the testing data
 saved_model = load_model(model_file)

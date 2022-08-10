@@ -1,1 +1,0 @@
-{"columns": ["Actual", "Predicted", "nPredictions"], "data": [["diarrhea", "diarrhea", 264.0], ["diarrhea", "farts&poop", 35.0], ["diarrhea", "pee", 5.0], ["farts&poop", "diarrhea", 17.0], ["farts&poop", "farts&poop", 336.0], ["farts&poop", "pee", 7.0], ["pee", "diarrhea", 5.0], ["pee", "farts&poop", 13.0], ["pee", "pee", 242.0]]}
