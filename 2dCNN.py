@@ -15,11 +15,11 @@ import matplotlib.pyplot as plt
 
 
 # file to save model weights and structure to
-model_file = 'bestCNN13.h5'
+model_file = 'bestCNN14.h5'
 # hyper-parameter configuration for Weights and Biases
 config={
     "batch_size": 4, # number of images processed during training before weights update
-    "epochs": 128, # number of times the model passes through the entire training dataset
+    "epochs": 1, # number of times the model passes through the entire training dataset
     "dropout_c": 0.3, # dropout from convolutional layers
     "dropout_ga": 0.1, # dropout from global averaging layer
     "num_features_c1": 64, # ""
