@@ -52,6 +52,7 @@ def create_original(header, label, fileName, short, sample_rate):
         librosa.display.specshow(mel_sgram, sr=sample_rate, x_axis = 's')
         fig.gca().set_xticks(range(0, 11, 5))
         fig.gca().set_xlabel("Time (seconds)")
+    plt.box(on=None)
     plt.savefig(header + label + img, dpi=600)
 
 
