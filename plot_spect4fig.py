@@ -1,3 +1,4 @@
+# create spectrogram comparison figure using spectrograms generated in gen_spect4fig.py
 import cv2
 from matplotlib import pyplot as plt
 import seaborn

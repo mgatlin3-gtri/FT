@@ -103,23 +103,23 @@ history = model.fit(train_generator, validation_data=val_generator, epochs=wandb
 
 # save model history for later use
 json.dump(history.history, open('model_history.json', 'w'))
-# historyload = json.load(open('model_history.json', 'r'))
+# # historyload = json.load(open('model_history.json', 'r'))
 
 
-# create plots of loss on training and validation data
-print("Creating plots")
-plt.plot(history.history['val_loss'])
-plt.plot(history.history['loss'])
-plt.title('Loss vs. Epochs')
-plt.ylabel('Loss')
-plt.xlabel('Epoch')
-plt.legend(['validation loss', 'training loss'], loc='upper left')
-plt.savefig("loss.eps", format='eps')
-plt.savefig('loss.png')
+# # create plots of loss on training and validation data
+# print("Creating plots")
+# plt.plot(history.history['val_loss'])
+# plt.plot(history.history['loss'])
+# plt.title('Loss vs. Epochs')
+# plt.ylabel('Loss')
+# plt.xlabel('Epoch')
+# plt.legend(['validation loss', 'training loss'], loc='upper left')
+# plt.savefig("loss.eps", format='eps')
+# plt.savefig('loss.png')
 
-# the saved model is loaded and evaluated on the testing data
-saved_model = load_model(model_file)
-scores = saved_model.evaluate(test_generator)
-test_loss = round(scores[0], 4)
-test_accuracy = round(100 * scores[1], 2)
-wandb.log({"test_loss": test_loss, "test_accuracy": test_accuracy, "config": config})
+# # the saved model is loaded and evaluated on the testing data
+# saved_model = load_model(model_file)
+# scores = saved_model.evaluate(test_generator)
+# test_loss = round(scores[0], 4)
+# test_accuracy = round(100 * scores[1], 2)
+# wandb.log({"test_loss": test_loss, "test_accuracy": test_accuracy, "config": config})
