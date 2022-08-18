@@ -1,14 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=CNN-sweep
+#SBATCH --job-name=CNN-super-sweep
 #SBATCH --output=/home/mgatlin3/FT/logs/out/%x_%j.out
 #SBATCH --error=/home/mgatlin3/FT/logs/err/%x_%j.err
 #SBATCH --export=NONE
-#SBATCH --mem=128G
-#SBATCH -n 2
-#SBATCH -N 2
+#SBATCH --mem=256G
+#SBATCH -n 3
+#SBATCH -N 3
 #SBATCH -t 2-12:00
-#SBATCH -c 16
-#SBATCH --gres=gpu:2 
+#SBATCH -c 32
+#SBATCH --gres=gpu:3 
 
 
 module load anaconda3

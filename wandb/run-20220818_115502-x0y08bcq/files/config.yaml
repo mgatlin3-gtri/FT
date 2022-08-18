@@ -8,18 +8,13 @@ _wandb:
     is_jupyter_run: false
     is_kaggle_kernel: false
     python_version: 3.9.12
-    start_time: 1660828027
+    start_time: 1660838103
     t:
       1:
       - 2
       - 3
       - 55
-      2:
-      - 2
-      - 3
-      - 55
       3:
-      - 2
       - 3
       - 8
       - 16
@@ -33,28 +28,28 @@ architecture_name:
   value: CNN
 batch_size:
   desc: null
-  value: 128
+  value: 32
 dropout_c:
   desc: null
   value: 0.25
 dropout_ga:
   desc: null
-  value: 0.35
+  value: 0.1
 epochs:
   desc: null
-  value: 50
+  value: 20
 learning_rate:
   desc: null
-  value: 0.01
+  value: 0.0001
 num_features_c1:
   desc: null
-  value: 32
+  value: 128
 num_features_c2:
   desc: null
-  value: 32
+  value: 64
 num_features_c3:
   desc: null
-  value: 128
+  value: 16
 num_features_c4:
   desc: null
-  value: 32
+  value: 64

@@ -23,3 +23,47 @@ wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/bfxfaqcq
 Skipping registering GPU devices...
 2022-08-18 09:07:12.859179: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.024 MB of 1.024 MB uploaded (0.000 MB deduped)wandb: \ 1.024 MB of 1.024 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: - 0.004 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: \ 0.099 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: | 0.341 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: / 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: - 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: \ 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: | 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: / 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: - 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: \ 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: | 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb: / 1.034 MB of 1.034 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▄▄▅▃▂█▅▃▄▅▃▁▅▅▅▃▂▅▄▄▄▅▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     val_loss █▆▃▂▂▂▂▂▁▂▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.34021
+wandb:    best_epoch 45
+wandb: best_val_loss 1.25663
+wandb:         epoch 49
+wandb:          loss 1.33068
+wandb:  val_accuracy 0.33333
+wandb:      val_loss 1.26566
+wandb: 
+wandb: Synced eager-sweep-1: https://wandb.ai/mgatlin3/sweep-FT/runs/bfxfaqcq
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220818_090707-bfxfaqcq/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: x0y08bcq with config:
+wandb: 	batch_size: 32
+wandb: 	dropout_c: 0.25
+wandb: 	dropout_ga: 0.1
+wandb: 	epochs: 20
+wandb: 	learning_rate: 0.0001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 16
+wandb: 	num_features_c4: 64
+wandb: wandb version 0.13.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220818_115502-x0y08bcq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run peachy-sweep-2
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/sweep-FT/sweeps/otbrtpw1
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/x0y08bcq
+slurmstepd: error: *** JOB 5285807 ON ice160 CANCELLED AT 2022-08-18T13:06:49 ***

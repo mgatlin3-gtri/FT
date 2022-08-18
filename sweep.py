@@ -142,6 +142,6 @@ def sweep_train():
                 callbacks=[WandbCallback(), modelCheckpoint])
 
 
-
+# Initialize the sweep, count is how many sweep iterations to do
 sweep_id = wandb.sweep(sweep_config, project="sweep-FT")
 wandb.agent(sweep_id, function=sweep_train, count=150)
