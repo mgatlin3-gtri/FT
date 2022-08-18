@@ -1,4 +1,4 @@
-# File for configuring a Weights and Biases sweep over sevaral CNN parameters
+# File for configuring a Weights and Biases sweep over sevaral CNN parameters (OLD)
 
 program: 2dCNN3.py
 method: bayes

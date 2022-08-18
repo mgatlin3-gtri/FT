@@ -23,3 +23,7 @@ gen_spect4fig.py: used to generate a spectrograms for comparison figure between 
 plot_spect4fig.py: used to create a plot of spectrograms for comparison figure between online and simulated data
 
 visualize_model.py: used to generate model architecture figure for journal
+
+sweep.py: runs a sweep over the architecture for 2dCNN.py, submit job using sweep.sh script
+
+trainLoss_plt.py: plots stored training vs test loss from model_history.json file
