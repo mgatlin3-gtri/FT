@@ -19,10 +19,10 @@ sweep_config = {
           'values': [4, 8, 16, 32, 64, 128]
       },
       'dropout_c': {
-          'values': [0, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4]
+          'values': [0, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
       },
       'dropout_ga': {
-          'values': [0, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4]
+          'values': [0, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
       },
       'num_features_c1': {
           'values': [16, 32, 64, 128]
@@ -39,14 +39,17 @@ sweep_config = {
       'learning_rate':{
           'values': [0.0001, 0.00025, 0.0005, 0.00075, 0.001, 0.005, 0.01]
       },
-      'epoch':{
+      'epochs':{
           'values': [10, 20, 30, 40, 50, 60]
       }
   }
 }
 
 def sweep_train():
-    # Specify the hyperparameter to be tuned along with
+    # file to save model weights and structure to
+    model_file = 'CNN-sweep.h5'
+
+    # Specify the hyperparameters to be tuned along with
     # an initial value
     config_defaults={
         "batch_size": 4, # number of images processed during training before weights update
@@ -141,4 +144,4 @@ def sweep_train():
 
 
 sweep_id = wandb.sweep(sweep_config, project="sweep-FT")
-wandb.agent(sweep_id, function=sweep_train, count=30)
+wandb.agent(sweep_id, function=sweep_train, count=150)
