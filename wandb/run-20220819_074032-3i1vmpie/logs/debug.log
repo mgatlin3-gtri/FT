@@ -38,3 +38,134 @@ ValueError: signal only works in main thread of the main interpreter
 2022-08-19 07:40:38,204 INFO    Thread-2  :87981 [wandb_init.py:init():684] run started, returning control to user process
 2022-08-19 07:40:38,205 INFO    Thread-2  :87981 [wandb_config.py:__setitem__():150] config set architecture_name = CNN - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fbdeb79f730>>
 2022-08-19 07:40:38,205 INFO    Thread-2  :87981 [wandb_run.py:_config_callback():1131] config_cb architecture_name CNN None
+2022-08-19 08:15:23,991 INFO    Thread-2  :87981 [wandb_run.py:_finish():1685] finishing run mgatlin3/sweep-FT/3i1vmpie
+2022-08-19 08:15:23,991 INFO    Thread-2  :87981 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 0
+2022-08-19 08:15:23,994 INFO    Thread-2  :87981 [wandb_run.py:_restore():1838] restore
+2022-08-19 08:15:23,996 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1184394
+  total_bytes: 1184394
+}
+
+2022-08-19 08:15:24,110 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1184394
+  total_bytes: 1184394
+}
+
+2022-08-19 08:15:24,733 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 4
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1184394
+  total_bytes: 1187680
+}
+
+2022-08-19 08:15:24,834 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3378
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:24,936 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 832408
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:25,038 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1194224
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:25,139 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1194224
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:25,241 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1194224
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:25,342 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1194224
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:25,444 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1194224
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:25,650 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1194224
+  total_bytes: 1194224
+}
+
+2022-08-19 08:15:25,855 INFO    Thread-2  :87981 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1194224
+  total_bytes: 1194224
+}
+local_info {
+}
+
+2022-08-19 08:15:27,270 INFO    Thread-2  :87981 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2022-08-19 08:15:27,271 INFO    Thread-2  :87981 [wandb_run.py:_footer_history_summary_info():3134] rendering summary
+2022-08-19 08:15:27,273 INFO    Thread-2  :87981 [wandb_run.py:_footer_sync_info():3057] logging synced files

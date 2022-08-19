@@ -25,3 +25,172 @@ wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/3i1vmpie
 Skipping registering GPU devices...
 2022-08-19 07:40:38.447921: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.130 MB of 1.130 MB uploaded (0.000 MB deduped)wandb: \ 1.130 MB of 1.130 MB uploaded (0.000 MB deduped)wandb: | 1.130 MB of 1.133 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: - 0.794 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: \ 1.139 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: | 1.139 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: / 1.139 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: - 1.139 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: \ 1.139 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: | 1.139 MB of 1.139 MB uploaded (0.000 MB deduped)wandb: / 1.139 MB of 1.139 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▄▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇██████████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▅▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▄▆▅▆▅▆▆▇▇▆█▇▇▇▇▇▇▇▇▇▇███████▇███▇█████
+wandb:     val_loss █▆▆▅▄▃▅▃▃▂▂▂▂▂▃▂▁▃▃▂▂▃▂▂▂▁▁▂▂▁▃▁▁▁▃▁▂▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.97229
+wandb:    best_epoch 41
+wandb: best_val_loss 0.17166
+wandb:         epoch 49
+wandb:          loss 0.08498
+wandb:  val_accuracy 0.94048
+wandb:      val_loss 0.23589
+wandb: 
+wandb: Synced misunderstood-sweep-1: https://wandb.ai/mgatlin3/sweep-FT/runs/3i1vmpie
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220819_074032-3i1vmpie/logs
+wandb: Agent Starting Run: obdg7c5s with config:
+wandb: 	batch_size: 16
+wandb: 	dropout_c: 0.15
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.01
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 32
+wandb: 	num_features_c3: 64
+wandb: 	num_features_c4: 16
+2022-08-19 08:15:29.170436: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+wandb: wandb version 0.13.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220819_081528-obdg7c5s
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run glorious-sweep-2
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/sweep-FT/sweeps/keo9xzk5
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/obdg7c5s
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.841 MB of 0.841 MB uploaded (0.000 MB deduped)wandb: \ 0.841 MB of 0.841 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: - 0.013 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: \ 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: | 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: / 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: - 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: \ 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: | 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: / 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: - 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: \ 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb: | 0.850 MB of 0.850 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇███████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▃▃▃▅▆▆▆▇▆▆▇▇█▇▆█▇▇▇▇█▇▇▇▇▆▆▇▇▆▆██████▇█
+wandb:     val_loss █▇▇▆▅▄▃▃▃▃▃▂▂▂▃▃▁▃▂▃▂▁▂▂▂▂▃▃▂▂▃▃▁▁▁▁▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.87822
+wandb:    best_epoch 34
+wandb: best_val_loss 0.42007
+wandb:         epoch 49
+wandb:          loss 0.33362
+wandb:  val_accuracy 0.84921
+wandb:      val_loss 0.44332
+wandb: 
+wandb: Synced glorious-sweep-2: https://wandb.ai/mgatlin3/sweep-FT/runs/obdg7c5s
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220819_081528-obdg7c5s/logs
+wandb: Agent Starting Run: n8fseuqp with config:
+wandb: 	batch_size: 128
+wandb: 	dropout_c: 0.35
+wandb: 	dropout_ga: 0.25
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.00075
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 32
+wandb: 	num_features_c4: 64
+2022-08-19 09:33:35.837599: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+wandb: wandb version 0.13.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220819_093334-n8fseuqp
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run morning-sweep-3
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/sweep-FT/sweeps/keo9xzk5
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/n8fseuqp
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.427 MB of 2.427 MB uploaded (0.000 MB deduped)wandb: \ 2.427 MB of 2.427 MB uploaded (0.000 MB deduped)wandb: | 2.427 MB of 2.433 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: | 0.231 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: / 0.356 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 1.106 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 1.411 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: | 1.724 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: / 2.403 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: | 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: / 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: | 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: / 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: - 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb: \ 2.437 MB of 2.437 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▄▄▄▄▄▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇█▇█▇██▇█▇██████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▆▆▆▅▅▅▅▅▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁
+wandb: val_accuracy ▁▄▃▄▄▄▄▅▅▆▅▆▆▇▆▇▇▇▆▇▆▇▇▇▇▇██▇▇▇▇▇▇▇████▇
+wandb:     val_loss █▇▇▆▆▇▆▆▅▅▅▅▄▄▄▄▃▄▄▃▃▃▃▃▂▃▂▂▂▃▃▂▂▂▃▁▂▂▂▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.85954
+wandb:    best_epoch 43
+wandb: best_val_loss 0.34406
+wandb:         epoch 49
+wandb:          loss 0.41169
+wandb:  val_accuracy 0.84127
+wandb:      val_loss 0.43534
+wandb: 
+wandb: Synced morning-sweep-3: https://wandb.ai/mgatlin3/sweep-FT/runs/n8fseuqp
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220819_093334-n8fseuqp/logs
+wandb: Agent Starting Run: yd4i5z6x with config:
+wandb: 	batch_size: 32
+wandb: 	dropout_c: 0.2
+wandb: 	dropout_ga: 0.1
+wandb: 	epochs: 10
+wandb: 	learning_rate: 0.0001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 32
+wandb: 	num_features_c3: 128
+wandb: 	num_features_c4: 64
+2022-08-19 13:12:54.206172: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+wandb: wandb version 0.13.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220819_131248-yd4i5z6x
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dandy-sweep-4
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/sweep-FT/sweeps/keo9xzk5
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/yd4i5z6x
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.564 MB of 1.564 MB uploaded (0.000 MB deduped)wandb: \ 1.564 MB of 1.564 MB uploaded (0.000 MB deduped)wandb: | 1.564 MB of 1.567 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: \ 0.050 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: | 0.159 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: / 0.386 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: - 1.326 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: \ 1.566 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: | 1.566 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: / 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: - 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: \ 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: | 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: / 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: - 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: \ 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: | 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: / 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: - 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: \ 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: | 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb: / 1.573 MB of 1.573 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▄▆▇▇▇▇▇██
+wandb:        epoch ▁▂▃▃▄▅▆▆▇█
+wandb:         loss █▇▅▃▂▂▂▂▁▁
+wandb: val_accuracy ▁▃▆▇▆█████
+wandb:     val_loss █▇▅▃▃▃▃▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.57925
+wandb:    best_epoch 8
+wandb: best_val_loss 1.04921
+wandb:         epoch 9
+wandb:          loss 1.02687
+wandb:  val_accuracy 0.59921
+wandb:      val_loss 1.0737
+wandb: 
+wandb: Synced dandy-sweep-4: https://wandb.ai/mgatlin3/sweep-FT/runs/yd4i5z6x
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220819_131248-yd4i5z6x/logs
+wandb: Agent Starting Run: 90c09k1u with config:
+wandb: 	batch_size: 4
+wandb: 	dropout_c: 0.1
+wandb: 	dropout_ga: 0.15
+wandb: 	epochs: 60
+wandb: 	learning_rate: 0.0001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 32
+wandb: 	num_features_c4: 16
+2022-08-19 13:23:15.014693: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+wandb: wandb version 0.13.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220819_132309-90c09k1u
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run flowing-sweep-5
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/sweep-FT/sweeps/keo9xzk5
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/90c09k1u
+slurmstepd: error: *** JOB 5483906 ON ice175 CANCELLED AT 2022-08-19T13:57:57 ***

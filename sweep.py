@@ -40,7 +40,7 @@ sweep_config = {
           'values': [0.0001, 0.00025, 0.0005, 0.00075, 0.001, 0.005, 0.01]
       },
       'epochs':{
-          'values': [10, 20, 30, 40, 50, 60]
+          'values': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
       }
   }
 }
@@ -144,4 +144,4 @@ def sweep_train():
 
 # Initialize the sweep, count is how many sweep iterations to do
 sweep_id = wandb.sweep(sweep_config, project="sweep-FT")
-wandb.agent(sweep_id, function=sweep_train, count=150)
+wandb.agent(sweep_id, function=sweep_train, count=100)

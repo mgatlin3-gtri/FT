@@ -6,7 +6,7 @@
 #SBATCH --mem=256G
 #SBATCH -n 3
 #SBATCH -N 3
-#SBATCH -t 2-12:00
+#SBATCH -t 3-12:00
 #SBATCH -c 32
 #SBATCH --gres=gpu:3 
 
