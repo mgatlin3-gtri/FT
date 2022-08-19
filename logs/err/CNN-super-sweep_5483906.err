@@ -1,0 +1,27 @@
+2022-08-19 07:40:29.261431: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+wandb: Agent Starting Run: 3i1vmpie with config:
+wandb: 	batch_size: 8
+wandb: 	dropout_c: 0.3
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 16
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 32
+wandb: 	num_features_c4: 128
+wandb: Currently logged in as: mgatlin3 (use `wandb login --relogin` to force relogin)
+2022-08-19 07:40:33.739404: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+wandb: wandb version 0.13.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run misunderstood-sweep-1
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/sweep-FT/sweeps/keo9xzk5
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/sweep-FT/runs/3i1vmpie
+2022-08-19 07:40:38.447139: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/apps/Module/GCC/9.2.0/lib64
+2022-08-19 07:40:38.447182: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-08-19 07:40:38.447921: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.

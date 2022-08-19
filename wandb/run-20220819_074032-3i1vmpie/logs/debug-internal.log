@@ -1,0 +1,111 @@
+2022-08-19 07:40:33,337 INFO    MainThread:88003 [internal.py:wandb_internal():90] W&B internal server running at pid: 88003, started at: 2022-08-19 07:40:33.336557
+2022-08-19 07:40:33,338 INFO    WriterThread:88003 [datastore.py:open_for_write():75] open: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/run-3i1vmpie.wandb
+2022-08-19 07:40:33,340 DEBUG   SenderThread:88003 [sender.py:send():232] send: header
+2022-08-19 07:40:33,340 DEBUG   SenderThread:88003 [sender.py:send():232] send: run
+2022-08-19 07:40:33,461 INFO    SenderThread:88003 [dir_watcher.py:__init__():166] watching files in: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files
+2022-08-19 07:40:33,461 INFO    SenderThread:88003 [sender.py:_start_run_threads():811] run started: 3i1vmpie with start time 1660909232
+2022-08-19 07:40:33,461 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:40:33,462 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:40:33,462 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: check_version
+2022-08-19 07:40:33,462 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: check_version
+2022-08-19 07:40:33,553 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: run_start
+2022-08-19 07:40:34,463 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/wandb-summary.json
+2022-08-19 07:40:35,606 DEBUG   HandlerThread:88003 [meta.py:__init__():35] meta init
+2022-08-19 07:40:35,607 DEBUG   HandlerThread:88003 [meta.py:__init__():49] meta init done
+2022-08-19 07:40:35,607 DEBUG   HandlerThread:88003 [meta.py:probe():209] probe
+2022-08-19 07:40:35,613 DEBUG   HandlerThread:88003 [meta.py:_setup_git():199] setup git
+2022-08-19 07:40:35,643 DEBUG   HandlerThread:88003 [meta.py:_setup_git():206] setup git done
+2022-08-19 07:40:35,643 DEBUG   HandlerThread:88003 [meta.py:_save_pip():53] save pip
+2022-08-19 07:40:35,644 DEBUG   HandlerThread:88003 [meta.py:_save_pip():67] save pip done
+2022-08-19 07:40:35,644 DEBUG   HandlerThread:88003 [meta.py:_save_conda():74] save conda
+2022-08-19 07:40:36,538 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/conda-environment.yaml
+2022-08-19 07:40:36,539 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/requirements.txt
+2022-08-19 07:40:38,190 DEBUG   HandlerThread:88003 [meta.py:_save_conda():84] save conda done
+2022-08-19 07:40:38,190 DEBUG   HandlerThread:88003 [meta.py:probe():247] probe done
+2022-08-19 07:40:38,194 DEBUG   SenderThread:88003 [sender.py:send():232] send: files
+2022-08-19 07:40:38,194 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-08-19 07:40:38,201 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:40:38,201 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:40:38,262 DEBUG   SenderThread:88003 [sender.py:send():232] send: telemetry
+2022-08-19 07:40:38,262 DEBUG   SenderThread:88003 [sender.py:send():232] send: telemetry
+2022-08-19 07:40:38,262 DEBUG   SenderThread:88003 [sender.py:send():232] send: config
+2022-08-19 07:40:38,538 DEBUG   SenderThread:88003 [sender.py:send():232] send: telemetry
+2022-08-19 07:40:38,538 DEBUG   SenderThread:88003 [sender.py:send():232] send: telemetry
+2022-08-19 07:40:38,538 DEBUG   SenderThread:88003 [sender.py:send():232] send: files
+2022-08-19 07:40:38,538 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-19 07:40:38,538 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file model-best.h5 with policy live
+2022-08-19 07:40:38,539 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/conda-environment.yaml
+2022-08-19 07:40:38,539 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/output.log
+2022-08-19 07:40:38,539 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/wandb-metadata.json
+2022-08-19 07:40:38,583 INFO    Thread-11 :88003 [upload_job.py:push():137] Uploaded file /tmp/tmpqr6u3_tiwandb/10n44agh-wandb-metadata.json
+2022-08-19 07:40:39,752 DEBUG   SenderThread:88003 [sender.py:send():232] send: files
+2022-08-19 07:40:39,752 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file media/graph/graph_summary_80d5e7e74f5ce6e69290.graph.json with policy now
+2022-08-19 07:40:39,752 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:40:39,757 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:40:40,163 INFO    Thread-12 :88003 [upload_job.py:push():137] Uploaded file /tmp/tmpqr6u3_tiwandb/30moz8hx-media/graph/graph_summary_80d5e7e74f5ce6e69290.graph.json
+2022-08-19 07:40:40,546 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/wandb-summary.json
+2022-08-19 07:40:40,546 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/media/graph/graph_summary_80d5e7e74f5ce6e69290.graph.json
+2022-08-19 07:40:40,546 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/media
+2022-08-19 07:40:40,546 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/media/graph
+2022-08-19 07:40:53,266 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:40:53,268 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:41:04,623 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/config.yaml
+2022-08-19 07:41:05,783 DEBUG   SenderThread:88003 [sender.py:send():232] send: stats
+2022-08-19 07:41:08,329 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:41:08,329 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:41:23,412 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:41:23,412 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:41:26,424 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-19 07:41:26,424 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-19 07:41:26,425 DEBUG   SenderThread:88003 [sender.py:send():232] send: history
+2022-08-19 07:41:26,426 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:41:26,427 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:41:26,428 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:41:26,428 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:41:26,428 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:41:26,428 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:41:26,699 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/wandb-summary.json
+2022-08-19 07:41:26,699 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/model-best.h5
+2022-08-19 07:41:27,180 INFO    Thread-13 :88003 [upload_job.py:push():137] Uploaded file /tmp/tmpqr6u3_tiwandb/175s64vr-model-best.h5
+2022-08-19 07:41:38,042 DEBUG   SenderThread:88003 [sender.py:send():232] send: stats
+2022-08-19 07:41:38,481 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:41:38,481 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:41:53,566 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:41:53,566 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:42:08,625 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:42:08,625 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:42:10,363 DEBUG   SenderThread:88003 [sender.py:send():232] send: stats
+2022-08-19 07:42:12,230 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-19 07:42:12,230 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-19 07:42:12,231 DEBUG   SenderThread:88003 [sender.py:send():232] send: history
+2022-08-19 07:42:12,231 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:42:12,232 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:42:12,232 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:42:12,232 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:42:12,232 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:42:12,233 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:42:12,922 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/model-best.h5
+2022-08-19 07:42:12,922 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/wandb-summary.json
+2022-08-19 07:42:23,689 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:42:23,690 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:42:38,763 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:42:38,763 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:42:42,566 DEBUG   SenderThread:88003 [sender.py:send():232] send: stats
+2022-08-19 07:42:53,862 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:42:53,863 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:42:56,718 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-19 07:42:56,718 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-19 07:42:56,719 DEBUG   SenderThread:88003 [sender.py:send():232] send: history
+2022-08-19 07:42:56,720 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:42:56,721 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:42:56,721 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:42:56,722 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:42:56,722 DEBUG   SenderThread:88003 [sender.py:send():232] send: summary
+2022-08-19 07:42:56,722 INFO    SenderThread:88003 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-19 07:42:57,077 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/model-best.h5
+2022-08-19 07:42:57,078 INFO    Thread-7  :88003 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220819_074032-3i1vmpie/files/wandb-summary.json
+2022-08-19 07:43:08,927 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:43:08,928 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status
+2022-08-19 07:43:14,826 DEBUG   SenderThread:88003 [sender.py:send():232] send: stats
+2022-08-19 07:43:23,993 DEBUG   HandlerThread:88003 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-19 07:43:23,993 DEBUG   SenderThread:88003 [sender.py:send_request():246] send_request: stop_status

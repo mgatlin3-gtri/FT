@@ -11,7 +11,7 @@ from wandb.keras import WandbCallback
 sweep_config = {
   'method': 'bayes', 
   'metric': {
-      'name': 'test_loss',
+      'name': 'val_loss',
       'goal': 'minimize'
   },
   'parameters': {
