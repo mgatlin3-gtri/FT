@@ -1,0 +1,24 @@
+{
+    "os": "Linux-3.10.0-1160.59.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-08-22T04:09:05.629461",
+    "startedAt": "2022-08-22T04:08:56.562686",
+    "docker": null,
+    "gpu": "Tesla V100S-PCIE-32GB",
+    "gpu_count": 3,
+    "cpu_count": 80,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/mgatlin3/FT/sweep.py",
+    "codePath": "sweep.py",
+    "git": {
+        "remote": "https://github.com/mgatlin3-gtri/FT.git",
+        "commit": "e2c5cae8cbf02d9388d3be3d19c07d3d1c08aac2"
+    },
+    "email": "maia.gatlin@gtri.gatech.edu",
+    "root": "/home/mgatlin3/FT",
+    "host": "ice175.icehammer.gtri.org",
+    "username": "mgatlin3",
+    "executable": "/home/mgatlin3/.conda/envs/poop/bin/python"
+}

@@ -1,0 +1,573 @@
+2022-08-20 05:39:38,152 INFO    MainThread:276328 [internal.py:wandb_internal():90] W&B internal server running at pid: 276328, started at: 2022-08-20 05:39:38.151924
+2022-08-20 05:39:38,154 INFO    WriterThread:276328 [datastore.py:open_for_write():75] open: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/run-jzxsmzwl.wandb
+2022-08-20 05:39:38,156 DEBUG   SenderThread:276328 [sender.py:send():232] send: header
+2022-08-20 05:39:39,280 DEBUG   SenderThread:276328 [sender.py:send():232] send: run
+2022-08-20 05:39:39,543 INFO    SenderThread:276328 [dir_watcher.py:__init__():166] watching files in: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files
+2022-08-20 05:39:39,543 INFO    SenderThread:276328 [sender.py:_start_run_threads():811] run started: jzxsmzwl with start time 1660988375
+2022-08-20 05:39:39,544 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:39:39,544 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:39:39,546 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: check_version
+2022-08-20 05:39:39,546 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: check_version
+2022-08-20 05:39:39,745 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: run_start
+2022-08-20 05:39:40,545 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:39:42,303 DEBUG   HandlerThread:276328 [meta.py:__init__():35] meta init
+2022-08-20 05:39:42,303 DEBUG   HandlerThread:276328 [meta.py:__init__():49] meta init done
+2022-08-20 05:39:42,303 DEBUG   HandlerThread:276328 [meta.py:probe():209] probe
+2022-08-20 05:39:42,309 DEBUG   HandlerThread:276328 [meta.py:_setup_git():199] setup git
+2022-08-20 05:39:42,346 DEBUG   HandlerThread:276328 [meta.py:_setup_git():206] setup git done
+2022-08-20 05:39:42,347 DEBUG   HandlerThread:276328 [meta.py:_save_pip():53] save pip
+2022-08-20 05:39:42,348 DEBUG   HandlerThread:276328 [meta.py:_save_pip():67] save pip done
+2022-08-20 05:39:42,348 DEBUG   HandlerThread:276328 [meta.py:_save_conda():74] save conda
+2022-08-20 05:39:42,548 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/conda-environment.yaml
+2022-08-20 05:39:42,549 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/requirements.txt
+2022-08-20 05:39:45,392 DEBUG   HandlerThread:276328 [meta.py:_save_conda():84] save conda done
+2022-08-20 05:39:45,392 DEBUG   HandlerThread:276328 [meta.py:probe():247] probe done
+2022-08-20 05:39:45,398 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:39:45,398 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:39:45,398 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-20 05:39:45,550 DEBUG   SenderThread:276328 [sender.py:send():232] send: telemetry
+2022-08-20 05:39:45,550 DEBUG   SenderThread:276328 [sender.py:send():232] send: telemetry
+2022-08-20 05:39:45,550 DEBUG   SenderThread:276328 [sender.py:send():232] send: config
+2022-08-20 05:39:45,550 DEBUG   SenderThread:276328 [sender.py:send():232] send: telemetry
+2022-08-20 05:39:45,550 DEBUG   SenderThread:276328 [sender.py:send():232] send: telemetry
+2022-08-20 05:39:45,550 DEBUG   SenderThread:276328 [sender.py:send():232] send: files
+2022-08-20 05:39:45,551 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file model-best.h5 with policy live
+2022-08-20 05:39:45,551 DEBUG   SenderThread:276328 [sender.py:send():232] send: files
+2022-08-20 05:39:45,551 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-08-20 05:39:45,552 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/conda-environment.yaml
+2022-08-20 05:39:45,552 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/output.log
+2022-08-20 05:39:45,552 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-metadata.json
+2022-08-20 05:39:46,200 INFO    Thread-11 :276328 [upload_job.py:push():137] Uploaded file /tmp/tmpnum87pc5wandb/2dyd3p8l-wandb-metadata.json
+2022-08-20 05:39:46,691 DEBUG   SenderThread:276328 [sender.py:send():232] send: files
+2022-08-20 05:39:46,691 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file media/graph/graph_summary_c7677935e1783b3f49a2.graph.json with policy now
+2022-08-20 05:39:46,692 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:39:46,698 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:39:47,554 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:39:47,554 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/media/graph/graph_summary_c7677935e1783b3f49a2.graph.json
+2022-08-20 05:39:47,554 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/media
+2022-08-20 05:39:47,554 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/media/graph
+2022-08-20 05:39:47,631 INFO    Thread-12 :276328 [upload_job.py:push():137] Uploaded file /tmp/tmpnum87pc5wandb/31skuq5h-media/graph/graph_summary_c7677935e1783b3f49a2.graph.json
+2022-08-20 05:40:00,553 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:40:00,555 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:40:09,619 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/config.yaml
+2022-08-20 05:40:12,497 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:40:15,647 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:40:15,648 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:40:30,784 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:40:30,785 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:40:44,542 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:40:45,897 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:40:45,897 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:40:47,591 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:40:47,592 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:40:47,593 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:40:47,594 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:40:47,594 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:40:47,595 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:40:47,595 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:40:47,595 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:40:47,595 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:40:47,874 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:40:47,875 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:40:48,973 INFO    Thread-13 :276328 [upload_job.py:push():137] Uploaded file /tmp/tmpnum87pc5wandb/1fw98nfq-model-best.h5
+2022-08-20 05:41:01,047 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:41:01,048 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:41:16,414 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:41:16,416 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:41:16,738 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:41:31,579 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:41:31,580 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:41:46,668 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:41:46,668 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:41:47,876 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:41:47,877 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:41:47,878 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:41:47,879 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:41:47,881 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:41:47,881 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:41:47,881 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:41:47,881 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:41:47,882 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:41:48,203 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:41:48,204 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:41:48,949 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:42:01,744 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:42:01,745 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:42:16,887 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:42:16,888 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:42:21,131 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:42:31,965 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:42:31,966 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:42:47,431 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:42:47,432 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:42:48,517 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:42:48,518 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:42:48,519 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:42:48,519 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:42:48,521 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:42:49,419 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:42:53,169 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:43:02,563 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:43:02,565 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:43:17,658 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:43:17,670 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:43:25,421 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:43:32,794 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:43:32,794 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:43:48,206 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:43:48,206 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:43:48,980 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:43:48,980 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:43:48,981 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:43:48,982 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:43:48,984 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:43:48,985 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:43:48,985 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:43:48,985 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:43:48,986 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:43:49,630 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:43:49,630 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:43:57,563 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:44:03,276 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:44:03,277 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:44:18,421 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:44:18,422 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:44:29,800 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:44:33,499 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:44:33,499 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:44:48,645 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:44:48,646 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:44:49,304 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:44:49,305 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:44:49,306 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:44:49,306 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:44:49,307 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:44:49,854 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:45:01,857 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:45:03,782 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:45:03,783 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:45:19,157 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:45:19,158 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:45:34,139 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:45:34,244 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:45:34,245 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:45:49,342 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:45:49,343 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:45:49,664 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:45:49,664 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:45:49,665 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:45:49,666 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:45:49,666 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:45:49,667 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:45:49,667 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:45:49,667 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:45:49,667 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:45:50,094 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:45:50,094 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:46:04,478 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:46:04,478 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:46:06,342 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:46:19,620 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:46:19,622 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:46:34,724 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:46:34,731 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:46:38,631 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:46:50,571 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:46:50,571 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:46:50,572 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:46:50,573 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:46:50,573 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:46:50,574 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:46:50,574 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:46:50,574 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:46:50,575 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:46:50,896 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:46:50,908 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:46:51,350 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:46:51,351 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:47:06,427 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:47:06,428 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:47:10,616 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:47:21,562 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:47:21,566 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:47:36,710 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:47:36,711 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:47:42,872 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:47:50,769 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:47:50,769 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:47:50,770 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:47:50,771 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:47:50,771 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:47:50,772 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:47:50,772 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:47:50,772 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:47:50,773 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:47:51,613 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:47:51,613 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:47:51,807 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:47:51,807 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:48:06,941 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:48:06,941 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:48:14,876 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:48:22,092 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:48:22,093 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:48:37,248 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:48:37,249 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:48:47,084 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:48:51,279 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:48:51,280 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:48:51,281 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:48:51,281 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:48:51,282 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:48:51,282 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:48:51,283 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:48:51,283 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:48:51,283 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:48:51,846 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:48:51,846 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:48:52,394 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:48:52,395 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:49:07,464 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:49:07,465 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:49:19,178 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:49:22,853 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:49:22,855 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:49:37,946 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:49:37,947 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:49:51,284 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:49:51,948 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:49:51,949 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:49:51,950 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:49:51,950 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:49:51,951 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:49:51,951 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:49:51,951 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:49:51,952 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:49:51,952 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:49:52,122 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:49:52,123 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:49:53,117 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:49:53,118 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:50:10,556 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:50:10,561 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:50:23,571 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:50:25,978 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:50:25,979 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:50:41,275 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:50:41,275 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:50:52,338 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:50:52,338 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:50:52,339 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:50:52,339 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:50:52,341 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:50:52,470 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:50:55,644 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:50:56,428 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:50:56,429 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:51:11,517 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:51:11,518 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:51:27,674 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:51:27,675 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:51:27,850 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:51:42,836 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:51:42,840 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:51:52,454 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:51:52,454 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:51:52,455 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:51:52,455 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:51:52,456 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:51:52,802 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:51:57,925 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:51:57,926 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:51:59,862 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:52:13,012 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:52:13,016 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:52:28,139 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:52:28,140 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:52:32,146 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:52:43,301 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:52:43,303 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:52:53,033 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:52:53,034 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:52:53,034 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:52:53,035 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:52:53,035 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:52:53,153 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:52:58,436 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:52:58,436 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:53:04,273 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:53:13,556 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:53:13,557 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:53:28,695 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:53:28,696 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:53:36,423 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:53:43,818 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:53:43,819 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:53:54,092 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:53:54,092 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:53:54,094 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:53:54,094 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:53:54,095 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:53:54,095 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:53:54,095 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:53:54,095 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:53:54,096 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:53:54,398 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:53:54,398 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:53:58,943 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:53:58,943 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:54:08,528 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:54:14,024 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:54:14,029 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:54:29,190 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:54:29,192 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:54:40,870 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:54:44,283 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:54:44,284 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:54:54,670 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:54:54,670 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:54:54,671 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:54:54,671 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:54:54,672 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:54:54,718 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:54:59,362 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:54:59,362 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:55:13,076 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:55:14,464 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:55:14,465 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:55:29,535 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:55:29,546 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:55:44,703 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:55:44,703 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:55:45,833 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:55:55,270 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:55:55,270 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:55:55,271 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:55:55,272 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:55:55,272 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:55:55,273 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:55:55,273 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:55:55,273 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:55:55,273 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:55:56,025 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:55:56,025 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:56:00,836 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:56:00,837 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:56:15,919 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:56:15,928 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:56:17,295 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:56:32,082 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:56:32,085 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:56:47,227 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:56:47,227 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:56:49,541 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:56:55,839 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:56:55,840 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:56:55,841 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:56:55,841 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:56:55,842 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:56:55,842 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:56:55,842 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:56:55,843 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:56:55,843 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:56:56,305 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:56:56,306 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:57:03,171 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:57:03,172 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:57:18,348 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:57:18,352 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:57:21,646 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:57:33,519 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:57:33,520 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:57:48,810 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:57:48,811 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:57:53,870 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:57:56,281 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:57:56,282 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:57:56,283 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:57:56,283 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:57:56,284 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:57:56,536 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:58:03,889 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:58:03,889 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:58:18,967 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:58:18,968 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:58:26,041 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:58:34,040 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:58:34,040 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:58:49,125 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:58:49,126 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:58:56,817 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:58:56,818 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:58:56,818 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:58:56,819 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:58:56,821 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:58:56,852 INFO    Thread-7  :276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:58:58,213 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:59:04,211 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:59:04,212 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:59:19,349 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:59:19,350 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:59:30,424 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:59:34,441 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:59:34,452 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:59:50,539 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-20 05:59:50,540 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: stop_status
+2022-08-20 05:59:57,464 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:59:57,465 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-20 05:59:57,466 DEBUG   SenderThread:276328 [sender.py:send():232] send: history
+2022-08-20 05:59:57,466 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:59:57,467 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:59:57,467 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:59:57,468 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:59:57,468 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:59:57,468 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:59:57,520 DEBUG   SenderThread:276328 [sender.py:send():232] send: telemetry
+2022-08-20 05:59:57,524 DEBUG   SenderThread:276328 [sender.py:send():232] send: telemetry
+2022-08-20 05:59:57,525 DEBUG   SenderThread:276328 [sender.py:send():232] send: exit
+2022-08-20 05:59:57,525 INFO    SenderThread:276328 [sender.py:send_exit():368] handling exit code: 0
+2022-08-20 05:59:57,526 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:57,526 INFO    SenderThread:276328 [sender.py:send_exit():370] handling runtime: 1217
+2022-08-20 05:59:57,526 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:59:57,526 INFO    SenderThread:276328 [sender.py:send_exit():376] send defer
+2022-08-20 05:59:57,526 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:57,527 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,527 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-20 05:59:57,527 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,527 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-08-20 05:59:57,527 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 1
+2022-08-20 05:59:57,527 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,527 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-20 05:59:57,685 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:57,686 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,686 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-08-20 05:59:57,686 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 2
+2022-08-20 05:59:57,686 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:57,686 DEBUG   SenderThread:276328 [sender.py:send():232] send: stats
+2022-08-20 05:59:57,687 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,687 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-20 05:59:57,687 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,687 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-08-20 05:59:57,687 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 3
+2022-08-20 05:59:57,687 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,687 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-20 05:59:57,687 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,687 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-08-20 05:59:57,687 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 4
+2022-08-20 05:59:57,687 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,687 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-20 05:59:57,688 DEBUG   SenderThread:276328 [sender.py:send():232] send: summary
+2022-08-20 05:59:57,688 INFO    SenderThread:276328 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-20 05:59:57,688 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,688 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-08-20 05:59:57,688 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 5
+2022-08-20 05:59:57,688 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,689 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-20 05:59:57,689 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,689 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-08-20 05:59:57,788 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:57,870 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 6
+2022-08-20 05:59:57,870 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:57,870 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,871 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-20 05:59:57,871 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,871 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-08-20 05:59:57,871 INFO    SenderThread:276328 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-08-20 05:59:57,918 INFO    SenderThread:276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/config.yaml
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:finish():309] scan: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/output.log output.log
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/config.yaml config.yaml
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-metadata.json wandb-metadata.json
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json wandb-summary.json
+2022-08-20 05:59:57,919 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/model-best.h5 model-best.h5
+2022-08-20 05:59:57,924 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/requirements.txt requirements.txt
+2022-08-20 05:59:57,925 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/conda-environment.yaml conda-environment.yaml
+2022-08-20 05:59:57,925 INFO    SenderThread:276328 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/media/graph/graph_summary_c7677935e1783b3f49a2.graph.json media/graph/graph_summary_c7677935e1783b3f49a2.graph.json
+2022-08-20 05:59:57,925 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 7
+2022-08-20 05:59:57,925 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 05:59:57,926 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-20 05:59:57,926 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 05:59:57,926 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-08-20 05:59:57,926 INFO    SenderThread:276328 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-20 05:59:57,972 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:57,972 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,073 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,073 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,175 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,175 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,277 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,277 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,378 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,378 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,480 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,480 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,501 INFO    Thread-15 :276328 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/wandb-summary.json
+2022-08-20 05:59:58,581 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,581 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,683 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,683 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,761 INFO    Thread-17 :276328 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/requirements.txt
+2022-08-20 05:59:58,784 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,784 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,823 INFO    Thread-18 :276328 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/conda-environment.yaml
+2022-08-20 05:59:58,886 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,886 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:58,987 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:58,987 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,090 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,090 INFO    Thread-14 :276328 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/files/config.yaml
+2022-08-20 05:59:59,090 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,191 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,192 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,293 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,293 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,394 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,395 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,496 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,496 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,597 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,597 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,698 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,698 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,799 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,799 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,900 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 05:59:59,900 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 05:59:59,942 INFO    Thread-16 :276328 [upload_job.py:push():137] Uploaded file /tmp/tmpnum87pc5wandb/156yrm8l-model-best.h5
+2022-08-20 06:00:00,001 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 06:00:00,001 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 06:00:00,102 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 06:00:00,102 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 06:00:00,143 INFO    Thread-6  :276328 [sender.py:transition_state():389] send defer: 8
+2022-08-20 06:00:00,143 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 06:00:00,144 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-20 06:00:00,144 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 06:00:00,144 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-08-20 06:00:00,203 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 06:00:00,218 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 9
+2022-08-20 06:00:00,218 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 06:00:00,219 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 06:00:00,219 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-20 06:00:00,219 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 06:00:00,219 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-08-20 06:00:00,219 INFO    SenderThread:276328 [sender.py:transition_state():389] send defer: 10
+2022-08-20 06:00:00,219 DEBUG   SenderThread:276328 [sender.py:send():232] send: final
+2022-08-20 06:00:00,220 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: defer
+2022-08-20 06:00:00,220 DEBUG   SenderThread:276328 [sender.py:send():232] send: footer
+2022-08-20 06:00:00,220 INFO    HandlerThread:276328 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-20 06:00:00,220 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: defer
+2022-08-20 06:00:00,220 INFO    SenderThread:276328 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-08-20 06:00:00,320 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-20 06:00:00,320 DEBUG   SenderThread:276328 [sender.py:send_request():246] send_request: poll_exit
+2022-08-20 06:00:00,320 INFO    SenderThread:276328 [file_pusher.py:join():150] waiting for file pusher
+2022-08-20 06:00:00,541 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-20 06:00:00,542 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-20 06:00:00,543 DEBUG   HandlerThread:276328 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-20 06:00:00,543 INFO    HandlerThread:276328 [handler.py:finish():806] shutting down handler
+2022-08-20 06:00:01,220 INFO    WriterThread:276328 [datastore.py:close():279] close: /home/mgatlin3/FT/wandb/run-20220820_053933-jzxsmzwl/run-jzxsmzwl.wandb
+2022-08-20 06:00:01,440 INFO    SenderThread:276328 [sender.py:finish():1106] shutting down sender
+2022-08-20 06:00:01,440 INFO    SenderThread:276328 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-20 06:00:01,440 INFO    SenderThread:276328 [file_pusher.py:join():150] waiting for file pusher
+2022-08-20 06:00:01,443 INFO    MainThread:276328 [internal.py:handle_exit():80] Internal process exited
