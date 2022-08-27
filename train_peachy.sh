@@ -4,11 +4,11 @@
 #SBATCH --error=/home/mgatlin3/FT/logs/err/%x_%j.err
 #SBATCH --export=NONE
 #SBATCH --mem=128G
-#SBATCH -n 2
-#SBATCH -N 2
-#SBATCH -t 0-8:00
+#SBATCH -n 3
+#SBATCH -N 3
+#SBATCH -t 0-16:00
 #SBATCH -c 16
-#SBATCH --gres=gpu:2 
+#SBATCH --gres=gpu:3 
 
 
 module load anaconda3

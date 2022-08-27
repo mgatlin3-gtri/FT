@@ -12,3 +12,4 @@ wandb: 🚀 View run at https://wandb.ai/mgatlin3/Feces%20Thesis/runs/1agfej6d
 Skipping registering GPU devices...
 2022-08-26 21:22:08.209250: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+slurmstepd: error: *** JOB 5519682 ON ice162 CANCELLED AT 2022-08-27T05:22:16 DUE TO TIME LIMIT ***

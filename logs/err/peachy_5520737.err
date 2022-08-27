@@ -1,0 +1,14 @@
+wandb: Currently logged in as: mgatlin3 (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220827_162911-37q7879x
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run silver-dew-15
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/Feces%20Thesis
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/Feces%20Thesis/runs/37q7879x
+2022-08-27 16:29:16.628485: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/apps/Module/GCC/9.2.0/lib64
+2022-08-27 16:29:16.628526: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-08-27 16:29:16.628902: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
