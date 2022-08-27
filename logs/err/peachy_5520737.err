@@ -12,3 +12,98 @@ wandb: 🚀 View run at https://wandb.ai/mgatlin3/Feces%20Thesis/runs/37q7879x
 Skipping registering GPU devices...
 2022-08-27 16:29:16.628902: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-27 18:44:45.079458: W tensorflow/core/framework/op_kernel.cc:1733] UNKNOWN: FileNotFoundError: [Errno 2] No such file or directory: 'images/train/farts/farts_10min.mp3_430-440sec_spec0.png'
+Traceback (most recent call last):
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/tensorflow/python/ops/script_ops.py", line 270, in __call__
+    ret = func(*args)
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/tensorflow/python/autograph/impl/api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 1030, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 831, in wrapped_generator
+    for data in generator_fn():
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 957, in generator_fn
+    yield x[i]
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/preprocessing/image.py", line 110, in __getitem__
+    return self._get_batches_of_transformed_samples(index_array)
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/preprocessing/image.py", line 337, in _get_batches_of_transformed_samples
+    img = image_utils.load_img(
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/utils/image_utils.py", line 393, in load_img
+    with open(path, 'rb') as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'images/train/farts/farts_10min.mp3_430-440sec_spec0.png'
+
+
+Traceback (most recent call last):
+  File "/home/mgatlin3/FT/2dCNN_peachy.py", line 101, in <module>
+    history = model.fit(train_generator, validation_data=val_generator, epochs=wandb.config.epochs, batch_size=wandb.config.batch_size,
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/integration/keras/keras.py", line 163, in new_v2
+    return old_v2(*args, **kwargs)
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/tensorflow/python/eager/execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'images/train/farts/farts_10min.mp3_430-440sec_spec0.png'
+Traceback (most recent call last):
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/tensorflow/python/ops/script_ops.py", line 270, in __call__
+    ret = func(*args)
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/tensorflow/python/autograph/impl/api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 1030, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 831, in wrapped_generator
+    for data in generator_fn():
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/engine/data_adapter.py", line 957, in generator_fn
+    yield x[i]
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/preprocessing/image.py", line 110, in __getitem__
+    return self._get_batches_of_transformed_samples(index_array)
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/preprocessing/image.py", line 337, in _get_batches_of_transformed_samples
+    img = image_utils.load_img(
+
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/keras/utils/image_utils.py", line 393, in load_img
+    with open(path, 'rb') as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'images/train/farts/farts_10min.mp3_430-440sec_spec0.png'
+
+
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]] [Op:__inference_train_function_1133]
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: - 0.472 MB of 0.472 MB uploaded (0.000 MB deduped)wandb: \ 0.472 MB of 0.472 MB uploaded (0.000 MB deduped)wandb: | 0.472 MB of 0.473 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: - 0.353 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: \ 0.493 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: | 0.493 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: / 0.493 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: - 0.493 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: \ 0.493 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: | 0.493 MB of 0.493 MB uploaded (0.000 MB deduped)wandb: / 0.493 MB of 0.493 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▄▅▆▆▆▇▇▇▇████████
+wandb:        epoch ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb:         loss █▆▆▅▅▄▄▃▃▂▂▂▂▂▂▂▁▁▁▁
+wandb: val_accuracy ▁▃▅▄▆▆▇▇▇▇███▇▇▇▇███
+wandb:     val_loss █▇▆▇▅▅▅▃▄▃▂▂▁▂▂▂▁▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.81186
+wandb:    best_epoch 17
+wandb: best_val_loss 0.44492
+wandb:         epoch 19
+wandb:          loss 0.53044
+wandb:  val_accuracy 0.86508
+wandb:      val_loss 0.53603
+wandb: 
+wandb: Synced silver-dew-15: https://wandb.ai/mgatlin3/Feces%20Thesis/runs/37q7879x
+wandb: Synced 6 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220827_162911-37q7879x/logs

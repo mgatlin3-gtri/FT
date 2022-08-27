@@ -16,8 +16,8 @@ for section in sections:
     print("\n" + section[0].upper() + section[1:] + ":")
     total = 0
     for category in categories:
-        print("\t" + category + ": " + str(len([name for name in os.listdir(type + "\\" + section + "\\" + category)])))
-        total += len([name for name in os.listdir(type + "\\" + section + "\\" + category)])
+        print("\t" + category + ": " + str(len([name for name in os.listdir(type + "/" + section + "/" + category)])))
+        total += len([name for name in os.listdir(type + "/" + section + "/" + category)])
     print("\ttotal: " + str(total))
     grand_total += total
 print("\nGrand Total: " + str(grand_total))
