@@ -1,0 +1,48 @@
+Found 1552 images belonging to 4 classes.
+Found 252 images belonging to 4 classes.
+Found 315 images belonging to 4 classes.
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 478, 638, 128)     3584      
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 239, 319, 128)    0         
+ )                                                               
+                                                                 
+ dropout (Dropout)           (None, 239, 319, 128)     0         
+                                                                 
+ conv2d_1 (Conv2D)           (None, 237, 317, 32)      36896     
+                                                                 
+ max_pooling2d_1 (MaxPooling  (None, 118, 158, 32)     0         
+ 2D)                                                             
+                                                                 
+ dropout_1 (Dropout)         (None, 118, 158, 32)      0         
+                                                                 
+ conv2d_2 (Conv2D)           (None, 116, 156, 32)      9248      
+                                                                 
+ max_pooling2d_2 (MaxPooling  (None, 58, 78, 32)       0         
+ 2D)                                                             
+                                                                 
+ dropout_2 (Dropout)         (None, 58, 78, 32)        0         
+                                                                 
+ conv2d_3 (Conv2D)           (None, 56, 76, 128)       36992     
+                                                                 
+ max_pooling2d_3 (MaxPooling  (None, 28, 38, 128)      0         
+ 2D)                                                             
+                                                                 
+ dropout_3 (Dropout)         (None, 28, 38, 128)       0         
+                                                                 
+ global_average_pooling2d (G  (None, 128)              0         
+ lobalAveragePooling2D)                                          
+                                                                 
+ dropout_4 (Dropout)         (None, 128)               0         
+                                                                 
+ dense (Dense)               (None, 4)                 516       
+                                                                 
+=================================================================
+Total params: 87,236
+Trainable params: 87,236
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/60
