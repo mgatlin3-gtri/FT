@@ -1,0 +1,40 @@
+2022-08-29 19:22:50,385 INFO    Thread-4006:116206 [wandb_setup.py:_flush():75] Loading settings from /home/mgatlin3/.config/wandb/settings
+2022-08-29 19:22:50,385 INFO    Thread-4006:116206 [wandb_setup.py:_flush():75] Loading settings from wandb/settings
+2022-08-29 19:22:50,385 INFO    Thread-4006:116206 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'sweep-FT', 'entity': 'mgatlin3', 'root_dir': '/home/mgatlin3/FT', 'run_id': 'ocbghgng', 'sweep_param_path': '/home/mgatlin3/FT/wandb/sweep-paq5irxm/config-ocbghgng.yaml', 'sweep_id': 'paq5irxm'}
+2022-08-29 19:22:50,385 INFO    Thread-4006:116206 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'sweep.py', 'program': '/home/mgatlin3/FT/sweep.py'}
+2022-08-29 19:22:50,385 INFO    Thread-4006:116206 [wandb_init.py:_log_setup():437] Logging user logs to /home/mgatlin3/FT/wandb/run-20220829_192250-ocbghgng/logs/debug.log
+2022-08-29 19:22:50,385 INFO    Thread-4006:116206 [wandb_init.py:_log_setup():438] Logging internal logs to /home/mgatlin3/FT/wandb/run-20220829_192250-ocbghgng/logs/debug-internal.log
+2022-08-29 19:22:50,385 INFO    Thread-4006:116206 [wandb_init.py:init():471] calling init triggers
+2022-08-29 19:22:50,386 INFO    Thread-4006:116206 [wandb_init.py:init():474] wandb.init called with sweep_config: {'batch_size': 6, 'dropout_c': 0, 'dropout_ga': 0.35, 'epochs': 50, 'learning_rate': 0.00075, 'num_features_c1': 16, 'num_features_c2': 64, 'num_features_c3': 64, 'num_features_c4': 64}
+config: {'batch_size': 4, 'epochs': 5, 'dropout_c': 0.3, 'dropout_ga': 0.1, 'num_features_c1': 64, 'num_features_c2': 64, 'num_features_c3': 128, 'num_features_c4': 64, 'learning_rate': 0.0003}
+2022-08-29 19:22:50,386 INFO    Thread-4006:116206 [wandb_init.py:init():524] starting backend
+2022-08-29 19:22:50,386 INFO    Thread-4006:116206 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-08-29 19:22:50,390 INFO    Thread-4006:116206 [backend.py:ensure_launched():217] starting backend process...
+2022-08-29 19:22:50,540 INFO    Thread-4006:116206 [backend.py:ensure_launched():222] started backend process with pid: 95124
+2022-08-29 19:22:50,542 INFO    Thread-4006:116206 [wandb_init.py:init():533] backend started and connected
+2022-08-29 19:22:50,550 INFO    Thread-4006:116206 [wandb_run.py:_config_callback():1131] config_cb None None {'batch_size': 6, 'dropout_c': 0, 'dropout_ga': 0.35, 'epochs': 50, 'learning_rate': 0.00075, 'num_features_c1': 16, 'num_features_c2': 64, 'num_features_c3': 64, 'num_features_c4': 64}
+2022-08-29 19:22:50,555 INFO    Thread-4006:116206 [wandb_init.py:init():597] updated telemetry
+2022-08-29 19:22:50,899 INFO    Thread-4006:116206 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-08-29 19:22:51,815 INFO    Thread-4006:116206 [wandb_run.py:_on_init():1923] communicating current version
+2022-08-29 19:22:51,906 INFO    Thread-4006:116206 [wandb_run.py:_on_init():1927] got version response upgrade_message: "wandb version 0.13.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-08-29 19:22:51,906 INFO    Thread-4006:116206 [wandb_init.py:init():659] starting run threads in backend
+2022-08-29 19:22:56,812 INFO    Thread-4006:116206 [wandb_run.py:_console_start():1897] atexit reg
+2022-08-29 19:22:56,813 INFO    Thread-4006:116206 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.REDIRECT
+2022-08-29 19:22:56,813 INFO    Thread-4006:116206 [wandb_run.py:_redirect():1775] Redirecting console.
+2022-08-29 19:22:56,814 ERROR   Thread-4006:116206 [wandb_run.py:_redirect():1834] Failed to redirect.
+Traceback (most recent call last):
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1827, in _redirect
+    out_redir.install()
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 709, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 659, in add_fd
+    self._register()
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 644, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/home/mgatlin3/.conda/envs/poop/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2022-08-29 19:22:56,814 INFO    Thread-4006:116206 [wandb_init.py:init():684] run started, returning control to user process
+2022-08-29 19:22:56,815 INFO    Thread-4006:116206 [wandb_config.py:__setitem__():150] config set architecture_name = CNN - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ffad2e99760>>
+2022-08-29 19:22:56,815 INFO    Thread-4006:116206 [wandb_run.py:_config_callback():1131] config_cb architecture_name CNN None
