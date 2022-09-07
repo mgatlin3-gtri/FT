@@ -4,9 +4,9 @@
 #SBATCH --error=/home/mgatlin3/FT/logs/err/%x_%j.err
 #SBATCH --export=NONE
 #SBATCH --mem=256G
-#SBATCH -n 4
-#SBATCH -N 4
-#SBATCH -t 5-12:00
+#SBATCH -n 3
+#SBATCH -N 3
+#SBATCH -t 7-12:00
 #SBATCH -c 32
 #SBATCH --gres=gpu:3 
 
