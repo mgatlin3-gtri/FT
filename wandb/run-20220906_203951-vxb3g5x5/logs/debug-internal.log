@@ -1,0 +1,1181 @@
+2022-09-06 20:39:51,913 INFO    MainThread:35065 [internal.py:wandb_internal():90] W&B internal server running at pid: 35065, started at: 2022-09-06 20:39:51.913435
+2022-09-06 20:39:51,915 INFO    WriterThread:35065 [datastore.py:open_for_write():75] open: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/run-vxb3g5x5.wandb
+2022-09-06 20:39:51,917 DEBUG   SenderThread:35065 [sender.py:send():232] send: header
+2022-09-06 20:39:51,918 DEBUG   SenderThread:35065 [sender.py:send():232] send: run
+2022-09-06 20:39:52,022 INFO    SenderThread:35065 [dir_watcher.py:__init__():166] watching files in: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files
+2022-09-06 20:39:52,022 INFO    SenderThread:35065 [sender.py:_start_run_threads():811] run started: vxb3g5x5 with start time 1662511191
+2022-09-06 20:39:52,022 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:39:52,022 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:39:52,023 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: check_version
+2022-09-06 20:39:52,023 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: check_version
+2022-09-06 20:39:52,113 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: run_start
+2022-09-06 20:39:53,024 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:39:53,985 DEBUG   HandlerThread:35065 [meta.py:__init__():35] meta init
+2022-09-06 20:39:53,985 DEBUG   HandlerThread:35065 [meta.py:__init__():49] meta init done
+2022-09-06 20:39:53,985 DEBUG   HandlerThread:35065 [meta.py:probe():209] probe
+2022-09-06 20:39:53,992 DEBUG   HandlerThread:35065 [meta.py:_setup_git():199] setup git
+2022-09-06 20:39:54,026 DEBUG   HandlerThread:35065 [meta.py:_setup_git():206] setup git done
+2022-09-06 20:39:54,026 DEBUG   HandlerThread:35065 [meta.py:_save_pip():53] save pip
+2022-09-06 20:39:54,027 DEBUG   HandlerThread:35065 [meta.py:_save_pip():67] save pip done
+2022-09-06 20:39:54,027 DEBUG   HandlerThread:35065 [meta.py:_save_conda():74] save conda
+2022-09-06 20:39:55,027 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/requirements.txt
+2022-09-06 20:39:55,028 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/conda-environment.yaml
+2022-09-06 20:39:56,393 DEBUG   HandlerThread:35065 [meta.py:_save_conda():84] save conda done
+2022-09-06 20:39:56,393 DEBUG   HandlerThread:35065 [meta.py:probe():247] probe done
+2022-09-06 20:39:56,397 DEBUG   SenderThread:35065 [sender.py:send():232] send: files
+2022-09-06 20:39:56,398 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-09-06 20:39:56,403 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:39:56,403 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:39:56,459 DEBUG   SenderThread:35065 [sender.py:send():232] send: telemetry
+2022-09-06 20:39:56,459 DEBUG   SenderThread:35065 [sender.py:send():232] send: telemetry
+2022-09-06 20:39:56,459 DEBUG   SenderThread:35065 [sender.py:send():232] send: config
+2022-09-06 20:39:56,628 DEBUG   SenderThread:35065 [sender.py:send():232] send: telemetry
+2022-09-06 20:39:56,628 DEBUG   SenderThread:35065 [sender.py:send():232] send: telemetry
+2022-09-06 20:39:56,628 DEBUG   SenderThread:35065 [sender.py:send():232] send: files
+2022-09-06 20:39:56,628 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file model-best.h5 with policy live
+2022-09-06 20:39:56,628 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-06 20:39:56,832 INFO    Thread-11 :35065 [upload_job.py:push():137] Uploaded file /tmp/tmppjylp746wandb/2dl13dhe-wandb-metadata.json
+2022-09-06 20:39:57,029 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/conda-environment.yaml
+2022-09-06 20:39:57,029 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-metadata.json
+2022-09-06 20:39:57,029 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/output.log
+2022-09-06 20:39:57,556 DEBUG   SenderThread:35065 [sender.py:send():232] send: files
+2022-09-06 20:39:57,556 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file media/graph/graph_summary_8b8e973aaf6b21686240.graph.json with policy now
+2022-09-06 20:39:57,557 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:39:57,569 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:39:57,924 INFO    Thread-12 :35065 [upload_job.py:push():137] Uploaded file /tmp/tmppjylp746wandb/52y2ghvm-media/graph/graph_summary_8b8e973aaf6b21686240.graph.json
+2022-09-06 20:39:58,030 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:39:58,031 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/media/graph/graph_summary_8b8e973aaf6b21686240.graph.json
+2022-09-06 20:39:58,031 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/media
+2022-09-06 20:39:58,031 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/media/graph
+2022-09-06 20:40:11,461 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:40:11,462 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:40:22,823 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:40:23,062 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/config.yaml
+2022-09-06 20:40:26,521 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:40:26,522 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:40:41,585 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:40:41,586 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:40:53,664 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:40:56,650 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:40:56,650 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:41:11,708 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:41:11,709 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:41:24,496 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:41:25,478 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:41:25,478 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:41:25,480 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:41:25,480 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:41:25,481 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:41:25,481 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:41:25,482 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:41:25,482 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:41:25,482 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:41:26,147 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:41:26,148 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_created():213] file/dir created: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:41:26,589 INFO    Thread-13 :35065 [upload_job.py:push():137] Uploaded file /tmp/tmppjylp746wandb/3n2hf7ho-model-best.h5
+2022-09-06 20:41:26,771 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:41:26,771 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:41:41,833 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:41:41,834 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:41:55,319 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:41:56,895 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:41:56,896 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:42:11,956 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:42:11,957 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:42:26,158 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:42:27,019 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:42:27,019 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:42:42,187 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:42:42,188 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:42:52,310 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:42:52,310 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:42:52,311 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:42:52,312 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:42:52,314 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:42:52,314 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:42:52,315 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:42:52,315 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:42:52,315 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:42:52,315 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:42:52,316 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:42:53,316 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:42:53,317 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:42:57,021 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:42:57,268 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:42:57,268 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:43:12,327 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:43:12,328 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:43:27,786 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:43:28,095 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:43:28,096 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:43:43,151 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:43:43,152 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:43:58,271 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:43:58,272 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:43:58,583 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:44:13,333 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:44:13,333 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:44:19,805 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:44:19,806 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:44:19,807 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:44:19,807 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:44:19,810 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:44:19,810 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:44:19,810 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:44:19,810 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:44:19,811 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:44:20,454 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:44:20,455 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:44:28,405 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:44:28,405 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:44:29,422 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:44:43,465 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:44:43,465 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:44:58,529 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:44:58,530 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:45:00,224 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:45:13,599 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:45:13,600 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:45:28,660 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:45:28,661 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:45:31,009 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:45:43,737 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:45:43,738 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:45:46,501 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:45:46,502 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:45:46,503 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:45:46,503 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:45:46,504 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:45:46,504 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:45:46,505 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:45:46,505 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:45:46,505 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:45:46,577 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:45:46,577 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:45:58,804 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:45:58,805 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:46:01,825 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:46:13,866 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:46:13,867 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:46:28,928 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:46:28,928 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:46:32,673 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:46:43,991 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:46:43,991 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:46:59,055 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:46:59,055 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:47:03,455 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:47:12,775 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:47:12,776 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:47:12,777 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:47:12,778 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:47:12,778 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:47:12,779 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:47:12,779 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:47:12,779 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:47:12,780 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:47:13,688 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:47:13,688 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:47:14,123 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:47:14,127 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:47:29,188 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:47:29,189 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:47:34,283 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:47:44,250 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:47:44,251 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:47:59,490 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:47:59,491 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:48:05,156 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:48:14,566 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:48:14,572 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:48:29,661 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:48:29,661 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:48:35,979 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:48:40,004 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:48:40,005 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:48:40,006 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:48:40,006 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:48:40,007 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:48:40,007 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:48:40,008 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:48:40,008 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:48:40,008 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:48:40,822 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:48:40,823 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:48:44,724 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:48:44,725 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:48:59,796 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:48:59,796 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:49:06,745 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:49:14,856 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:49:14,856 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:49:29,920 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:49:29,920 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:49:37,531 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:49:44,985 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:49:44,985 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:50:00,048 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:50:00,049 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:50:06,930 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:50:06,931 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:50:06,932 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:50:06,932 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:50:06,933 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:50:06,933 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:50:06,934 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:50:06,934 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:50:06,934 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:50:06,938 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:50:06,939 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:50:07,945 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:50:08,401 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:50:15,109 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:50:15,110 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:50:30,166 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:50:30,167 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:50:39,173 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:50:45,229 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:50:45,230 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:51:00,289 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:51:00,289 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:51:09,993 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:51:15,349 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:51:15,349 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:51:30,424 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:51:30,425 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:51:33,607 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:51:33,608 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:51:33,609 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:51:33,609 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:51:33,610 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:51:33,610 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:51:33,611 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:51:33,611 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:51:33,611 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:51:34,078 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:51:34,079 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:51:40,796 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:51:45,482 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:51:45,483 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:52:00,541 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:52:00,541 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:52:11,605 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:52:15,612 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:52:15,613 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:52:30,674 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:52:30,675 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:52:42,419 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:52:45,731 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:52:45,733 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:52:59,943 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:52:59,944 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:52:59,945 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:52:59,945 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:52:59,946 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:52:59,947 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:52:59,947 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:52:59,947 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:52:59,948 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:53:00,222 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:53:00,222 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:53:00,792 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:53:00,792 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:53:13,268 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:53:15,866 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:53:15,867 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:53:30,926 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:53:30,927 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:53:44,098 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:53:45,988 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:53:45,989 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:54:01,050 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:54:01,051 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:54:14,883 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:54:16,116 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:54:16,117 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:54:26,308 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:54:26,309 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:54:26,309 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:54:26,310 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:54:26,311 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:54:26,311 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:54:26,311 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:54:26,311 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:54:26,312 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:54:26,359 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:54:26,359 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:54:31,173 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:54:31,174 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:54:45,685 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:54:46,240 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:54:46,240 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:55:01,298 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:55:01,299 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:55:16,525 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:55:16,691 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:55:16,692 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:55:31,763 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:55:31,763 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:55:46,824 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:55:46,827 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:55:47,333 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:55:52,249 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:55:52,250 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:55:52,251 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:55:52,251 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:55:52,252 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:55:52,254 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:55:52,255 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:55:52,255 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:55:52,255 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:55:52,476 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:55:52,476 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:56:01,953 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:56:01,953 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:56:17,019 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:56:17,020 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:56:18,135 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:56:32,087 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:56:32,089 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:56:47,151 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:56:47,151 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:56:48,933 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:57:02,295 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:57:02,296 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:57:17,358 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:57:17,359 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:57:17,804 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:57:17,805 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:57:17,806 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:57:17,807 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:57:17,807 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:57:17,808 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:57:17,808 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:57:17,808 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:57:17,809 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:57:18,586 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:57:18,586 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:57:19,760 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:57:32,450 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:57:32,451 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:57:47,516 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:57:47,517 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:57:50,551 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:58:02,677 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:58:02,678 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:58:17,742 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:58:17,743 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:58:21,294 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:58:32,807 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:58:32,807 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:58:43,510 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:58:43,511 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 20:58:43,512 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 20:58:43,512 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:58:43,512 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:58:43,513 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:58:43,513 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:58:43,513 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 20:58:43,513 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 20:58:43,721 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 20:58:43,722 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 20:58:47,867 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:58:47,867 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:58:52,160 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:59:02,924 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:59:02,925 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:59:17,987 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:59:17,988 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:59:22,952 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 20:59:33,057 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:59:33,057 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:59:48,114 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 20:59:48,119 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 20:59:53,776 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:00:03,180 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:00:03,181 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:00:10,326 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:00:10,327 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:00:10,327 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:00:10,328 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:00:10,329 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:00:10,329 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:00:10,329 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:00:10,329 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:00:10,330 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:00:10,834 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:00:10,834 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:00:18,243 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:00:18,244 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:00:24,606 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:00:33,303 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:00:33,304 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:00:48,365 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:00:48,365 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:00:55,377 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:01:03,434 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:01:03,434 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:01:18,490 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:01:18,490 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:01:26,165 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:01:33,556 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:01:33,556 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:01:36,894 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:01:36,896 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:01:36,897 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:01:36,897 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:01:36,898 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:01:36,899 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:01:36,899 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:01:36,899 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:01:36,900 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:01:36,935 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:01:36,935 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:01:48,614 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:01:48,615 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:01:56,996 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:02:03,673 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:02:03,674 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:02:18,742 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:02:18,742 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:02:27,838 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:02:33,802 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:02:33,802 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:02:48,868 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:02:48,869 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:02:58,633 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:03:03,108 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:03:03,108 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:03:03,109 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:03:03,110 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:03:03,110 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:03:03,110 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:03:03,111 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:03:03,111 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:03:03,111 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:03:03,978 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:03:03,979 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:03:04,058 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:03:04,058 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:03:23,980 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:03:29,718 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:03:34,093 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:03:43,980 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:03:43,980 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:03:59,043 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:03:59,044 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:04:00,237 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:04:14,110 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:04:14,111 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:04:29,173 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:04:29,174 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:04:29,907 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:04:29,907 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:04:29,909 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:04:29,909 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:04:29,910 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:04:29,910 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:04:29,911 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:04:29,911 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:04:29,911 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:04:30,183 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:04:30,184 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:04:31,084 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:04:44,238 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:04:44,239 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:04:59,304 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:04:59,305 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:05:01,857 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:05:14,363 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:05:14,365 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:05:29,429 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:05:29,430 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:05:32,648 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:05:44,492 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:05:44,496 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:05:55,942 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:05:55,942 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:05:55,943 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:05:55,944 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:05:55,945 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:05:55,945 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:05:55,945 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:05:55,946 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:05:55,946 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:05:56,309 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:05:56,309 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:05:59,570 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:05:59,570 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:06:03,439 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:06:14,632 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:06:14,633 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:06:29,696 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:06:29,696 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:06:34,227 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:06:44,760 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:06:44,761 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:06:59,827 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:06:59,830 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:07:04,991 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:07:14,894 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:07:14,895 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:07:22,217 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:07:22,217 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:07:22,218 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:07:22,218 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:07:22,219 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:07:22,219 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:07:22,220 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:07:22,220 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:07:22,220 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:07:22,436 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:07:22,436 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:07:29,953 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:07:29,953 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:07:35,850 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:07:45,017 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:07:45,017 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:08:00,077 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:08:00,078 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:08:06,704 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:08:15,137 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:08:15,137 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:08:30,198 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:08:30,199 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:08:37,520 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:08:45,314 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:08:45,314 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:08:49,517 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:08:49,517 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:08:49,519 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:08:49,519 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:08:49,520 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:08:49,520 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:08:49,521 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:08:49,521 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:08:49,521 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:08:49,575 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:08:49,575 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:09:00,375 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:09:00,377 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:09:08,311 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:09:15,441 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:09:15,441 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:09:30,505 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:09:30,507 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:09:39,101 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:09:45,565 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:09:45,566 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:10:00,626 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:10:00,627 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:10:09,886 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:10:15,691 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:10:15,691 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:10:16,060 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:10:16,061 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:10:16,062 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:10:16,062 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:10:16,063 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:10:16,063 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:10:16,064 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:10:16,064 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:10:16,064 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:10:16,695 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:10:16,696 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:10:30,749 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:10:30,749 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:10:40,699 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:10:45,817 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:10:45,817 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:11:00,918 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:11:00,919 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:11:11,508 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:11:15,980 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:11:15,980 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:11:31,055 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:11:31,056 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:11:42,386 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:11:42,492 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:11:42,493 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:11:42,494 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:11:42,494 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:11:42,495 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:11:42,495 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:11:42,495 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:11:42,495 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:11:42,496 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:11:42,807 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:11:42,807 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:11:46,112 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:11:46,113 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:12:01,311 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:12:01,311 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:12:13,163 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:12:16,379 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:12:16,379 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:12:31,445 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:12:31,446 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:12:43,993 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:12:46,510 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:12:46,510 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:13:01,586 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:13:01,586 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:13:10,002 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:13:10,003 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:13:10,004 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:13:10,004 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:13:10,004 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:13:10,005 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:13:10,005 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:13:10,005 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:13:10,005 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:13:10,935 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:13:10,935 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:13:14,858 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:13:16,657 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:13:16,657 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:13:31,717 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:13:31,718 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:13:45,662 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:13:46,788 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:13:46,788 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:14:01,860 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:14:01,860 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:14:16,490 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:14:16,920 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:14:16,920 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:14:31,992 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:14:31,992 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:14:36,461 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:14:36,461 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:14:36,462 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:14:36,463 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:14:36,464 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:14:36,465 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:14:36,465 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:14:36,465 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:14:36,466 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:14:37,070 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:14:37,071 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:14:47,054 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:14:47,055 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:14:47,299 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:15:02,121 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:15:02,121 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:15:17,186 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:15:17,187 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:15:18,073 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:15:32,255 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:15:32,256 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:15:47,330 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:15:47,330 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:15:48,848 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:16:02,390 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:16:02,391 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:16:03,055 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:16:03,056 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:16:03,056 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:16:03,057 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:16:03,057 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:16:03,057 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:16:03,058 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:16:03,058 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:16:03,058 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:16:03,181 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:16:03,182 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:16:17,448 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:16:17,449 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:16:19,648 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:16:32,509 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:16:32,509 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:16:47,568 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:16:47,569 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:16:50,491 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:17:02,634 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:17:02,635 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:17:17,699 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:17:17,701 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:17:21,325 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:17:30,514 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:17:30,515 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:17:30,516 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:17:30,516 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:17:30,517 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:17:30,517 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:17:30,517 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:17:30,517 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:17:30,518 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:17:31,307 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:17:31,307 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:17:32,859 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:17:32,860 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:17:47,925 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:17:47,927 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:17:52,187 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:18:02,987 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:18:02,988 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:18:18,080 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:18:18,080 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:18:23,001 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:18:33,145 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:18:33,146 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:18:48,205 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:18:48,206 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:18:53,820 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:18:57,448 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:18:57,449 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:18:57,449 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:18:57,450 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:18:57,450 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:18:57,451 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:18:57,451 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:18:57,451 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:18:57,451 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:18:58,422 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:18:58,422 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:19:03,267 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:19:03,269 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:19:18,342 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:19:18,343 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:19:24,672 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:19:33,404 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:19:33,404 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:19:48,505 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:19:48,505 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:19:55,465 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:20:03,568 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:20:03,569 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:20:18,765 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:20:18,766 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:20:24,909 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:20:24,909 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:20:24,910 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:20:24,911 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:20:24,911 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:20:24,911 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:20:24,912 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:20:24,912 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:20:24,912 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:20:25,522 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:20:25,522 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:20:26,310 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:20:33,829 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:20:33,829 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:20:48,891 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:20:48,892 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:20:57,085 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:21:03,957 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:21:03,957 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:21:19,019 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:21:19,020 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:21:27,850 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:21:34,084 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:21:34,084 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:21:49,145 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:21:49,145 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:21:51,347 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:21:51,347 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:21:51,349 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:21:51,349 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:21:51,349 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:21:51,350 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:21:51,350 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:21:51,350 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:21:51,351 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:21:51,627 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:21:51,627 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:21:58,756 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:22:04,221 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:22:04,222 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:22:19,299 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:22:19,300 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:22:29,554 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:22:34,364 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:22:34,364 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:22:49,425 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:22:49,425 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:23:00,324 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:23:04,490 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:23:04,490 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:23:18,248 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:23:18,249 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:23:18,249 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:23:18,250 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:23:18,251 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:23:18,251 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:23:18,251 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:23:18,251 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:23:18,252 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:23:18,801 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:23:18,801 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:23:19,555 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:23:19,555 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:23:31,185 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:23:34,616 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:23:34,616 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:23:49,689 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:23:49,690 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:24:01,989 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:24:04,748 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:24:04,748 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:24:19,814 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:24:19,815 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:24:32,767 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:24:34,881 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:24:34,881 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:24:44,757 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:24:44,757 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:24:44,758 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:24:44,758 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:24:44,759 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:24:44,759 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:24:44,760 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:24:44,760 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:24:44,760 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:24:44,916 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:24:44,917 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:24:49,940 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:24:49,940 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:25:03,643 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:25:05,003 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:25:05,003 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:25:20,062 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:25:20,062 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:25:34,434 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:25:35,120 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:25:35,120 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:25:50,182 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:25:50,183 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:26:05,240 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:26:05,245 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:26:05,245 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:26:12,360 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:26:12,360 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:26:12,361 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:26:12,361 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:26:12,362 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:26:12,363 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:26:12,363 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:26:12,363 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:26:12,363 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:26:13,044 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:26:13,044 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:26:20,316 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:26:20,316 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:26:35,550 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:26:35,550 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:26:36,037 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:26:50,612 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:26:50,613 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:27:05,810 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:27:05,810 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:27:06,862 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:27:20,877 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:27:20,878 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:27:35,939 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:27:35,939 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:27:37,660 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:27:39,735 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:27:39,736 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:27:39,736 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:27:39,737 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:27:39,737 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:27:39,737 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:27:39,738 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:27:39,738 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:27:39,738 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:27:40,153 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:27:40,154 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:27:51,008 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:27:51,009 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:28:06,070 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:28:06,071 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:28:08,474 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:28:21,138 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:28:21,138 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:28:36,198 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:28:36,198 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:28:39,258 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:28:51,260 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:28:51,260 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:29:06,320 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:29:06,320 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:29:07,339 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:29:07,339 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:29:07,340 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:29:07,340 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:29:07,341 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:29:07,341 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:29:07,342 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:29:07,342 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:29:07,342 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:29:08,260 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:29:08,260 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:29:10,057 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:29:21,396 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:29:21,397 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:29:36,457 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:29:36,457 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:29:40,830 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:29:51,519 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:29:51,520 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:30:06,586 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:30:06,586 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:30:11,636 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:30:21,653 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:30:21,653 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:30:34,448 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:30:34,449 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:30:34,450 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:30:34,450 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:30:34,451 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:30:34,451 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:30:34,452 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:30:34,452 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:30:34,452 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:30:35,383 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:30:35,383 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:30:36,732 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:30:36,732 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:30:42,529 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:30:51,795 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:30:51,796 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:31:06,859 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:31:06,860 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:31:13,278 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:31:21,921 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:31:21,921 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:31:36,984 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:31:36,985 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:31:44,085 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:31:56,985 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:31:56,985 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:32:01,481 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:32:01,481 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:32:01,482 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:32:01,483 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:32:01,483 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:32:01,483 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:32:01,484 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:32:01,484 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:32:01,484 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:32:01,510 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:32:01,510 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:32:12,047 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:32:12,047 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:32:14,857 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:32:27,105 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:32:27,105 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:32:42,170 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:32:42,171 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:32:45,649 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:32:57,238 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:32:57,238 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:33:12,299 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:33:12,299 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:33:16,410 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:33:27,375 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:33:27,376 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:33:27,862 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:33:27,863 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:33:27,864 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:33:27,864 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:33:27,865 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:33:27,865 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:33:27,865 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:33:27,866 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:33:27,866 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:33:28,654 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:33:28,654 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:33:42,442 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:33:42,446 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:33:47,198 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:33:57,526 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:33:57,526 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:34:12,587 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:34:12,589 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:34:17,951 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:34:27,648 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:34:27,649 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:34:42,707 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:34:42,708 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:34:48,707 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:34:54,421 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:34:54,422 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:34:54,423 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:34:54,424 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:34:54,424 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:34:54,425 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:34:54,425 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:34:54,427 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:34:54,427 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:34:54,786 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:34:54,786 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:34:57,767 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:34:57,768 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:35:12,836 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:35:12,837 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:35:19,490 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:35:27,897 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:35:27,897 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:35:42,962 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:35:42,962 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:35:50,257 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:35:58,022 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:35:58,022 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:36:13,082 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:36:13,083 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:36:20,842 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:36:20,843 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:36:20,844 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:36:20,845 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:36:20,846 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:36:20,847 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:36:20,847 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:36:20,847 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:36:20,848 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:36:20,903 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:36:20,903 INFO    Thread-7  :35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:36:21,090 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:36:28,136 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:36:28,137 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:36:43,200 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:36:43,201 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:36:51,844 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:36:58,878 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:36:58,879 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:37:13,936 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:37:13,937 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:37:22,677 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:37:28,994 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:37:28,994 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:37:44,053 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-06 21:37:44,054 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: stop_status
+2022-09-06 21:37:47,324 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:37:47,325 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-06 21:37:47,326 DEBUG   SenderThread:35065 [sender.py:send():232] send: history
+2022-09-06 21:37:47,326 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:37:47,327 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:37:47,327 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:37:47,327 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:37:47,327 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:37:47,328 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:37:47,367 DEBUG   SenderThread:35065 [sender.py:send():232] send: telemetry
+2022-09-06 21:37:47,372 DEBUG   SenderThread:35065 [sender.py:send():232] send: telemetry
+2022-09-06 21:37:47,373 DEBUG   SenderThread:35065 [sender.py:send():232] send: exit
+2022-09-06 21:37:47,373 INFO    SenderThread:35065 [sender.py:send_exit():368] handling exit code: 0
+2022-09-06 21:37:47,373 INFO    SenderThread:35065 [sender.py:send_exit():370] handling runtime: 3475
+2022-09-06 21:37:47,374 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:47,374 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:37:47,374 INFO    SenderThread:35065 [sender.py:send_exit():376] send defer
+2022-09-06 21:37:47,374 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:47,375 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,375 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-06 21:37:47,375 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,375 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-09-06 21:37:47,375 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 1
+2022-09-06 21:37:47,376 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,376 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-06 21:37:47,443 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,443 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-09-06 21:37:47,443 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 2
+2022-09-06 21:37:47,444 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,444 DEBUG   SenderThread:35065 [sender.py:send():232] send: stats
+2022-09-06 21:37:47,444 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-06 21:37:47,445 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,445 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-09-06 21:37:47,445 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 3
+2022-09-06 21:37:47,445 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,445 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-06 21:37:47,445 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,445 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-09-06 21:37:47,445 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 4
+2022-09-06 21:37:47,445 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,445 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-06 21:37:47,446 DEBUG   SenderThread:35065 [sender.py:send():232] send: summary
+2022-09-06 21:37:47,446 INFO    SenderThread:35065 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-09-06 21:37:47,446 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,446 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-09-06 21:37:47,447 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 5
+2022-09-06 21:37:47,447 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,447 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-06 21:37:47,447 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,447 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-09-06 21:37:47,476 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:47,527 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 6
+2022-09-06 21:37:47,527 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:47,528 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,528 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-06 21:37:47,528 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,528 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-09-06 21:37:47,528 INFO    SenderThread:35065 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-09-06 21:37:47,629 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:47,957 INFO    SenderThread:35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5
+2022-09-06 21:37:47,957 INFO    SenderThread:35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/config.yaml
+2022-09-06 21:37:47,957 INFO    SenderThread:35065 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:37:47,958 INFO    SenderThread:35065 [dir_watcher.py:finish():309] scan: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files
+2022-09-06 21:37:47,958 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/requirements.txt requirements.txt
+2022-09-06 21:37:47,958 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/conda-environment.yaml conda-environment.yaml
+2022-09-06 21:37:47,958 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/model-best.h5 model-best.h5
+2022-09-06 21:37:47,963 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/config.yaml config.yaml
+2022-09-06 21:37:47,963 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json wandb-summary.json
+2022-09-06 21:37:47,963 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/output.log output.log
+2022-09-06 21:37:47,963 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-metadata.json wandb-metadata.json
+2022-09-06 21:37:47,964 INFO    SenderThread:35065 [dir_watcher.py:finish():323] scan save: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/media/graph/graph_summary_8b8e973aaf6b21686240.graph.json media/graph/graph_summary_8b8e973aaf6b21686240.graph.json
+2022-09-06 21:37:47,964 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 7
+2022-09-06 21:37:47,964 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:47,964 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:47,964 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-06 21:37:47,965 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:47,965 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-09-06 21:37:47,965 INFO    SenderThread:35065 [file_pusher.py:finish():145] shutting down file pusher
+2022-09-06 21:37:48,065 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,066 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,167 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,167 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,269 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,269 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,370 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,370 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,375 INFO    Thread-15 :35065 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/conda-environment.yaml
+2022-09-06 21:37:48,387 INFO    Thread-14 :35065 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/requirements.txt
+2022-09-06 21:37:48,443 INFO    Thread-17 :35065 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/config.yaml
+2022-09-06 21:37:48,445 INFO    Thread-16 :35065 [upload_job.py:push():137] Uploaded file /tmp/tmppjylp746wandb/3dwp2zl1-model-best.h5
+2022-09-06 21:37:48,472 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,472 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,482 INFO    Thread-18 :35065 [upload_job.py:push():137] Uploaded file /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/files/wandb-summary.json
+2022-09-06 21:37:48,573 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,573 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,675 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,675 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,683 INFO    Thread-6  :35065 [sender.py:transition_state():389] send defer: 8
+2022-09-06 21:37:48,683 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:48,683 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-06 21:37:48,683 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:48,684 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-09-06 21:37:48,776 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:48,927 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 9
+2022-09-06 21:37:48,927 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:48,927 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:48,927 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-06 21:37:48,928 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:48,928 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-09-06 21:37:48,928 INFO    SenderThread:35065 [sender.py:transition_state():389] send defer: 10
+2022-09-06 21:37:48,928 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: defer
+2022-09-06 21:37:48,928 INFO    HandlerThread:35065 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-06 21:37:48,929 DEBUG   SenderThread:35065 [sender.py:send():232] send: final
+2022-09-06 21:37:48,929 DEBUG   SenderThread:35065 [sender.py:send():232] send: footer
+2022-09-06 21:37:48,929 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: defer
+2022-09-06 21:37:48,929 INFO    SenderThread:35065 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-09-06 21:37:49,028 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-06 21:37:49,028 DEBUG   SenderThread:35065 [sender.py:send_request():246] send_request: poll_exit
+2022-09-06 21:37:49,029 INFO    SenderThread:35065 [file_pusher.py:join():150] waiting for file pusher
+2022-09-06 21:37:49,235 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-06 21:37:49,236 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-06 21:37:49,237 DEBUG   HandlerThread:35065 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-06 21:37:49,237 INFO    HandlerThread:35065 [handler.py:finish():806] shutting down handler
+2022-09-06 21:37:49,929 INFO    WriterThread:35065 [datastore.py:close():279] close: /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5/run-vxb3g5x5.wandb
+2022-09-06 21:37:50,133 INFO    SenderThread:35065 [sender.py:finish():1106] shutting down sender
+2022-09-06 21:37:50,133 INFO    SenderThread:35065 [file_pusher.py:finish():145] shutting down file pusher
+2022-09-06 21:37:50,134 INFO    SenderThread:35065 [file_pusher.py:join():150] waiting for file pusher
+2022-09-06 21:37:50,136 INFO    MainThread:35065 [internal.py:handle_exit():80] Internal process exited

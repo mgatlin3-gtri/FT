@@ -1,0 +1,57 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.15
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.12
+    start_time: 1663002965
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      2:
+      - 2
+      - 3
+      - 55
+      3:
+      - 2
+      - 3
+      - 8
+      - 16
+      - 19
+      4: 3.9.12
+      5: 0.12.15
+      8:
+      - 5
+architecture_name:
+  desc: null
+  value: CNN
+batch_size:
+  desc: null
+  value: 2
+dropout_c:
+  desc: null
+  value: 0.3
+dropout_ga:
+  desc: null
+  value: 0.35
+epochs:
+  desc: null
+  value: 50
+learning_rate:
+  desc: null
+  value: 0.001
+num_features_c1:
+  desc: null
+  value: 128
+num_features_c2:
+  desc: null
+  value: 16
+num_features_c3:
+  desc: null
+  value: 128

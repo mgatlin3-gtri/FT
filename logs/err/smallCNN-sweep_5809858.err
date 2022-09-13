@@ -1,0 +1,1696 @@
+wandb: Agent Starting Run: vxb3g5x5 with config:
+wandb: 	batch_size: 4
+wandb: 	dropout_c: 0.1
+wandb: 	dropout_ga: 0.3
+wandb: 	epochs: 40
+wandb: 	learning_rate: 1e-05
+wandb: 	num_features_c1: 16
+wandb: 	num_features_c2: 4
+wandb: 	num_features_c3: 8
+wandb: Currently logged in as: mgatlin3 (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220906_203951-vxb3g5x5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run copper-sweep-1
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/vxb3g5x5
+2022-09-06 20:39:56.567140: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/apps/Module/GCC/9.2.0/lib64
+2022-09-06 20:39:56.567175: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-09-06 20:39:56.567594: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.068 MB of 0.068 MB uploaded (0.000 MB deduped)wandb: \ 0.068 MB of 0.068 MB uploaded (0.000 MB deduped)wandb: | 0.068 MB of 0.076 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: - 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: \ 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: | 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: / 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: - 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: \ 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: | 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: / 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▁▁▂▂▃▅▅▅▆▆▆▆▆▆▇▆▇▇▇▇▇▇▇█▇█▇▇▇▇██████▇▇█
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss ███▇▇▇▆▆▆▆▆▆▅▅▅▅▅▅▄▄▄▃▄▃▃▃▂▃▃▃▃▂▂▂▂▂▁▂▁▁
+wandb: val_accuracy ▁▁▂▃▄▄▄▄▄▄▅▅▆▆▆▆▆▆▇▆▇▇▇█▇███████████████
+wandb:     val_loss ████▇▇▇▇▆▆▆▆▆▆▅▅▅▅▅▄▄▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.45179
+wandb:    best_epoch 39
+wandb: best_val_loss 1.28033
+wandb:         epoch 39
+wandb:          loss 1.27792
+wandb:  val_accuracy 0.54824
+wandb:      val_loss 1.28033
+wandb: 
+wandb: Synced copper-sweep-1: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/vxb3g5x5
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220906_203951-vxb3g5x5/logs
+wandb: Agent Starting Run: 92qoyk69 with config:
+wandb: 	batch_size: 14
+wandb: 	dropout_c: 0.25
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 20
+wandb: 	learning_rate: 5e-05
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 4
+wandb: 	num_features_c3: 64
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220906_213754-92qoyk69
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fresh-sweep-2
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/92qoyk69
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.128 MB of 0.128 MB uploaded (0.000 MB deduped)wandb: \ 0.128 MB of 0.128 MB uploaded (0.000 MB deduped)wandb: | 0.128 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: | 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: / 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: - 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: \ 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: | 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: / 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: - 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb: \ 0.137 MB of 0.137 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▂▃▇▆█▇████████████
+wandb:        epoch ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb:         loss █▇▇▆▆▅▅▄▃▃▂▂▂▂▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▂▇██▇█████▇█▇█▇███
+wandb:     val_loss █▇▇▇▆▅▅▄▃▃▃▂▃▂▂▂▂▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.55698
+wandb:    best_epoch 19
+wandb: best_val_loss 1.04629
+wandb:         epoch 19
+wandb:          loss 1.04186
+wandb:  val_accuracy 0.56235
+wandb:      val_loss 1.04629
+wandb: 
+wandb: Synced fresh-sweep-2: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/92qoyk69
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220906_213754-92qoyk69/logs
+wandb: Agent Starting Run: 774xcz5d with config:
+wandb: 	batch_size: 4
+wandb: 	dropout_c: 0
+wandb: 	dropout_ga: 0.2
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.00025
+wandb: 	num_features_c1: 8
+wandb: 	num_features_c2: 4
+wandb: 	num_features_c3: 8
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220906_224521-774xcz5d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run stoic-sweep-3
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/774xcz5d
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.062 MB of 0.062 MB uploaded (0.000 MB deduped)wandb: \ 0.062 MB of 0.062 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: - 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: \ 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: | 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: / 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: - 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: \ 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: | 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb: / 0.071 MB of 0.071 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▅▅▅▆▆▆▆▆▆▇▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇██▇█▇█▇█████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▆▅▅▅▄▄▄▄▄▄▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▆▅▆▇▇▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▇▇██████
+wandb:     val_loss █▇▆▆▅▅▄▄▄▄▄▃▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.57856
+wandb:    best_epoch 39
+wandb: best_val_loss 0.91797
+wandb:         epoch 39
+wandb:          loss 0.96898
+wandb:  val_accuracy 0.60941
+wandb:      val_loss 0.91797
+wandb: 
+wandb: Synced stoic-sweep-3: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/774xcz5d
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220906_224521-774xcz5d/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: gflukjkg with config:
+wandb: 	batch_size: 12
+wandb: 	dropout_c: 0
+wandb: 	dropout_ga: 0.05
+wandb: 	epochs: 30
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 16
+wandb: 	num_features_c2: 32
+wandb: 	num_features_c3: 16
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220906_232613-gflukjkg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run solar-sweep-4
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/gflukjkg
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.164 MB of 0.164 MB uploaded (0.000 MB deduped)wandb: \ 0.164 MB of 0.164 MB uploaded (0.000 MB deduped)wandb: | 0.164 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: - 0.173 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: \ 0.173 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: | 0.173 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: / 0.173 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: - 0.173 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: \ 0.173 MB of 0.173 MB uploaded (0.000 MB deduped)wandb: | 0.173 MB of 0.173 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▃▄▄▄▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇███▇██
+wandb:        epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▁▂▁▁
+wandb: val_accuracy ▁▁▂▃▄▄▃▅▄▄▅▆▆▆▆▆▆▆▆▇█▇▇▇▆█▇▇██
+wandb:     val_loss █▇▇▆▆▆▆▆▄▄▄▄▄▄▃▃▃▃▃▂▂▂▂▂▃▂▁▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.80512
+wandb:    best_epoch 28
+wandb: best_val_loss 0.50573
+wandb:         epoch 29
+wandb:          loss 0.54081
+wandb:  val_accuracy 0.83059
+wandb:      val_loss 0.52098
+wandb: 
+wandb: Synced solar-sweep-4: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/gflukjkg
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220906_232613-gflukjkg/logs
+wandb: Agent Starting Run: d5xhczfe with config:
+wandb: 	batch_size: 16
+wandb: 	dropout_c: 0
+wandb: 	dropout_ga: 0.05
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.00025
+wandb: 	num_features_c1: 16
+wandb: 	num_features_c2: 4
+wandb: 	num_features_c3: 8
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_001221-d5xhczfe
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run wise-sweep-5
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/d5xhczfe
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.068 MB of 0.068 MB uploaded (0.000 MB deduped)wandb: \ 0.068 MB of 0.068 MB uploaded (0.000 MB deduped)wandb: | 0.068 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: | 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: / 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: - 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: \ 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: | 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: / 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: - 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb: \ 0.077 MB of 0.077 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▆▇▇█████▇██████████▇█████████████████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▄▄▇▇█▇▇▇▇▇██▇██▇▇▇▇▇██▇████████████████
+wandb:     val_loss █▇▆▆▅▅▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.54889
+wandb:    best_epoch 39
+wandb: best_val_loss 0.97008
+wandb:         epoch 39
+wandb:          loss 1.01477
+wandb:  val_accuracy 0.58118
+wandb:      val_loss 0.97008
+wandb: 
+wandb: Synced wise-sweep-5: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/d5xhczfe
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_001221-d5xhczfe/logs
+wandb: Agent Starting Run: epadj5a4 with config:
+wandb: 	batch_size: 10
+wandb: 	dropout_c: 0.25
+wandb: 	dropout_ga: 0.3
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 8
+wandb: 	num_features_c2: 8
+wandb: 	num_features_c3: 32
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_010237-epadj5a4
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run mild-sweep-6
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/epadj5a4
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.089 MB of 0.089 MB uploaded (0.000 MB deduped)wandb: \ 0.089 MB of 0.089 MB uploaded (0.000 MB deduped)wandb: | 0.089 MB of 0.095 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: - 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: \ 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: | 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: / 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: - 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: \ 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: | 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb: / 0.099 MB of 0.099 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇█████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▆▆▆▅▅▅▅▄▄▄▄▄▄▄▃▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▂▄▃▃▂▃▅▄▄▅▄▄▄▄▅▅▅▄▅▆▆▇▆▆▇▇▇▆▇▇▇▇███▇█▇
+wandb:     val_loss █▇▆▆▅▅▅▅▅▄▄▄▄▄▄▄▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▁▂▁▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.78962
+wandb:    best_epoch 47
+wandb: best_val_loss 0.56
+wandb:         epoch 49
+wandb:          loss 0.61914
+wandb:  val_accuracy 0.80941
+wandb:      val_loss 0.57508
+wandb: 
+wandb: Synced mild-sweep-6: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/epadj5a4
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_010237-epadj5a4/logs
+wandb: Agent Starting Run: nh1jwnxg with config:
+wandb: 	batch_size: 12
+wandb: 	dropout_c: 0.05
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 30
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 32
+wandb: 	num_features_c3: 32
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_015350-nh1jwnxg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run exalted-sweep-7
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/nh1jwnxg
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.391 MB of 0.391 MB uploaded (0.000 MB deduped)wandb: \ 0.391 MB of 0.391 MB uploaded (0.000 MB deduped)wandb: | 0.391 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: | 0.168 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: / 0.309 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: - 0.400 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: \ 0.400 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: | 0.400 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: / 0.400 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: - 0.400 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: \ 0.400 MB of 0.400 MB uploaded (0.000 MB deduped)wandb: | 0.400 MB of 0.400 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▃▄▄▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇█▇█████
+wandb:        epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         loss █▇▆▆▆▅▅▅▅▄▄▄▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▃▄▄▄▅▅▄▅▆▆▇▇▇▇▆█▇▇▇█▆▇█▇████
+wandb:     val_loss ██▇▆▆▅▅▅▄▅▃▄▃▃▃▂▂▂▂▃▂▁▃▂▁▃▁▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.86244
+wandb:    best_epoch 29
+wandb: best_val_loss 0.43418
+wandb:         epoch 29
+wandb:          loss 0.40294
+wandb:  val_accuracy 0.86588
+wandb:      val_loss 0.43418
+wandb: 
+wandb: Synced exalted-sweep-7: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/nh1jwnxg
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_015350-nh1jwnxg/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: k29q3u87 with config:
+wandb: 	batch_size: 14
+wandb: 	dropout_c: 0
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 64
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_034304-k29q3u87
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run crisp-sweep-8
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/k29q3u87
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.629 MB of 2.629 MB uploaded (0.000 MB deduped)wandb: \ 2.629 MB of 2.629 MB uploaded (0.000 MB deduped)wandb: | 2.629 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: - 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: \ 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: | 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: - 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: \ 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: | 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▃▄▆▅▅▆▆▇▇▇▆▇▆▇▇▇▇▇▇▇▇▇▇▇▇██▇███▇████▇█
+wandb:     val_loss ██▇▇▅▄▅▅▅▃▃▃▄▄▃▃▄▂▂▂▂▂▂▃▂▂▂▁▁▂▁▂▂▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.92515
+wandb:    best_epoch 46
+wandb: best_val_loss 0.29268
+wandb:         epoch 49
+wandb:          loss 0.20532
+wandb:  val_accuracy 0.88706
+wandb:      val_loss 0.30707
+wandb: 
+wandb: Synced crisp-sweep-8: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/k29q3u87
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_034304-k29q3u87/logs
+wandb: Agent Starting Run: qmaizqge with config:
+wandb: 	batch_size: 4
+wandb: 	dropout_c: 0
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 8
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 32
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_095545-qmaizqge
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run silver-sweep-9
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/qmaizqge
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.585 MB of 0.585 MB uploaded (0.000 MB deduped)wandb: \ 0.585 MB of 0.585 MB uploaded (0.000 MB deduped)wandb: | 0.585 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: | 0.121 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: / 0.340 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: - 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: \ 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: | 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: / 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: - 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: \ 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: | 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb: / 0.594 MB of 0.594 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▄▄▄▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇█▇▇███████████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▃▃▄▃▄▄▅▆▆▅▇▆▆▇▇▇▆▇▇█▆▇▇██▇▇██▇██▇████▇▆
+wandb:     val_loss ██▆▆▅▅▅▅▄▄▅▃▃▃▃▂▂▃▃▂▂▄▃▂▂▂▃▂▂▂▂▂▂▂▁▁▂▁▂▄
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.89481
+wandb:    best_epoch 35
+wandb: best_val_loss 0.35197
+wandb:         epoch 39
+wandb:          loss 0.29958
+wandb:  val_accuracy 0.79765
+wandb:      val_loss 0.67247
+wandb: 
+wandb: Synced silver-sweep-9: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/qmaizqge
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_095545-qmaizqge/logs
+wandb: Agent Starting Run: hhb5jig4 with config:
+wandb: 	batch_size: 24
+wandb: 	dropout_c: 0.3
+wandb: 	dropout_ga: 0.2
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 64
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_114050-hhb5jig4
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run vocal-sweep-10
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/hhb5jig4
+wandb: Network error (ReadTimeout), entering retry loop.
+wandb: ERROR Error while calling W&B API: internal database error (<Response [500]>)
+wandb: ERROR Error while calling W&B API: internal database error (<Response [500]>)
+wandb: Network error (HTTPError), entering retry loop.
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: \ 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: | 1.363 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇██▇█████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▂▃▄▅▅▆▄▆▅▆▆▅▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▇█▇██▇▇▇
+wandb:     val_loss █▇▇▆▆▅▅▅▅▄▄▄▄▃▄▃▂▃▂▂▃▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.9029
+wandb:    best_epoch 45
+wandb: best_val_loss 0.32138
+wandb:         epoch 49
+wandb:          loss 0.30242
+wandb:  val_accuracy 0.86353
+wandb:      val_loss 0.35807
+wandb: 
+wandb: Synced vocal-sweep-10: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/hhb5jig4
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_114050-hhb5jig4/logs
+wandb: Agent Starting Run: jv0sphxd with config:
+wandb: 	batch_size: 32
+wandb: 	dropout_c: 0.1
+wandb: 	dropout_ga: 0.35
+wandb: 	epochs: 10
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 64
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_171744-jv0sphxd
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run jumping-sweep-11
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/jv0sphxd
+2022-09-07 17:17:51.944108: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 4996530176 exceeds 10% of free system memory.
+2022-09-07 17:17:57.081414: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 4996530176 exceeds 10% of free system memory.
+2022-09-07 17:17:59.803915: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 4996530176 exceeds 10% of free system memory.
+2022-09-07 17:18:05.663609: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 4996530176 exceeds 10% of free system memory.
+2022-09-07 17:18:08.538842: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 4996530176 exceeds 10% of free system memory.
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: \ 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: | 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▄▅▆▇▆▇▇██
+wandb:        epoch ▁▂▃▃▄▅▆▆▇█
+wandb:         loss █▅▄▄▃▃▂▂▂▁
+wandb: val_accuracy ▁▂▃▃▄▄▇███
+wandb:     val_loss █▆▅▃▄▃▂▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.68847
+wandb:    best_epoch 9
+wandb: best_val_loss 0.73776
+wandb:         epoch 9
+wandb:          loss 0.80281
+wandb:  val_accuracy 0.74353
+wandb:      val_loss 0.73776
+wandb: 
+wandb: Synced jumping-sweep-11: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/jv0sphxd
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_171744-jv0sphxd/logs
+wandb: Agent Starting Run: wjrsr2cs with config:
+wandb: 	batch_size: 24
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 8
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_182613-wjrsr2cs
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run polished-sweep-12
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/wjrsr2cs
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.547 MB of 0.547 MB uploaded (0.000 MB deduped)wandb: \ 0.547 MB of 0.547 MB uploaded (0.000 MB deduped)wandb: | 0.547 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: \ 0.091 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: | 0.387 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: / 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: - 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: \ 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: | 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: / 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: - 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: \ 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: | 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: / 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb: - 0.556 MB of 0.556 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▁▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇▇████▇███████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▃▃▄▄▅▅▅▆▆▅▆▇▇▇▇▇▇▇▇▇▇▇▇▇█▇████████████
+wandb:     val_loss █▇▆▆▅▆▄▅▅▄▄▃▄▃▃▂▃▂▂▂▂▂▃▂▂▂▁▂▁▁▁▂▂▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.85435
+wandb:    best_epoch 45
+wandb: best_val_loss 0.40605
+wandb:         epoch 49
+wandb:          loss 0.41156
+wandb:  val_accuracy 0.85412
+wandb:      val_loss 0.42602
+wandb: 
+wandb: Synced polished-sweep-12: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/wjrsr2cs
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_182613-wjrsr2cs/logs
+wandb: Agent Starting Run: x54j5szs with config:
+wandb: 	batch_size: 32
+wandb: 	dropout_c: 0.35
+wandb: 	dropout_ga: 0.05
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 32
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220907_214425-x54j5szs
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run stellar-sweep-13
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/x54j5szs
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.180 MB of 2.180 MB uploaded (0.000 MB deduped)wandb: \ 2.180 MB of 2.180 MB uploaded (0.000 MB deduped)wandb: | 2.180 MB of 2.180 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: - 0.168 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: \ 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: | 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: / 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: - 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: \ 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: | 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: / 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▄▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇█▇█▇█▇█████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▂▁▁▁▁▁▂▁▁
+wandb: val_accuracy ▁▃▄▅▅▅▅▆▆▅▆▇▇▇▇▇▇▇▇▇▇██▇█▇▇███▇▇████████
+wandb:     val_loss █▇▆▆▆▅▅▅▄▅▄▃▃▃▃▃▂▃▃▃▃▂▂▂▂▂▂▁▂▂▂▂▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.90964
+wandb:    best_epoch 47
+wandb: best_val_loss 0.30717
+wandb:         epoch 49
+wandb:          loss 0.27309
+wandb:  val_accuracy 0.89647
+wandb:      val_loss 0.32342
+wandb: 
+wandb: Synced stellar-sweep-13: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/x54j5szs
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220907_214425-x54j5szs/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: 7qpwx6q6 with config:
+wandb: 	batch_size: 32
+wandb: 	dropout_c: 0.35
+wandb: 	dropout_ga: 0.15
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 64
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220908_004525-7qpwx6q6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run radiant-sweep-14
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/7qpwx6q6
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.629 MB of 2.629 MB uploaded (0.000 MB deduped)wandb: \ 2.629 MB of 2.629 MB uploaded (0.000 MB deduped)wandb: | 2.629 MB of 2.629 MB uploaded (0.000 MB deduped)wandb: / 2.629 MB of 2.636 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: | 0.098 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 0.325 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: - 0.700 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: \ 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: | 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: - 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: \ 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: | 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: - 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: \ 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: | 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: - 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: \ 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: | 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb: / 2.638 MB of 2.638 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▄▄▄▅▅▆▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇██▇████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▇▆▆▅▅▅▅▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▃▄▄▅▃▅▅▅▆▆▆▇▆▇▇▆▇▇▇▇▇▇▇▇▇▇▇███████▇███
+wandb:     val_loss ██▇▆▆▅▅▅▅▄▄▄▄▃▃▃▃▄▃▃▂▂▂▃▂▂▃▃▂▂▂▂▁▂▂▂▂▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.9029
+wandb:    best_epoch 46
+wandb: best_val_loss 0.29604
+wandb:         epoch 49
+wandb:          loss 0.26434
+wandb:  val_accuracy 0.88706
+wandb:      val_loss 0.35828
+wandb: 
+wandb: Synced radiant-sweep-14: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/7qpwx6q6
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220908_004525-7qpwx6q6/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: jjr67mhm with config:
+wandb: 	batch_size: 32
+wandb: 	dropout_c: 0.15
+wandb: 	dropout_ga: 0.05
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220908_071341-jjr67mhm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run unique-sweep-15
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/jjr67mhm
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 3.476 MB of 3.476 MB uploaded (0.000 MB deduped)wandb: \ 3.476 MB of 3.476 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 0.059 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 0.145 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 0.653 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 3.137 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▄▄▅▅▅▆▅▆▇▇▆▇▇▇▇▇▇▇▇▇▇▇█▇███▇████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▂▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▂▃▃▄▅▅▅▆▅▆▆▅▆▇▇▆▆▇▇▇▆▇▇▇▇▇█▇▇▇█████▇██
+wandb:     val_loss █▇▇▆▆▆▆▅▅▅▅▄▄▅▄▃▃▃▄▂▂▃▃▃▂▃▂▂▂▂▂▂▂▁▁▁▁▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.89009
+wandb:    best_epoch 44
+wandb: best_val_loss 0.29914
+wandb:         epoch 49
+wandb:          loss 0.30757
+wandb:  val_accuracy 0.87765
+wandb:      val_loss 0.36842
+wandb: 
+wandb: Synced unique-sweep-15: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/jjr67mhm
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220908_071341-jjr67mhm/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: k4ytapnj with config:
+wandb: 	batch_size: 14
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0.15
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 16
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220908_135424-k4ytapnj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run divine-sweep-16
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/k4ytapnj
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.964 MB of 1.964 MB uploaded (0.000 MB deduped)wandb: \ 1.964 MB of 1.964 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.966 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: \ 0.092 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: | 0.325 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: / 0.762 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: \ 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: | 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: / 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: \ 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: | 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: / 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▄▄▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇██▇███████████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▃▃▂▅▅▅▅▆▆▆▆▆▇▇▆▇▇▇▇▇▇▇▇▆▇▇▇█▇▇██▇▆█▇█▇
+wandb:     val_loss ██▇▆▆▆▅▅▅▄▄▃▃▃▂▃▃▂▃▂▂▂▂▂▃▃▂▂▂▁▂▂▁▁▂▃▁▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.8793
+wandb:    best_epoch 38
+wandb: best_val_loss 0.41843
+wandb:         epoch 39
+wandb:          loss 0.35286
+wandb:  val_accuracy 0.84471
+wandb:      val_loss 0.48968
+wandb: 
+wandb: Synced divine-sweep-16: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/k4ytapnj
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220908_135424-k4ytapnj/logs
+wandb: Agent Starting Run: fptsazbb with config:
+wandb: 	batch_size: 6
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0.4
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 8
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220908_155433-fptsazbb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run glowing-sweep-17
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/fptsazbb
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.022 MB of 1.022 MB uploaded (0.000 MB deduped)wandb: \ 1.022 MB of 1.022 MB uploaded (0.000 MB deduped)wandb: | 1.022 MB of 1.023 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: / 0.331 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: - 1.032 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: \ 1.032 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: | 1.032 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: / 1.032 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: - 1.032 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: \ 1.032 MB of 1.032 MB uploaded (0.000 MB deduped)wandb: | 1.032 MB of 1.032 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▃▃▄▄▄▅▅▅▆▆▆▆▇▇▇▆▇▇▇▇▇▇▇▇▇▇▇▇▇██▇▇██▇█
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▇▇▆▆▅▅▅▅▄▄▄▃▃▃▃▂▃▃▂▂▂▂▂▂▂▂▁▂▂▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▁▂▂▂▃▄▅▅▅▅▅▆▇▇▇▅▇▇▇▆▇▇▇▇▆▇▇▇▇█▇██▇██▇▇
+wandb:     val_loss █▇▇▇▇▆▆▅▅▄▄▄▄▃▃▃▂▃▂▂▃▂▂▂▁▁▂▂▁▁▂▂▂▁▁▂▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.78152
+wandb:    best_epoch 46
+wandb: best_val_loss 0.44125
+wandb:         epoch 49
+wandb:          loss 0.57758
+wandb:  val_accuracy 0.82588
+wandb:      val_loss 0.47709
+wandb: 
+wandb: Synced glowing-sweep-17: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/fptsazbb
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220908_155433-fptsazbb/logs
+wandb: Agent Starting Run: a2xg6y9m with config:
+wandb: 	batch_size: 14
+wandb: 	dropout_c: 0.05
+wandb: 	dropout_ga: 0.25
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 4
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220908_203610-a2xg6y9m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run cerulean-sweep-18
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/a2xg6y9m
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.969 MB of 0.969 MB uploaded (0.000 MB deduped)wandb: \ 0.969 MB of 0.969 MB uploaded (0.000 MB deduped)wandb: | 0.969 MB of 0.972 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: | 0.096 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: / 0.377 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: - 0.977 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: \ 0.977 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: | 0.979 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: / 0.979 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: - 0.979 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: \ 0.979 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: | 0.979 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: / 0.979 MB of 0.979 MB uploaded (0.000 MB deduped)wandb: - 0.979 MB of 0.979 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▅▆▆▇▇▇▇▇▇▇█▇▇█▇██████▇█▇▇█▇██████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▄▄▄▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▂▁▂▂▁▁▁▁▁▁▁▁▁▁▁▂
+wandb: val_accuracy ▁▁▅▇▇▆▆▆▇▇▇▇▇█▇▇▇█▇▇▇█▇▇█▇█▇▇▇█████▇█▇██
+wandb:     val_loss █▇▆▆▅▅▄▄▃▄▃▃▃▂▃▂▃▂▂▂▂▁▂▃▂▂▁▂▂▂▁▁▁▁▁▂▁▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.51854
+wandb:    best_epoch 37
+wandb: best_val_loss 1.038
+wandb:         epoch 49
+wandb:          loss 1.12918
+wandb:  val_accuracy 0.57176
+wandb:      val_loss 1.03821
+wandb: 
+wandb: Synced cerulean-sweep-18: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/a2xg6y9m
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220908_203610-a2xg6y9m/logs
+wandb: Agent Starting Run: ajqcbik9 with config:
+wandb: 	batch_size: 12
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0.2
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 32
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220909_004656-ajqcbik9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run desert-sweep-19
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/ajqcbik9
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.944 MB of 0.944 MB uploaded (0.000 MB deduped)wandb: \ 0.944 MB of 0.944 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: - 0.622 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: \ 0.954 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: | 0.954 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: / 0.954 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: - 0.954 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: \ 0.954 MB of 0.954 MB uploaded (0.000 MB deduped)wandb: | 0.954 MB of 0.954 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇█▇▇██████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▄▄▄▅▄▆▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇█████████████▇
+wandb:     val_loss █▇▆▇▅▅▅▄▄▄▃▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▂▁▂▁▁▁▂▂▁▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.89548
+wandb:    best_epoch 45
+wandb: best_val_loss 0.27175
+wandb:         epoch 49
+wandb:          loss 0.27441
+wandb:  val_accuracy 0.84706
+wandb:      val_loss 0.41083
+wandb: 
+wandb: Synced desert-sweep-19: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/ajqcbik9
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220909_004656-ajqcbik9/logs
+wandb: Agent Starting Run: 6geislk3 with config:
+wandb: 	batch_size: 24
+wandb: 	dropout_c: 0.25
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 64
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220909_062309-6geislk3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run electric-sweep-20
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/6geislk3
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: \ 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: | 1.363 MB of 1.363 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 0.098 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 0.317 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.309 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: \ 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: | 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: / 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb: - 1.372 MB of 1.372 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▄▄▄▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇█▇███▇▇██▇█████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▂▁▁▂▁▁▁▁▁
+wandb: val_accuracy ▁▂▄▃▄▄▅▅▅▅▆▇▇▆▇▇▇▇▇▇▇▇█▇▇█▇███▆██▆██████
+wandb:     val_loss █▇▆▇▅▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▃▂▂▂▂▂▂▂▂▂▃▂▁▃▂▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.89009
+wandb:    best_epoch 37
+wandb: best_val_loss 0.35242
+wandb:         epoch 39
+wandb:          loss 0.31927
+wandb:  val_accuracy 0.87765
+wandb:      val_loss 0.38211
+wandb: 
+wandb: Synced electric-sweep-20: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/6geislk3
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220909_062309-6geislk3/logs
+wandb: Agent Starting Run: zs64znvf with config:
+wandb: 	batch_size: 24
+wandb: 	dropout_c: 0.05
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 16
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220909_105418-zs64znvf
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run clean-sweep-21
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/zs64znvf
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.964 MB of 1.964 MB uploaded (0.000 MB deduped)wandb: \ 1.964 MB of 1.964 MB uploaded (0.000 MB deduped)wandb: | 1.964 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: \ 0.098 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: | 0.340 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: / 0.770 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: \ 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: | 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: / 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: \ 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: | 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: / 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: - 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb: \ 1.973 MB of 1.973 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▄▅▄▅▅▆▆▆▆▇▇▆▇▇▇▇▇▇▇█▇█████▇▇████████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▆▅▅▅▅▄▄▄▄▃▃▃▃▂▃▂▂▂▂▂▂▂▂▂▂▁▂▂▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▂▃▄▅▅▆▅▆▆▇▇▆▇▇▇▇▇▇▇▇████▇█████▇██▇▇███
+wandb:     val_loss ██▇▆▅▆▅▄▄▃▃▃▄▃▃▃▂▃▃▂▂▃▂▂▂▂▂▂▁▂▁▁▂▁▁▂▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.88874
+wandb:    best_epoch 39
+wandb: best_val_loss 0.41435
+wandb:         epoch 39
+wandb:          loss 0.34145
+wandb:  val_accuracy 0.86118
+wandb:      val_loss 0.41435
+wandb: 
+wandb: Synced clean-sweep-21: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/zs64znvf
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220909_105418-zs64znvf/logs
+wandb: Agent Starting Run: anxhz4x2 with config:
+wandb: 	batch_size: 16
+wandb: 	dropout_c: 0.05
+wandb: 	dropout_ga: 0.05
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 16
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220909_125323-anxhz4x2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fluent-sweep-22
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/anxhz4x2
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.523 MB of 0.523 MB uploaded (0.000 MB deduped)wandb: \ 0.523 MB of 0.523 MB uploaded (0.000 MB deduped)wandb: | 0.523 MB of 0.530 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.098 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.153 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: / 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: / 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▃▄▄▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇███▇██▇████████████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▂▂▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▂▄▃▄▅▄▆▅▆▆▆▆▇▇▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▇▇█▆█▇█▇
+wandb:     val_loss █▇▇▇▆▆▅▄▅▄▅▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▃▃▂▂▁▃▁▂▃▁▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.882
+wandb:    best_epoch 38
+wandb: best_val_loss 0.32786
+wandb:         epoch 39
+wandb:          loss 0.33514
+wandb:  val_accuracy 0.86824
+wandb:      val_loss 0.3645
+wandb: 
+wandb: Synced fluent-sweep-22: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/anxhz4x2
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220909_125323-anxhz4x2/logs
+wandb: Agent Starting Run: 3ao1x3l5 with config:
+wandb: 	batch_size: 4
+wandb: 	dropout_c: 0.3
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 32
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220909_170819-3ao1x3l5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run happy-sweep-23
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/3ao1x3l5
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.713 MB of 0.713 MB uploaded (0.000 MB deduped)wandb: \ 0.713 MB of 0.713 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: / 0.161 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: - 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: \ 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: | 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: / 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: - 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: \ 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: | 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇███████████████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▃▅▅▆▆▆▆▆▄▆▆▇▆▆▇▇▇▇▇██▇▇▇█████▇▇▇█████▇
+wandb:     val_loss █▇▆▆▅▄▄▄▄▃▅▃▃▂▃▂▂▃▂▃▂▁▂▂▂▂▁▁▁▁▂▂▁▂▁▁▁▁▂▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.94336
+wandb:    best_epoch 28
+wandb: best_val_loss 0.24156
+wandb:         epoch 39
+wandb:          loss 0.17823
+wandb:  val_accuracy 0.88941
+wandb:      val_loss 0.33397
+wandb: 
+wandb: Synced happy-sweep-23: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/3ao1x3l5
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220909_170819-3ao1x3l5/logs
+wandb: Agent Starting Run: a9br242m with config:
+wandb: 	batch_size: 24
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.00075
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 32
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220909_201700-a9br242m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run visionary-sweep-24
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/a9br242m
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.713 MB of 0.713 MB uploaded (0.000 MB deduped)wandb: \ 0.713 MB of 0.713 MB uploaded (0.000 MB deduped)wandb: | 0.713 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: | 0.090 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: / 0.309 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: - 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: \ 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: | 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: / 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: - 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: \ 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: | 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb: / 0.723 MB of 0.723 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▄▅▅▅▅▆▆▆▆▆▇▆▇▇▇▇▇▇▇▇▇▇█▇▇████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▆▆▅▅▅▄▄▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▃▄▄▄▄▆▆▅▆▆▇▇▆▇▇▇▆▇█▇▆▇▇▇█▇██▇█████▆█▇▇
+wandb:     val_loss █▆▆▆▅▆▄▅▄▅▄▄▃▃▃▃▃▂▃▃▂▂▄▂▂▂▂▃▁▂▂▂▂▂▁▂▃▁▂▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.86379
+wandb:    best_epoch 46
+wandb: best_val_loss 0.4427
+wandb:         epoch 49
+wandb:          loss 0.39961
+wandb:  val_accuracy 0.83294
+wandb:      val_loss 0.55045
+wandb: 
+wandb: Synced visionary-sweep-24: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/a9br242m
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220909_201700-a9br242m/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: naejkpu3 with config:
+wandb: 	batch_size: 10
+wandb: 	dropout_c: 0.25
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220909_232131-naejkpu3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run robust-sweep-25
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/naejkpu3
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: \ 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: | 2.612 MB of 2.615 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 0.129 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 0.364 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 1.731 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 1.731 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇█████████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▄▄▄▃▃▃▃▃▂▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▄▅▅▆▆▆▇▆▇▇▇▇▇▇▇█▇▇▇█▇▇█████▇█▇█▇██████
+wandb:     val_loss █▇▆▆▅▄▄▅▃▄▃▂▃▃▃▂▃▂▃▂▂▁▂▂▂▁▁▂▁▂▂▂▁▃▁▁▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.95684
+wandb:    best_epoch 46
+wandb: best_val_loss 0.22386
+wandb:         epoch 49
+wandb:          loss 0.12969
+wandb:  val_accuracy 0.91529
+wandb:      val_loss 0.26723
+wandb: 
+wandb: Synced robust-sweep-25: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/naejkpu3
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220909_232131-naejkpu3/logs
+wandb: Agent Starting Run: c91vzsbx with config:
+wandb: 	batch_size: 4
+wandb: 	dropout_c: 0.35
+wandb: 	dropout_ga: 0.1
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220910_035819-c91vzsbx
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fanciful-sweep-26
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/c91vzsbx
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 3.476 MB of 3.476 MB uploaded (0.000 MB deduped)wandb: \ 3.476 MB of 3.476 MB uploaded (0.000 MB deduped)wandb: | 3.476 MB of 3.476 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 0.356 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇███████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▅▅▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▃▄▅▆▆▅▆▆▇▆▇▇▇▇▇▇▇▇▆▇▇▇▇█▇▇███▇███████▇
+wandb:     val_loss █▇█▆▅▅▄▄▃▃▃▃▃▂▂▂▂▂▂▂▄▂▂▂▂▁▂▂▂▂▁▂▁▁▁▂▁▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.97168
+wandb:    best_epoch 37
+wandb: best_val_loss 0.1754
+wandb:         epoch 49
+wandb:          loss 0.09513
+wandb:  val_accuracy 0.91294
+wandb:      val_loss 0.29919
+wandb: 
+wandb: Synced fanciful-sweep-26: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/c91vzsbx
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220910_035819-c91vzsbx/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: bfdnkw24 with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.35
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 40
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220910_122220-bfdnkw24
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run playful-sweep-27
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/bfdnkw24
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: \ 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: | 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 0.098 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 0.176 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 0.707 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▇███████████
+wandb:        epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:         loss █▆▆▅▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▁▅▂▄▅▅▆▆▅▆▆▆▇▇▇▆▆▇▇▆██▇█▇██▇█▆▇▇█▇▇███
+wandb:     val_loss █▆▆▅▆▃▃▃▃▂▃▂▃▂▂▂▁▂▂▁▂▂▁▁▁▁▂▁▁▁▁▂▂▂▁▂▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.96156
+wandb:    best_epoch 25
+wandb: best_val_loss 0.2424
+wandb:         epoch 39
+wandb:          loss 0.12189
+wandb:  val_accuracy 0.93176
+wandb:      val_loss 0.25698
+wandb: 
+wandb: Synced playful-sweep-27: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/bfdnkw24
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220910_122220-bfdnkw24/logs
+wandb: Agent Starting Run: qh2wtp8k with config:
+wandb: 	batch_size: 10
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 10
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 32
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 8
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220910_173157-qh2wtp8k
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run stoic-sweep-28
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/qh2wtp8k
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.590 MB of 0.590 MB uploaded (0.000 MB deduped)wandb: \ 0.590 MB of 0.590 MB uploaded (0.000 MB deduped)wandb: | 0.590 MB of 0.598 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.599 MB uploaded (0.000 MB deduped)wandb: - 0.332 MB of 0.599 MB uploaded (0.000 MB deduped)wandb: \ 0.599 MB of 0.599 MB uploaded (0.000 MB deduped)wandb: | 0.599 MB of 0.599 MB uploaded (0.000 MB deduped)wandb: / 0.599 MB of 0.599 MB uploaded (0.000 MB deduped)wandb: - 0.599 MB of 0.599 MB uploaded (0.000 MB deduped)wandb: \ 0.599 MB of 0.599 MB uploaded (0.000 MB deduped)wandb: | 0.599 MB of 0.599 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▁▄▅▆▆▇▇██
+wandb:        epoch ▁▂▃▃▄▅▆▆▇█
+wandb:         loss ██▇▅▄▃▃▂▁▁
+wandb: val_accuracy ▁▄▄▆▆▇▇▇██
+wandb:     val_loss █▇▆▆▃▃▂▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.75185
+wandb:    best_epoch 8
+wandb: best_val_loss 0.64967
+wandb:         epoch 9
+wandb:          loss 0.66932
+wandb:  val_accuracy 0.77412
+wandb:      val_loss 0.65686
+wandb: 
+wandb: Synced stoic-sweep-28: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/qh2wtp8k
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220910_173157-qh2wtp8k/logs
+wandb: Agent Starting Run: 60irfvzq with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.15
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.00075
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220910_180735-60irfvzq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run volcanic-sweep-29
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/60irfvzq
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: \ 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: | 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 0.090 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 0.379 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 1.309 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇█▇████████████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▆▅▅▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▄▂▅▆▆▆▆▇▇▇▇▆▆▇▇▇▇▆▇▇█▇▇█▇▇▇▇█▇█▇▇▇█▆███
+wandb:     val_loss █▇█▅▄▃▄▃▂▂▂▃▂▃▂▂▂▂▂▂▂▂▃▃▁▂▁▂▂▁▂▁▂▂▃▁▃▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.98314
+wandb:    best_epoch 38
+wandb: best_val_loss 0.19857
+wandb:         epoch 49
+wandb:          loss 0.04886
+wandb:  val_accuracy 0.95059
+wandb:      val_loss 0.2115
+wandb: 
+wandb: Synced volcanic-sweep-29: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/60irfvzq
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220910_180735-60irfvzq/logs
+wandb: Sweep Agent: Waiting for job.
+500 response executing GraphQL.
+{"errors":[{"message":"context deadline exceeded"}]}
+wandb: ERROR Error while calling W&B API: context deadline exceeded (<Response [500]>)
+wandb: Job received.
+wandb: Agent Starting Run: m0g6jld5 with config:
+wandb: 	batch_size: 12
+wandb: 	dropout_c: 0.35
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 32
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220911_003408-m0g6jld5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run different-sweep-31
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/m0g6jld5
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.204 MB of 2.204 MB uploaded (0.000 MB deduped)wandb: \ 2.204 MB of 2.204 MB uploaded (0.000 MB deduped)wandb: | 2.204 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: - 0.301 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: \ 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: | 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: / 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: - 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: \ 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: | 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: / 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: - 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb: \ 2.214 MB of 2.214 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▄▅▅▅▆▆▆▇▆▇▇▇▇▇▇▇▇█▇▇▇███████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▃▄▅▅▄▆▅▆▆▇▇▇▇▇▇▇▇▇▆▇▇▆▇▇▇▇█▇▇██▇██▇▇██▇
+wandb:     val_loss █▆▆▅▅▅▄▄▃▃▃▃▂▂▂▂▂▂▃▃▂▂▃▂▂▂▂▁▂▂▁▁▂▂▁▁▁▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.93189
+wandb:    best_epoch 46
+wandb: best_val_loss 0.29962
+wandb:         epoch 49
+wandb:          loss 0.20734
+wandb:  val_accuracy 0.84941
+wandb:      val_loss 0.47125
+wandb: 
+wandb: Synced different-sweep-31: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/m0g6jld5
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220911_003408-m0g6jld5/logs
+wandb: Agent Starting Run: lg0s1low with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 10
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220911_071637-lg0s1low
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run stellar-sweep-30
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/lg0s1low
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: \ 2.612 MB of 2.612 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 0.058 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 0.097 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 0.308 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 1.738 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.620 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: / 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: - 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: \ 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb: | 2.621 MB of 2.621 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▅▆▇▇▇███
+wandb:        epoch ▁▂▃▃▄▅▆▆▇█
+wandb:         loss █▆▅▄▃▂▂▁▁▁
+wandb: val_accuracy ▁▃▅▆▇▇▇▇█▇
+wandb:     val_loss ██▅▄▄▂▃▂▁▃
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.86918
+wandb:    best_epoch 8
+wandb: best_val_loss 0.37864
+wandb:         epoch 9
+wandb:          loss 0.35378
+wandb:  val_accuracy 0.82588
+wandb:      val_loss 0.51606
+wandb: 
+wandb: Synced stellar-sweep-30: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/lg0s1low
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220911_071637-lg0s1low/logs
+wandb: Agent Starting Run: 1fwdoggy with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0.15
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.00075
+wandb: 	num_features_c1: 8
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 16
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220911_083225-1fwdoggy
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run splendid-sweep-32
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/1fwdoggy
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.373 MB of 0.373 MB uploaded (0.000 MB deduped)wandb: \ 0.373 MB of 0.373 MB uploaded (0.000 MB deduped)wandb: | 0.373 MB of 0.381 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: \ 0.059 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: | 0.168 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: / 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: - 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: \ 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: | 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: / 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: - 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: \ 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb: | 0.382 MB of 0.382 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▃▄▄▄▄▅▅▅▅▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇█▇▇▇████▇████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▆▅▅▅▅▄▄▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁
+wandb: val_accuracy ▁▁▄▂▃▄▄▄▃▃▅▆▆▆▆▅▇▆▇▆▇▆▇▇▇▇▅▇▇█▇▇█▇█▇██▇▇
+wandb:     val_loss █▇▇▆▆▆▅▅▅▅▄▄▃▄▄▄▃▃▃▃▂▃▂▂▃▂▄▂▂▂▂▂▂▂▂▁▁▁▂▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.85233
+wandb:    best_epoch 45
+wandb: best_val_loss 0.36368
+wandb:         epoch 49
+wandb:          loss 0.42525
+wandb:  val_accuracy 0.85176
+wandb:      val_loss 0.4373
+wandb: 
+wandb: Synced splendid-sweep-32: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/1fwdoggy
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220911_083225-1fwdoggy/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: s96934n9 with config:
+wandb: 	batch_size: 6
+wandb: 	dropout_c: 0.05
+wandb: 	dropout_ga: 0.05
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.00075
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 16
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220911_110439-s96934n9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gentle-sweep-33
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/s96934n9
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.523 MB of 0.523 MB uploaded (0.000 MB deduped)wandb: \ 0.523 MB of 0.523 MB uploaded (0.000 MB deduped)wandb: | 0.523 MB of 0.531 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.489 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: / 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▃▄▅▅▆▆▆▇▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▇▆▅▅▄▄▃▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▃▄▅▅▅▅▇▆▆▇▇▇▇▇▇▇▇▇▆▇█▇█▇████▇▇██▇▇██▇█
+wandb:     val_loss ██▆▆▅▄▄▅▄▄▄▃▃▄▃▃▂▂▂▂▃▂▂▂▂▃▂▂▁▂▂▂▁▁▂▂▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.90492
+wandb:    best_epoch 45
+wandb: best_val_loss 0.34744
+wandb:         epoch 49
+wandb:          loss 0.26744
+wandb:  val_accuracy 0.87765
+wandb:      val_loss 0.36109
+wandb: 
+wandb: Synced gentle-sweep-33: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/s96934n9
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220911_110439-s96934n9/logs
+wandb: Agent Starting Run: b7viej3y with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.00075
+wandb: 	num_features_c1: 16
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 64
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220911_171141-b7viej3y
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dainty-sweep-34
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/b7viej3y
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.116 MB of 1.116 MB uploaded (0.000 MB deduped)wandb: \ 1.116 MB of 1.116 MB uploaded (0.000 MB deduped)wandb: | 1.116 MB of 1.119 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: - 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: \ 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: | 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: / 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: - 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: \ 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: | 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb: / 1.125 MB of 1.125 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▃▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇█▇█████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▂▁▄▅▄▄▆▆▇▇▆▇▇▇▇▇▇▇█▆▇▇▇▇▇█▇▇▇████▇▇█████
+wandb:     val_loss █▇▆▆▅▅▃▃▄▂▃▃▂▃▃▂▂▂▁▃▂▂▂▂▂▂▂▂▂▁▁▂▂▃▂▁▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.9528
+wandb:    best_epoch 36
+wandb: best_val_loss 0.25699
+wandb:         epoch 49
+wandb:          loss 0.15668
+wandb:  val_accuracy 0.90824
+wandb:      val_loss 0.28624
+wandb: 
+wandb: Synced dainty-sweep-34: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/b7viej3y
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220911_171141-b7viej3y/logs
+wandb: Agent Starting Run: 5zimrjna with config:
+wandb: 	batch_size: 12
+wandb: 	dropout_c: 0
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 20
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 4
+wandb: 	num_features_c2: 8
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220911_202124-5zimrjna
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gentle-sweep-35
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/5zimrjna
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.170 MB of 0.170 MB uploaded (0.000 MB deduped)wandb: \ 0.170 MB of 0.170 MB uploaded (0.000 MB deduped)wandb: | 0.170 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: \ 0.098 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: | 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: / 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: - 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: \ 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: | 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: / 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: - 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb: \ 0.179 MB of 0.179 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▅▆▅▆▆▆▆▆▆▇▇▇▇████
+wandb:        epoch ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb:         loss █▆▅▄▄▄▃▄▃▃▃▂▂▂▂▂▁▁▁▁
+wandb: val_accuracy ▁▁▁▄▄▄▆▅▃▆█▆▅▅▇▇▇█▇▇
+wandb:     val_loss █▆▆▅▄▅▄▄▅▄▃▃▂▂▂▁▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.70263
+wandb:    best_epoch 16
+wandb: best_val_loss 0.76274
+wandb:         epoch 19
+wandb:          loss 0.77699
+wandb:  val_accuracy 0.72
+wandb:      val_loss 0.77885
+wandb: 
+wandb: Synced gentle-sweep-35: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/5zimrjna
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220911_202124-5zimrjna/logs
+wandb: Agent Starting Run: il8oi61j with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.15
+wandb: 	dropout_ga: 0.2
+wandb: 	epochs: 30
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220911_204207-il8oi61j
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run eager-sweep-36
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/il8oi61j
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 3.476 MB of 3.476 MB uploaded (0.000 MB deduped)wandb: \ 3.476 MB of 3.476 MB uploaded (0.000 MB deduped)wandb: | 3.476 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 0.809 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: / 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: - 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: \ 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb: | 3.486 MB of 3.486 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇██████████
+wandb:        epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+wandb:         loss █▇▆▅▅▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▃▄▅▆▅▇▆▇▇▇▇▇█▇▇▆▇▇▅███▇███▇██
+wandb:     val_loss █▆▆▅▄▆▄▃▂▂▂▂▂▁▂▂▃▂▂▄▁▁▁▂▂▂▁▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.94808
+wandb:    best_epoch 26
+wandb: best_val_loss 0.2881
+wandb:         epoch 29
+wandb:          loss 0.1595
+wandb:  val_accuracy 0.91529
+wandb:      val_loss 0.29334
+wandb: 
+wandb: Synced eager-sweep-36: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/il8oi61j
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220911_204207-il8oi61j/logs
+wandb: Agent Starting Run: 4zdeftl5 with config:
+wandb: 	batch_size: 6
+wandb: 	dropout_c: 0.05
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220912_025845-4zdeftl5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run young-sweep-37
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/4zdeftl5
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.788 MB of 1.788 MB uploaded (0.000 MB deduped)wandb: \ 1.788 MB of 1.788 MB uploaded (0.000 MB deduped)wandb: | 1.788 MB of 1.788 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 0.059 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▃▄▅▅▆▆▆▇▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇███████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▄▄▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▃▂▅▆▆▆▆▆▆▆▆▇▇▆▇▇█▇███▇█▇██▇█▇███▇▇█████
+wandb:     val_loss █▇▇▆▄▄▄▃▃▃▃▃▃▂▃▂▂▂▂▁▁▂▂▂▃▂▁▂▁▃▂▁▁▂▂▁▂▁▂▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.96831
+wandb:    best_epoch 43
+wandb: best_val_loss 0.22092
+wandb:         epoch 49
+wandb:          loss 0.10574
+wandb:  val_accuracy 0.92
+wandb:      val_loss 0.29166
+wandb: 
+wandb: Synced young-sweep-37: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/4zdeftl5
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220912_025845-4zdeftl5/logs
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: 3ryd52ir with config:
+wandb: 	batch_size: 6
+wandb: 	dropout_c: 0.35
+wandb: 	dropout_ga: 0
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.0005
+wandb: 	num_features_c1: 32
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220912_094646-3ryd52ir
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run warm-sweep-38
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/3ryd52ir
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 2.180 MB of 2.180 MB uploaded (0.000 MB deduped)wandb: \ 2.180 MB of 2.180 MB uploaded (0.000 MB deduped)wandb: | 0.003 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: \ 0.012 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: | 0.012 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: / 0.098 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: - 0.207 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: \ 0.770 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: | 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: / 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: - 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: \ 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: | 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: / 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: - 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: \ 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: | 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: / 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: - 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb: \ 2.190 MB of 2.190 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▃▄▄▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇█▇██▇▇█████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▅▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▁▃▃▃▅▅▅▆▆▇▆▆▇▇▇▇██▇▇▇▇▇█▇▇██▇█▇███████▇
+wandb:     val_loss █▇▆▆▅▅▄▅▃▃▃▃▃▃▂▂▂▂▂▂▂▂▃▂▁▂▂▂▁▂▁▂▂▁▁▂▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.91639
+wandb:    best_epoch 48
+wandb: best_val_loss 0.30938
+wandb:         epoch 49
+wandb:          loss 0.24309
+wandb:  val_accuracy 0.86588
+wandb:      val_loss 0.35561
+wandb: 
+wandb: Synced warm-sweep-38: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/3ryd52ir
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220912_094646-3ryd52ir/logs
+wandb: Agent Starting Run: yc3jjqmr with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.3
+wandb: 	dropout_ga: 0.35
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 16
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220912_131605-yc3jjqmr
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run frosty-sweep-39
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/yc3jjqmr
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.523 MB of 0.523 MB uploaded (0.000 MB deduped)wandb: \ 0.523 MB of 0.523 MB uploaded (0.000 MB deduped)wandb: | 0.523 MB of 0.523 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.003 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.098 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: / 0.317 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: / 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: - 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: \ 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: | 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb: / 0.532 MB of 0.532 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▃▄▄▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▇▇█████████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▆▆▅▅▅▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▃▃▅▆▅▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▇▇▇█▇▇▇██▇
+wandb:     val_loss ██▇▆▅▅▅▄▃▄▃▃▃▄▃▂▂▃▂▃▂▂▃▂▂▂▂▂▂▁▂▂▂▁▁▂▁▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.92178
+wandb:    best_epoch 46
+wandb: best_val_loss 0.22538
+wandb:         epoch 49
+wandb:          loss 0.22653
+wandb:  val_accuracy 0.87059
+wandb:      val_loss 0.31981
+wandb: 
+wandb: Synced frosty-sweep-39: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/yc3jjqmr
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220912_131605-yc3jjqmr/logs
+wandb: Agent Starting Run: 6o166khw with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.15
+wandb: 	dropout_ga: 0.4
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.00075
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220912_213034-6o166khw
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run blooming-sweep-40
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/6o166khw
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.788 MB of 1.788 MB uploaded (0.000 MB deduped)wandb: \ 1.788 MB of 1.788 MB uploaded (0.000 MB deduped)wandb: | 1.788 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 0.098 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 0.465 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 0.715 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: | 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: / 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: - 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb: \ 1.797 MB of 1.797 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇█▇████▇█████████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▂▁▁▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▃▃▅▅▆▅▆▆▆▆▇▇▇▇▇▇▇▇▇█▇▇▇▇▇██▇█▇██▇█▇▇███
+wandb:     val_loss █▆▆▆▄▄▄▄▃▃▃▂▂▃▂▂▂▂▂▂▁▂▂▂▁▁▁▂▂▂▂▂▁▂▁▂▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.9555
+wandb:    best_epoch 46
+wandb: best_val_loss 0.21275
+wandb:         epoch 49
+wandb:          loss 0.13731
+wandb:  val_accuracy 0.92706
+wandb:      val_loss 0.26132
+wandb: 
+wandb: Synced blooming-sweep-40: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/6o166khw
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220912_213034-6o166khw/logs
+wandb: Agent Starting Run: 9jcl8yw3 with config:
+wandb: 	batch_size: 14
+wandb: 	dropout_c: 0.1
+wandb: 	dropout_ga: 0.2
+wandb: 	epochs: 50
+wandb: 	learning_rate: 0.001
+wandb: 	num_features_c1: 64
+wandb: 	num_features_c2: 64
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220913_064545-9jcl8yw3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run unique-sweep-41
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/9jcl8yw3
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 1.347 MB of 1.347 MB uploaded (0.000 MB deduped)wandb: \ 1.347 MB of 1.347 MB uploaded (0.000 MB deduped)wandb: | 1.347 MB of 1.347 MB uploaded (0.000 MB deduped)wandb: / 0.003 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: - 0.003 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: \ 1.356 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: | 1.356 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: / 1.356 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: - 1.356 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: \ 1.356 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: | 1.356 MB of 1.356 MB uploaded (0.000 MB deduped)wandb: / 1.356 MB of 1.356 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:     accuracy ▁▂▃▄▄▄▅▅▅▆▆▆▆▇▆▇▇▇▇▇▇▇▇▇▇▇▇█████▇███████
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+wandb:         loss █▇▆▆▅▅▅▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▂▁▁▁▁▁▁▁
+wandb: val_accuracy ▁▂▄▄▄▄▅▅▆▅▆▆▇▇▇▇▆▇▇▇▇▇▇▇▇███████▇▇██████
+wandb:     val_loss █▇▆▆▅▅▄▅▄▄▄▃▃▂▂▂▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▂▂▁▂▁▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:      accuracy 0.9265
+wandb:    best_epoch 42
+wandb: best_val_loss 0.28686
+wandb:         epoch 49
+wandb:          loss 0.21837
+wandb:  val_accuracy 0.89176
+wandb:      val_loss 0.37045
+wandb: 
+wandb: Synced unique-sweep-41: https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/9jcl8yw3
+wandb: Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20220913_064545-9jcl8yw3/logs
+wandb: Agent Starting Run: vyiy8bl6 with config:
+wandb: 	batch_size: 2
+wandb: 	dropout_c: 0.4
+wandb: 	dropout_ga: 0.3
+wandb: 	epochs: 40
+wandb: 	learning_rate: 5e-05
+wandb: 	num_features_c1: 128
+wandb: 	num_features_c2: 128
+wandb: 	num_features_c3: 128
+wandb: wandb version 0.13.3 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.15
+wandb: Run data is saved locally in /home/mgatlin3/FT/wandb/run-20220913_102334-vyiy8bl6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run effortless-sweep-42
+wandb: ⭐️ View project at https://wandb.ai/mgatlin3/smallCNN-sweep-FT
+wandb: 🧹 View sweep at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/sweeps/khw5x3bq
+wandb: 🚀 View run at https://wandb.ai/mgatlin3/smallCNN-sweep-FT/runs/vyiy8bl6

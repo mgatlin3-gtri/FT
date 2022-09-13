@@ -1,0 +1,161 @@
+2022-09-09 17:08:19,196 INFO    Thread-4006:35037 [wandb_setup.py:_flush():75] Loading settings from /home/mgatlin3/.config/wandb/settings
+2022-09-09 17:08:19,196 INFO    Thread-4006:35037 [wandb_setup.py:_flush():75] Loading settings from wandb/settings
+2022-09-09 17:08:19,196 INFO    Thread-4006:35037 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'project': 'smallCNN-sweep-FT', 'entity': 'mgatlin3', 'root_dir': '/home/mgatlin3/FT', 'run_id': '3ao1x3l5', 'sweep_param_path': '/home/mgatlin3/FT/wandb/sweep-khw5x3bq/config-3ao1x3l5.yaml', 'sweep_id': 'khw5x3bq'}
+2022-09-09 17:08:19,196 INFO    Thread-4006:35037 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'sweep-smallerCNN.py', 'program': '/home/mgatlin3/FT/sweep-smallerCNN.py'}
+2022-09-09 17:08:19,196 INFO    Thread-4006:35037 [wandb_init.py:_log_setup():437] Logging user logs to /home/mgatlin3/FT/wandb/run-20220909_170819-3ao1x3l5/logs/debug.log
+2022-09-09 17:08:19,196 INFO    Thread-4006:35037 [wandb_init.py:_log_setup():438] Logging internal logs to /home/mgatlin3/FT/wandb/run-20220909_170819-3ao1x3l5/logs/debug-internal.log
+2022-09-09 17:08:19,197 INFO    Thread-4006:35037 [wandb_init.py:init():471] calling init triggers
+2022-09-09 17:08:19,197 INFO    Thread-4006:35037 [wandb_init.py:init():474] wandb.init called with sweep_config: {'batch_size': 4, 'dropout_c': 0.3, 'dropout_ga': 0, 'epochs': 40, 'learning_rate': 0.001, 'num_features_c1': 64, 'num_features_c2': 32, 'num_features_c3': 128}
+config: {'batch_size': 4, 'epochs': 5, 'dropout_c': 0.3, 'dropout_ga': 0.1, 'num_features_c1': 64, 'num_features_c2': 64, 'num_features_c3': 128, 'learning_rate': 0.0003}
+2022-09-09 17:08:19,197 INFO    Thread-4006:35037 [wandb_init.py:init():524] starting backend
+2022-09-09 17:08:19,197 INFO    Thread-4006:35037 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-09-09 17:08:19,202 INFO    Thread-4006:35037 [backend.py:ensure_launched():217] starting backend process...
+2022-09-09 17:08:19,314 INFO    Thread-4006:35037 [backend.py:ensure_launched():222] started backend process with pid: 58767
+2022-09-09 17:08:19,315 INFO    Thread-4006:35037 [wandb_init.py:init():533] backend started and connected
+2022-09-09 17:08:19,323 INFO    Thread-4006:35037 [wandb_run.py:_config_callback():1131] config_cb None None {'batch_size': 4, 'dropout_c': 0.3, 'dropout_ga': 0, 'epochs': 40, 'learning_rate': 0.001, 'num_features_c1': 64, 'num_features_c2': 32, 'num_features_c3': 128}
+2022-09-09 17:08:19,328 INFO    Thread-4006:35037 [wandb_init.py:init():597] updated telemetry
+2022-09-09 17:08:19,616 INFO    Thread-4006:35037 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-09-09 17:08:20,409 INFO    Thread-4006:35037 [wandb_run.py:_on_init():1923] communicating current version
+2022-09-09 17:08:20,501 INFO    Thread-4006:35037 [wandb_run.py:_on_init():1927] got version response upgrade_message: "wandb version 0.13.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-09-09 17:08:20,501 INFO    Thread-4006:35037 [wandb_init.py:init():659] starting run threads in backend
+2022-09-09 17:08:25,459 INFO    Thread-4006:35037 [wandb_run.py:_console_start():1897] atexit reg
+2022-09-09 17:08:25,460 INFO    Thread-4006:35037 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.REDIRECT
+2022-09-09 17:08:25,460 INFO    Thread-4006:35037 [wandb_run.py:_redirect():1775] Redirecting console.
+2022-09-09 17:08:25,460 ERROR   Thread-4006:35037 [wandb_run.py:_redirect():1834] Failed to redirect.
+Traceback (most recent call last):
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1827, in _redirect
+    out_redir.install()
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 709, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 659, in add_fd
+    self._register()
+  File "/home/mgatlin3/.local/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 644, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/home/mgatlin3/.conda/envs/poop/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2022-09-09 17:08:25,460 INFO    Thread-4006:35037 [wandb_init.py:init():684] run started, returning control to user process
+2022-09-09 17:08:25,461 INFO    Thread-4006:35037 [wandb_config.py:__setitem__():150] config set architecture_name = CNN - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f531239baf0>>
+2022-09-09 17:08:25,461 INFO    Thread-4006:35037 [wandb_run.py:_config_callback():1131] config_cb architecture_name CNN None
+2022-09-09 20:16:55,872 INFO    Thread-4006:35037 [wandb_run.py:_finish():1685] finishing run mgatlin3/smallCNN-sweep-FT/3ao1x3l5
+2022-09-09 20:16:55,872 INFO    Thread-4006:35037 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 0
+2022-09-09 20:16:55,880 INFO    Thread-4006:35037 [wandb_run.py:_restore():1838] restore
+2022-09-09 20:16:55,884 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 747911
+  total_bytes: 747911
+}
+
+2022-09-09 20:16:56,066 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 747911
+  total_bytes: 747911
+}
+
+2022-09-09 20:16:56,168 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 2919
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:56,270 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 168356
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:56,371 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 757700
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:56,472 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 757700
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:56,574 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 757700
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:56,675 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 757700
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:56,777 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 757700
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:56,972 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 757700
+  total_bytes: 757700
+}
+
+2022-09-09 20:16:57,184 INFO    Thread-4006:35037 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 757700
+  total_bytes: 757700
+}
+local_info {
+}
+
+2022-09-09 20:16:58,733 INFO    Thread-4006:35037 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2022-09-09 20:16:58,734 INFO    Thread-4006:35037 [wandb_run.py:_footer_history_summary_info():3134] rendering summary
+2022-09-09 20:16:58,738 INFO    Thread-4006:35037 [wandb_run.py:_footer_sync_info():3057] logging synced files

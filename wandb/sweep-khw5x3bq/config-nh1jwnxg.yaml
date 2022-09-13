@@ -1,0 +1,18 @@
+wandb_version: 1
+
+batch_size:
+  value: 12
+dropout_c:
+  value: 0.05
+dropout_ga:
+  value: 0
+epochs:
+  value: 30
+learning_rate:
+  value: 0.001
+num_features_c1:
+  value: 64
+num_features_c2:
+  value: 32
+num_features_c3:
+  value: 32
